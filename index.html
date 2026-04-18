@@ -5,329 +5,374 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Will's VibeHome</title>
   <meta name="description" content="Will's VibeHome — 业余爱好，需求来自生活。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     :root {
-      --bg: #0b1020;
-      --card: rgba(255,255,255,0.08);
-      --card-border: rgba(255,255,255,0.14);
-      --text: #f7f8fb;
-      --muted: #b7bfd1;
-      --accent: #7aa2ff;
-      --accent-2: #7ef0c5;
-      --shadow: 0 20px 60px rgba(0,0,0,0.28);
-      --radius: 24px;
+      --bg: #f9f6f1;
+      --ink: #0f0f0f;
+      --muted: #6b6b6b;
+      --rule: #0f0f0f;
+      --accent: #c8392b;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', system-ui, sans-serif;
     }
 
-    * { box-sizing: border-box; }
     body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text);
-      background:
-        radial-gradient(circle at top left, rgba(122,162,255,0.25), transparent 30%),
-        radial-gradient(circle at top right, rgba(126,240,197,0.16), transparent 24%),
-        linear-gradient(180deg, #0b1020 0%, #111831 100%);
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.6;
       min-height: 100vh;
     }
 
-    .container {
-      width: min(1120px, calc(100% - 32px));
+    .wrap {
+      width: min(1080px, calc(100% - 48px));
       margin: 0 auto;
-      padding: 28px 0 60px;
     }
 
-    .hero {
-      text-align: center;
-      padding: 36px 16px 10px;
-    }
-
-    .hero-top {
+    /* ── NAV ── */
+    nav {
+      border-bottom: 1.5px solid var(--rule);
+      padding: 20px 0;
       display: flex;
-      justify-content: flex-end;
-      margin-bottom: 18px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-brand {
+      font-family: var(--sans);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
     }
 
     .lang-switch {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.12);
-      backdrop-filter: blur(12px);
+      display: flex;
+      gap: 0;
+      border: 1px solid var(--ink);
     }
 
     .lang-btn {
-      border: 0;
+      border: none;
       background: transparent;
-      color: var(--muted);
-      font-size: 14px;
-      padding: 8px 14px;
-      border-radius: 999px;
+      font-family: var(--sans);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      padding: 6px 14px;
       cursor: pointer;
-      transition: background .2s ease, color .2s ease;
+      color: var(--muted);
+      transition: background 0.15s, color 0.15s;
     }
+
+    .lang-btn:first-child { border-right: 1px solid var(--ink); }
 
     .lang-btn.active {
-      background: rgba(255,255,255,0.14);
-      color: var(--text);
+      background: var(--ink);
+      color: var(--bg);
     }
 
-    .hero p {
-      max-width: 760px;
-      margin: 16px auto 0;
-      font-size: clamp(16px, 2.2vw, 20px);
-      line-height: 1.7;
-      color: var(--muted);
+    /* ── HERO ── */
+    .hero {
+      padding: 64px 0 48px;
+      border-bottom: 1.5px solid var(--rule);
     }
 
-    .hero-subtitle-zh,
-    .hero-subtitle-en {
-      max-width: 760px;
-      margin-left: auto;
-      margin-right: auto;
+    .hero-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
     }
 
-    .hero-subtitle-en,
-    .lang-en {
-      display: none;
-    }
-
-    body.en .hero-subtitle-zh,
-    body.en .lang-zh {
-      display: none;
-    }
-
-    body.en .hero-subtitle-en,
-    body.en .lang-en {
-      display: block;
-    }
-
-    body.en .lang-en.inline,
-    body.en .lang-en-inline {
-      display: inline;
-    }
-
-    body.en .lang-zh-inline,
-    .lang-en-inline {
-      display: none;
-    }
-
-    body.en .lang-btn[data-lang="en"],
-    body:not(.en) .lang-btn[data-lang="zh"] {
-      background: rgba(255,255,255,0.14);
-      color: var(--text);
-    }
-
-    .hero p {
-      max-width: 760px;
-      margin: 18px auto 0;
-      font-size: clamp(16px, 2.2vw, 20px);
-      line-height: 1.7;
-      color: var(--muted);
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 24px;
-      margin-top: 30px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--card-border);
-      border-radius: var(--radius);
-      padding: 28px;
-      box-shadow: var(--shadow);
-      backdrop-filter: blur(14px);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(255,255,255,0.08), transparent 45%);
-      pointer-events: none;
-    }
-
-    .app-top {
-      display: block;
-      position: relative;
-      z-index: 1;
-    }
-    
-    
-    .app-title {
-      margin: 0;
-      font-size: 28px;
+    .hero-title {
+      font-family: var(--serif);
+      font-size: clamp(64px, 10vw, 120px);
+      line-height: 0.92;
       letter-spacing: -0.02em;
+      color: var(--ink);
     }
 
-    .app-subtitle {
-      margin: 10px 0 0;
+    .hero-title em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-sub {
+      margin-top: 32px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 32px;
+    }
+
+    .hero-tagline {
+      font-size: clamp(16px, 2vw, 20px);
       color: var(--muted);
-      font-size: 15px;
+      max-width: 400px;
+      line-height: 1.55;
     }
 
-    .features {
+    .hero-meta {
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    /* ── APP LIST ── */
+    .app-list { }
+
+    .app-item {
+      border-bottom: 1.5px solid var(--rule);
+      padding: 48px 0;
+      display: grid;
+      grid-template-columns: 64px 1fr auto;
+      gap: 0 40px;
+      align-items: start;
+    }
+
+    .app-index {
+      font-family: var(--serif);
+      font-size: 13px;
+      font-style: italic;
+      color: var(--muted);
+      padding-top: 6px;
+    }
+
+    .app-body { }
+
+    .app-name {
+      font-family: var(--serif);
+      font-size: clamp(40px, 6vw, 72px);
+      line-height: 1;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+
+    .app-sub {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .app-desc {
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 520px;
+    }
+
+    .app-chips {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin: 22px 0 22px;
-      position: relative;
-      z-index: 1;
+      gap: 8px;
+      margin-top: 20px;
     }
 
     .chip {
-      padding: 9px 12px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.12);
-      color: #eef2ff;
-      font-size: 14px;
-    }
-
-    .desc {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      padding: 5px 12px;
+      border: 1px solid currentColor;
       color: var(--muted);
-      font-size: 16px;
-      line-height: 1.75;
-      min-height: 86px;
-      position: relative;
-      z-index: 1;
     }
 
-    .store-buttons {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-      margin-top: 24px;
-      position: relative;
-      z-index: 1;
+    .app-links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding-top: 8px;
     }
 
     .store-btn {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
+      gap: 8px;
       text-decoration: none;
-      color: white;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.14);
-      padding: 16px 18px;
-      border-radius: 18px;
-      font-weight: 700;
-      transition: transform .2s ease, background .2s ease, border-color .2s ease;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      color: var(--ink);
+      padding: 12px 20px;
+      border: 1.5px solid var(--ink);
+      white-space: nowrap;
+      transition: background 0.15s, color 0.15s;
+      min-width: 148px;
+      justify-content: center;
     }
 
     .store-btn:hover {
-      transform: translateY(-2px);
-      background: rgba(255,255,255,0.12);
-      border-color: rgba(255,255,255,0.24);
+      background: var(--ink);
+      color: var(--bg);
     }
 
-    @media (max-width: 860px) {
-      .cards { grid-template-columns: 1fr; }
+    /* ── FOOTER ── */
+    footer {
+      padding: 28px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
-    @media (max-width: 520px) {
-      .container { width: min(100% - 20px, 1120px); }
-      .hero { padding-top: 20px; }
-      .card { padding: 22px; }
-      .app-title { font-size: 24px; }
-      .store-buttons { grid-template-columns: 1fr; }
-      .desc { min-height: auto; }
+    .footer-copy {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+    }
+
+    .footer-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* ── LANG TOGGLE ── */
+    .lang-zh, .lang-en { }
+    .lang-en { display: none; }
+    body.en .lang-zh { display: none; }
+    body.en .lang-en { display: block; }
+    .lang-zh-inline { }
+    .lang-en-inline { display: none; }
+    body.en .lang-zh-inline { display: none; }
+    body.en .lang-en-inline { display: inline; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 720px) {
+      .wrap { width: calc(100% - 32px); }
+
+      .hero { padding: 40px 0 36px; }
+
+      .hero-sub {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+      }
+
+      .hero-meta { text-align: left; }
+
+      .app-item {
+        grid-template-columns: 40px 1fr;
+        grid-template-rows: auto auto;
+        padding: 36px 0;
+        gap: 0 20px;
+      }
+
+      .app-links {
+        grid-column: 1 / -1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 24px;
+        padding-top: 0;
+      }
+
+      .store-btn { min-width: 0; flex: 1; }
     }
   </style>
 </head>
 <body>
-  <main class="container">
-    <section class="hero">
-      <div class="hero-top">
-        <div class="lang-switch" aria-label="Language switch">
-          <button class="lang-btn" data-lang="zh" type="button">中文</button>
-          <button class="lang-btn" data-lang="en" type="button">EN</button>
-        </div>
+  <div class="wrap">
+
+    <!-- NAV -->
+    <nav>
+      <span class="nav-brand">Will</span>
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="zh" type="button">中文</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
       </div>
-      <h1>
-        <span class="lang-zh-inline">Will's VibeHome</span>
-        <span class="lang-en-inline">Will's VibeHome</span>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+<h1 class="hero-title">
+        Vibe<em>Home</em>
       </h1>
-      <p class="hero-subtitle-zh">业余爱好，需求来自生活</p>
-      <p class="hero-subtitle-en">Built from hobbies, inspired by real life.</p>
-      
-    </section>
+      <div class="hero-sub">
+        <p class="hero-tagline lang-zh">业余爱好，需求来自生活。</p>
+        <p class="hero-tagline lang-en">Built from hobbies, inspired by real life.</p>
+        <span class="hero-meta">2 apps &nbsp;·&nbsp; iOS &amp; Android</span>
+      </div>
+    </header>
 
-    <section class="cards">
-      <article class="card">
-        <div class="app-top">
-          <div>
-            <h2 class="app-title">Go AI</h2>
-            <p class="app-subtitle">
-              <span class="lang-zh">离线对局，本地 AI</span>
-              <span class="lang-en">Offline play. Local AI.</span>
-            </p>
+    <!-- APP LIST -->
+    <section class="app-list">
+
+      <article class="app-item">
+        <span class="app-index">01</span>
+        <div class="app-body">
+          <h2 class="app-name">Go AI</h2>
+          <p class="app-sub">
+            <span class="lang-zh-inline">围棋 · 本地 AI</span>
+            <span class="lang-en-inline">Go · Local AI</span>
+          </p>
+          <p class="app-desc lang-zh">一款打磨精致的围棋应用，适合希望随时随地离线练习、体验本地 AI 对弈的玩家。</p>
+          <p class="app-desc lang-en">A polished Go app for players who want smooth offline gameplay, strong on-device AI, and fast practice anytime, anywhere.</p>
+          <div class="app-chips">
+            <span class="chip"><span class="lang-zh-inline">离线可玩</span><span class="lang-en-inline">Offline play</span></span>
+            <span class="chip"><span class="lang-zh-inline">本地 AI</span><span class="lang-en-inline">Local AI</span></span>
+            <span class="chip"><span class="lang-zh-inline">启动迅速</span><span class="lang-en-inline">Fast launch</span></span>
           </div>
         </div>
-        <div class="features">
-          <span class="chip"><span class="lang-zh-inline">离线可玩</span><span class="lang-en-inline">Offline play</span></span>
-          <span class="chip"><span class="lang-zh-inline">本地 AI</span><span class="lang-en-inline">Local AI</span></span>
-          <span class="chip"><span class="lang-zh-inline">启动迅速</span><span class="lang-en-inline">Fast launch</span></span>
-        </div>
-
-        <p class="desc">
-          <span class="lang-zh">一款打磨精致的围棋应用，适合希望随时随地离线练习、体验本地 AI 对弈的玩家。</span>
-          <span class="lang-en">A polished Go app for players who want smooth offline gameplay, strong on-device AI, and fast practice anytime, anywhere.</span>
-        </p>
-
-        <div class="store-buttons">
-          <a class="store-btn" href="https://apps.apple.com/us/app/go-ai-offline-on-device-ai/id6760274188" target="_blank" rel="noopener noreferrer"> App Store</a>
-          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.gamely.goai" target="_blank" rel="noopener noreferrer">▶ Google Play</a>
+        <div class="app-links">
+          <a class="store-btn" href="https://apps.apple.com/us/app/go-ai-offline-on-device-ai/id6760274188" target="_blank" rel="noopener">App Store</a>
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.gamely.goai" target="_blank" rel="noopener">Google Play</a>
         </div>
       </article>
 
-      <article class="card">
-        <div class="app-top">
-          <div>
-            <h2 class="app-title">Math 24</h2>
-            <p class="app-subtitle">
-              <span class="lang-zh">快速心算，轻松上手</span>
-              <span class="lang-en">Quick math. Daily brain workout.</span>
-            </p>
+      <article class="app-item">
+        <span class="app-index">02</span>
+        <div class="app-body">
+          <h2 class="app-name">Math 24</h2>
+          <p class="app-sub">
+            <span class="lang-zh-inline">数字谜题 · 每日挑战</span>
+            <span class="lang-en-inline">Puzzle · Daily Challenge</span>
+          </p>
+          <p class="app-desc lang-zh">一款轻快有趣的数字谜题游戏，适合喜欢心算、快速思考和每日小挑战的玩家。</p>
+          <p class="app-desc lang-en">A fast and engaging number puzzle game built for players who enjoy mental math, quick thinking, and short daily challenges.</p>
+          <div class="app-chips">
+            <span class="chip"><span class="lang-zh-inline">数字谜题</span><span class="lang-en-inline">Brain puzzle</span></span>
+            <span class="chip"><span class="lang-zh-inline">快速心算</span><span class="lang-en-inline">Fast math</span></span>
+            <span class="chip"><span class="lang-zh-inline">每日挑战</span><span class="lang-en-inline">Daily challenge</span></span>
           </div>
         </div>
-        <div class="features">
-          <span class="chip"><span class="lang-zh-inline">数字谜题</span><span class="lang-en-inline">Brain puzzle</span></span>
-          <span class="chip"><span class="lang-zh-inline">快速心算</span><span class="lang-en-inline">Fast mental math</span></span>
-          <span class="chip"><span class="lang-zh-inline">每日挑战</span><span class="lang-en-inline">Daily challenge</span></span>
-        </div>
-
-        <p class="desc">
-          <span class="lang-zh">一款轻快有趣的数字谜题游戏，适合喜欢心算、快速思考和每日小挑战的玩家。</span>
-          <span class="lang-en">A fast and engaging number puzzle game built for players who enjoy mental math, quick thinking, and short daily challenges.</span>
-        </p>
-
-        <div class="store-buttons">
-          <a class="store-btn" href="https://apps.apple.com/us/app/math-24-brain-puzzle/id6759823455" target="_blank" rel="noopener noreferrer"> App Store</a>
-          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.gamely.math24" target="_blank" rel="noopener noreferrer">▶ Google Play</a>
+        <div class="app-links">
+          <a class="store-btn" href="https://apps.apple.com/us/app/math-24-brain-puzzle/id6759823455" target="_blank" rel="noopener">App Store</a>
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.gamely.math24" target="_blank" rel="noopener">Google Play</a>
         </div>
       </article>
+
     </section>
-<script>
-      const buttons = document.querySelectorAll('.lang-btn');
-      buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-          const lang = button.dataset.lang;
-          document.body.classList.toggle('en', lang === 'en');
-          buttons.forEach((btn) => btn.classList.toggle('active', btn === button));
-        });
+
+    <!-- FOOTER -->
+    <footer>
+      <span class="footer-copy">© 2025 Will</span>
+      <span class="footer-dot"></span>
+    </footer>
+
+  </div>
+
+  <script>
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        document.body.classList.toggle('en', lang === 'en');
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b === btn));
       });
-      document.querySelector('.lang-btn[data-lang="zh"]').classList.add('active');
-    </script>
-  </main>
+    });
+  </script>
 </body>
 </html>
