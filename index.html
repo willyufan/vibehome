@@ -35,21 +35,11 @@
       margin: 0 auto;
     }
 
-    /* ── NAV ── */
-    nav {
-      border-bottom: 1.5px solid var(--rule);
-      padding: 20px 0;
+    /* ── HERO TOP ── */
+    .hero-top {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .nav-brand {
-      font-family: var(--sans);
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
+      justify-content: flex-end;
+      margin-bottom: 32px;
     }
 
     .lang-switch {
@@ -294,18 +284,15 @@
 <body>
   <div class="wrap">
 
-    <!-- NAV -->
-    <nav>
-      <span class="nav-brand"></span>
-      <div class="lang-switch">
-        <button class="lang-btn active" data-lang="zh" type="button">中文</button>
-        <button class="lang-btn" data-lang="en" type="button">EN</button>
-      </div>
-    </nav>
-
     <!-- HERO -->
     <header class="hero">
-<h1 class="hero-title">
+      <div class="hero-top">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="zh" type="button">中文</button>
+          <button class="lang-btn" data-lang="en" type="button">EN</button>
+        </div>
+      </div>
+      <h1 class="hero-title">
         Will's Vibe<em>Home</em>
       </h1>
       <div class="hero-sub">
@@ -430,7 +417,7 @@
     <!-- FOOTER -->
     <footer>
       <span class="footer-copy">© 2025 Will</span>
-      <a class="footer-email" href="mailto:valselee@gmail.com">valselee@gmail.com</a>
+      <a class="footer-email" href="mailto:valselee@gmail.com">✉ valselee@gmail.com</a>
     </footer>
 
   </div>
