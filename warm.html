@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will's VibeHome</title>
+  <meta name="description" content="Will's VibeHome — 业余爱好，需求来自生活。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f7f3ec;
+      --card: #f0ebe1;
+      --ink: #2a2118;
+      --muted: #8c7b68;
+      --rule: #d9cfc2;
+      --accent: #b5603a;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'DM Sans', system-ui, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+
+    .wrap {
+      width: min(860px, calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    /* ── HERO TOP ── */
+    .hero-top {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 24px;
+    }
+
+    .lang-switch {
+      display: flex;
+      gap: 4px;
+    }
+
+    .lang-btn {
+      border: none;
+      background: transparent;
+      font-family: var(--sans);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      padding: 5px 10px;
+      cursor: pointer;
+      color: var(--muted);
+      border-radius: 20px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .lang-btn.active {
+      background: var(--ink);
+      color: var(--bg);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 48px 0 56px;
+      text-align: center;
+    }
+
+    .hero-eyebrow {
+      font-family: var(--sans);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      font-family: var(--serif);
+      font-size: clamp(52px, 9vw, 100px);
+      line-height: 1.0;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+
+    .hero-title span {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-name {
+      font-family: var(--serif);
+      font-size: clamp(16px, 2.5vw, 22px);
+      font-style: italic;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    .hero-tagline {
+      font-size: 16px;
+      color: var(--muted);
+      font-weight: 300;
+      max-width: 360px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    .hero-divider {
+      width: 48px;
+      height: 1px;
+      background: var(--rule);
+      margin: 32px auto;
+    }
+
+    /* ── PROJECT LIST ── */
+    .project-list {
+      padding-bottom: 64px;
+    }
+
+    .project-item {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 36px 40px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .project-num {
+      font-family: var(--serif);
+      font-size: 11px;
+      font-style: italic;
+      color: var(--rule);
+      margin-bottom: 10px;
+      letter-spacing: 0.1em;
+    }
+
+    .project-name {
+      font-family: var(--serif);
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      margin-bottom: 6px;
+    }
+
+    .project-sub {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .project-desc {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.75;
+      font-weight: 300;
+      max-width: 480px;
+    }
+
+    .project-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 16px;
+    }
+
+    .chip {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      padding: 4px 10px;
+      background: var(--bg);
+      color: var(--muted);
+      border-radius: 20px;
+    }
+
+    .project-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 4px;
+      flex-shrink: 0;
+    }
+
+    .store-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: var(--ink);
+      padding: 10px 18px;
+      background: var(--bg);
+      border-radius: 10px;
+      white-space: nowrap;
+      transition: background 0.2s, color 0.2s;
+      min-width: 120px;
+      border: 1px solid var(--rule);
+    }
+
+    .store-btn:hover {
+      background: var(--ink);
+      color: var(--bg);
+      border-color: var(--ink);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 28px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-copy {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .footer-email {
+      font-size: 13px;
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 300;
+      transition: color 0.2s;
+    }
+
+    .footer-email:hover { color: var(--ink); }
+
+    /* ── LANG ── */
+    .lang-en { display: none; }
+    body.en .lang-zh { display: none; }
+    body.en .lang-en { display: block; }
+    .lang-en-inline { display: none; }
+    body.en .lang-zh-inline { display: none; }
+    body.en .lang-en-inline { display: inline; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .wrap { width: calc(100% - 32px); }
+      .hero { padding: 36px 0 44px; }
+      .project-item {
+        grid-template-columns: 1fr;
+        padding: 28px 24px;
+      }
+      .project-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .store-btn { flex: 1; min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-top">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="zh" type="button">中文</button>
+          <button class="lang-btn" data-lang="en" type="button">EN</button>
+        </div>
+      </div>
+      <h1 class="hero-title">Will's <span>VibeHome</span></h1>
+      <div class="hero-divider"></div>
+      <p class="hero-tagline lang-zh">业余爱好，需求来自生活。</p>
+      <p class="hero-tagline lang-en">Built from hobbies, inspired by real life.</p>
+    </header>
+
+    <!-- PROJECTS -->
+    <section class="project-list">
+
+      <article class="project-item">
+        <div>
+          <p class="project-num">01</p>
+          <h2 class="project-name">Go AI</h2>
+          <p class="project-sub">
+            <span class="lang-zh-inline">围棋 · 本地 AI</span>
+            <span class="lang-en-inline">Go · Local AI</span>
+          </p>
+          <p class="project-desc lang-zh">一款打磨精致的围棋应用，适合希望随时随地离线练习、体验本地 AI 对弈的玩家。</p>
+          <p class="project-desc lang-en">A polished Go app for players who want smooth offline gameplay, strong on-device AI, and fast practice anytime, anywhere.</p>
+          <div class="project-chips">
+            <span class="chip"><span class="lang-zh-inline">离线可玩</span><span class="lang-en-inline">Offline</span></span>
+            <span class="chip"><span class="lang-zh-inline">本地 AI</span><span class="lang-en-inline">Local AI</span></span>
+            <span class="chip"><span class="lang-zh-inline">启动迅速</span><span class="lang-en-inline">Fast launch</span></span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a class="store-btn" href="https://apps.apple.com/us/app/go-ai-offline-on-device-ai/id6760274188" target="_blank" rel="noopener">App Store</a>
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.gamely.goai" target="_blank" rel="noopener">Google Play</a>
+        </div>
+      </article>
+
+      <article class="project-item">
+        <div>
+          <p class="project-num">02</p>
+          <h2 class="project-name">Math 24</h2>
+          <p class="project-sub">
+            <span class="lang-zh-inline">数字谜题 · 每日挑战</span>
+            <span class="lang-en-inline">Puzzle · Daily Challenge</span>
+          </p>
+          <p class="project-desc lang-zh">一款轻快有趣的数字谜题游戏，适合喜欢心算、快速思考和每日小挑战的玩家。</p>
+          <p class="project-desc lang-en">A fast and engaging number puzzle game built for players who enjoy mental math, quick thinking, and short daily challenges.</p>
+          <div class="project-chips">
+            <span class="chip"><span class="lang-zh-inline">数字谜题</span><span class="lang-en-inline">Brain puzzle</span></span>
+            <span class="chip"><span class="lang-zh-inline">快速心算</span><span class="lang-en-inline">Fast math</span></span>
+            <span class="chip"><span class="lang-zh-inline">每日挑战</span><span class="lang-en-inline">Daily challenge</span></span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a class="store-btn" href="https://apps.apple.com/us/app/math-24-brain-puzzle/id6759823455" target="_blank" rel="noopener">App Store</a>
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.gamely.math24" target="_blank" rel="noopener">Google Play</a>
+        </div>
+      </article>
+
+      <article class="project-item">
+        <div>
+          <p class="project-num">03</p>
+          <h2 class="project-name">AI Investor</h2>
+          <p class="project-sub">
+            <span class="lang-zh-inline">A 股 · 组合回测</span>
+            <span class="lang-en-inline">A-share · Backtesting</span>
+          </p>
+          <p class="project-desc lang-zh">基于 Tushare Pro 的 A 股选股与组合回测框架，支持多时间窗并行策略迭代，含真实交易费用与月度调仓模拟。</p>
+          <p class="project-desc lang-en">A-share portfolio backtesting framework built on Tushare Pro, with multi-window strategy iteration, real trading costs, and monthly rebalancing simulation.</p>
+          <div class="project-chips">
+            <span class="chip">Python</span>
+            <span class="chip"><span class="lang-zh-inline">量化回测</span><span class="lang-en-inline">Backtesting</span></span>
+            <span class="chip"><span class="lang-zh-inline">A 股选股</span><span class="lang-en-inline">Stock Picking</span></span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a class="store-btn" href="https://github.com/willyufan/aiinvestor" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-item">
+        <div>
+          <p class="project-num">04</p>
+          <h2 class="project-name">Stock Screener</h2>
+          <p class="project-sub">
+            <span class="lang-zh-inline">A股/港股 · 信号筛选</span>
+            <span class="lang-en-inline">A+HK stocks · Signal Filter</span>
+          </p>
+          <p class="project-desc lang-zh">A 股与港股左右侧交易信号筛选器，内置 DCF 估值模块，帮助快速定位潜力标的。</p>
+          <p class="project-desc lang-en">Trading signal screener for A-share and HK stocks, with a built-in DCF valuation module to surface high-potential candidates.</p>
+          <div class="project-chips">
+            <span class="chip">Python</span>
+            <span class="chip">DCF</span>
+            <span class="chip"><span class="lang-zh-inline">信号筛选</span><span class="lang-en-inline">Signal Filter</span></span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a class="store-btn" href="https://github.com/willyufan/stock-screener" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-item">
+        <div>
+          <p class="project-num">05</p>
+          <h2 class="project-name">Hum2Song</h2>
+          <p class="project-sub">
+            <span class="lang-zh-inline">AI 音乐 · 哼唱生歌</span>
+            <span class="lang-en-inline">AI Music · Hum to Song</span>
+          </p>
+          <p class="project-desc lang-zh">上传哼唱录音，AI 自动识别、补全歌词并生成完整歌曲。基于 Qwen + MiniMax Music 2.5。</p>
+          <p class="project-desc lang-en">Upload a humming clip and AI transcribes, completes the lyrics, then generates a full song. Powered by Qwen and MiniMax Music 2.5.</p>
+          <div class="project-chips">
+            <span class="chip">Next.js</span>
+            <span class="chip"><span class="lang-zh-inline">AI 音乐</span><span class="lang-en-inline">AI Music</span></span>
+            <span class="chip"><span class="lang-zh-inline">哼唱转歌</span><span class="lang-en-inline">Hum to Song</span></span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a class="store-btn" href="https://github.com/willyufan/hum2song" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <span class="footer-copy">© 2025 Will</span>
+      <a class="footer-email" href="mailto:valselee@gmail.com">✉ valselee@gmail.com</a>
+    </footer>
+
+  </div>
+
+  <script>
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        document.body.classList.toggle('en', lang === 'en');
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b === btn));
+      });
+    });
+  </script>
+</body>
+</html>
