@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>策略中心 — AI Investor</title>
+  <meta name="description" content="AI Investor 策略追踪中心，实时展示 A 股量化策略回测结果。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f9f6f1;
+      --ink: #0f0f0f;
+      --muted: #6b6b6b;
+      --rule: #0f0f0f;
+      --accent: #c8392b;
+      --green: #1a7a4a;
+      --red: #c8392b;
+      --tag-bg: #f0ece4;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', system-ui, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .wrap {
+      width: min(1080px, calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    /* ── NAV ── */
+    nav {
+      border-bottom: 1.5px solid var(--rule);
+      padding: 18px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .back-link {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+
+    .back-link:hover { color: var(--ink); }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .gh-link {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-decoration: none;
+      border: 1px solid currentColor;
+      padding: 5px 12px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .gh-link:hover { color: var(--ink); border-color: var(--ink); }
+
+    .update-label {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 48px 0 40px;
+      border-bottom: 1.5px solid var(--rule);
+    }
+
+    .hero-title {
+      font-family: var(--serif);
+      font-size: clamp(40px, 6vw, 72px);
+      line-height: 1;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .hero-title em { font-style: italic; color: var(--accent); }
+
+    .hero-desc {
+      font-size: 15px;
+      color: var(--muted);
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    /* ── SECTION ── */
+    .section {
+      border-bottom: 1.5px solid var(--rule);
+      padding: 40px 0;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .section-title {
+      font-family: var(--serif);
+      font-size: clamp(24px, 3.5vw, 36px);
+      line-height: 1;
+      letter-spacing: -0.01em;
+    }
+
+    .section-badge {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      padding: 3px 10px;
+      border: 1px solid var(--accent);
+    }
+
+    .section-note {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 24px;
+      line-height: 1.6;
+      max-width: 640px;
+    }
+
+    /* ── TRACK GRID ── */
+    .track-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5px;
+      background: var(--ink);
+      border: 1.5px solid var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .track-card {
+      background: var(--bg);
+      padding: 22px 20px;
+    }
+
+    .track-window {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .track-name {
+      font-family: var(--serif);
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--ink);
+      margin-bottom: 16px;
+      min-height: 60px;
+    }
+
+    .track-metrics {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .metric-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .metric-label {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .metric-value {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    .metric-value.positive { color: var(--green); }
+    .metric-value.negative { color: var(--red); }
+    .metric-value.neutral  { color: var(--ink); }
+
+    /* ── ROBUST CANDIDATE ── */
+    .robust-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 20px;
+      align-items: center;
+      border: 1.5px solid var(--rule);
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+
+    .robust-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .robust-name {
+      font-family: var(--serif);
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .robust-metrics {
+      display: flex;
+      gap: 24px;
+    }
+
+    .robust-metric {
+      text-align: right;
+    }
+
+    /* ── HOLDINGS ── */
+    .holdings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.5px;
+      background: var(--ink);
+      border: 1.5px solid var(--ink);
+    }
+
+    .holding-item {
+      background: var(--bg);
+      padding: 14px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .holding-name {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .holding-code {
+      font-size: 11px;
+      color: var(--muted);
+      font-family: monospace;
+      letter-spacing: 0.04em;
+    }
+
+    .holding-weight {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink);
+      white-space: nowrap;
+    }
+
+    .holding-bar-wrap {
+      width: 100%;
+      height: 2px;
+      background: var(--tag-bg);
+      margin-top: 8px;
+    }
+
+    .holding-bar {
+      height: 100%;
+      background: var(--accent);
+    }
+
+    /* ── LOADING / ERROR ── */
+    .state-msg {
+      padding: 48px 0;
+      font-size: 14px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 0.06em;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 28px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-copy {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+    }
+
+    .footer-email {
+      font-size: 12px;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .footer-email:hover { color: var(--ink); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 860px) {
+      .track-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 520px) {
+      .wrap { width: calc(100% - 32px); }
+      .track-grid { grid-template-columns: 1fr; }
+      .robust-row { grid-template-columns: 1fr; }
+      .robust-metrics { flex-wrap: wrap; gap: 16px; }
+      .robust-metric { text-align: left; }
+      .holdings-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <nav>
+      <a class="back-link" href="/">← Will's VibeHome</a>
+      <div class="nav-right">
+        <span class="update-label" id="update-label">加载中…</span>
+        <a class="gh-link" href="https://github.com/willyufan/aiinvestor" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <h1 class="hero-title">AI Investor<br><em>策略中心</em></h1>
+      <p class="hero-desc">
+        基于 Tushare Pro 的 A 股量化选股框架，持续迭代两条研究路线：
+        Path 1 追求稳健可交易的高夏普策略，Path 2 探索无约束高收益上限。数据直接同步自 GitHub。
+      </p>
+    </header>
+
+    <div id="content">
+      <div class="state-msg" id="loading">数据加载中…</div>
+    </div>
+
+    <footer>
+      <span class="footer-copy">© 2026 Will</span>
+      <a class="footer-email" href="mailto:valselee@gmail.com">✉ valselee@gmail.com</a>
+    </footer>
+
+  </div>
+
+  <script>
+    const WINNERS_URL  = 'https://raw.githubusercontent.com/willyufan/aiinvestor/main/results/weighted_track_winners.json';
+    const HOLDINGS_URL = 'https://raw.githubusercontent.com/willyufan/aiinvestor/main/results/latest_weights.csv';
+
+    const WINDOW_LABELS = {
+      since_2017_only: '2017 窗口',
+      since_2020_only: '2020 窗口',
+      since_2023_only: '2023 窗口',
+      since_2025_only: '2025 窗口',
+    };
+
+    const WINDOW_ORDER = ['since_2017_only', 'since_2020_only', 'since_2023_only', 'since_2025_only'];
+
+    function pct(v)    { return (v * 100).toFixed(1) + '%'; }
+    function fmt2(v)   { return v.toFixed(2); }
+
+    function metricRow(label, value, cls) {
+      return `<div class="metric-row">
+        <span class="metric-label">${label}</span>
+        <span class="metric-value ${cls}">${value}</span>
+      </div>`;
+    }
+
+    function strategyShortName(data, id) {
+      return data.strategies?.[id]?.strategy_base_name ?? id;
+    }
+
+    function renderTrackGrid(tracks, data) {
+      const cards = WINDOW_ORDER.map(key => {
+        const t = tracks[key];
+        if (!t) return `<div class="track-card"><div class="track-window">${WINDOW_LABELS[key]}</div><div class="track-name" style="color:var(--muted)">暂无数据</div></div>`;
+        const name = strategyShortName(data, t.winner);
+        const m = t.metrics;
+        return `<div class="track-card">
+          <div class="track-window">${WINDOW_LABELS[key]}</div>
+          <div class="track-name">${name}</div>
+          <div class="track-metrics">
+            ${metricRow('年化收益', pct(m.weighted_cagr), 'positive')}
+            ${metricRow('夏普比率', fmt2(m.weighted_sharpe), 'neutral')}
+            ${metricRow('最大回撤', pct(m.weighted_max_drawdown), 'negative')}
+            ${metricRow('年均换手', fmt2(m.weighted_turnover) + 'x', 'neutral')}
+          </div>
+        </div>`;
+      });
+      return `<div class="track-grid">${cards.join('')}</div>`;
+    }
+
+    function renderRobust(candidate, strategies, isPath2) {
+      const id = isPath2 ? candidate.strategy_base_id : candidate.strategy_base_id;
+      const name = strategies?.[id]?.strategy_base_name ?? id;
+      const m = candidate.robust_metrics;
+      const ddKey = m.max_drawdown_worst !== undefined ? 'max_drawdown_worst' : 'max_drawdown_worst';
+      return `<div class="robust-row">
+        <div>
+          <div class="robust-label">稳健候选策略</div>
+          <div class="robust-name">${name}</div>
+        </div>
+        <div class="robust-metrics">
+          <div class="robust-metric">
+            ${metricRow('均值 CAGR', pct(m.cagr_mean), 'positive')}
+            ${metricRow('最低 CAGR', pct(m.cagr_min), 'neutral')}
+          </div>
+          <div class="robust-metric">
+            ${metricRow('夏普均值', fmt2(m.sharpe_mean), 'neutral')}
+            ${metricRow('最大回撤', pct(m.max_drawdown_worst), 'negative')}
+          </div>
+        </div>
+      </div>`;
+    }
+
+    function parseCSV(text) {
+      const lines = text.trim().split('\n');
+      const headers = lines[0].split(',');
+      return lines.slice(1).map(line => {
+        const vals = line.split(',');
+        return Object.fromEntries(headers.map((h, i) => [h.trim(), vals[i]?.trim()]));
+      });
+    }
+
+    function renderHoldings(rows) {
+      const maxW = Math.max(...rows.map(r => parseFloat(r.weight)));
+      const items = rows.map(r => {
+        const w = parseFloat(r.weight);
+        const pctW = (w * 100).toFixed(2) + '%';
+        const barW = (w / maxW * 100).toFixed(1) + '%';
+        return `<div class="holding-item" style="flex-direction:column;align-items:stretch;gap:6px">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <div class="holding-name">${r.name}</div>
+              <div class="holding-code">${r.ts_code}</div>
+            </div>
+            <div class="holding-weight">${pctW}</div>
+          </div>
+          <div class="holding-bar-wrap"><div class="holding-bar" style="width:${barW}"></div></div>
+        </div>`;
+      });
+      return `<div class="holdings-grid">${items.join('')}</div>`;
+    }
+
+    async function load() {
+      const content = document.getElementById('content');
+      try {
+        const [winnersRes, holdingsRes] = await Promise.allSettled([
+          fetch(WINNERS_URL),
+          fetch(HOLDINGS_URL),
+        ]);
+
+        if (winnersRes.status !== 'fulfilled' || !winnersRes.value.ok) throw new Error('无法加载策略数据');
+        const data = await winnersRes.value.json();
+
+        document.getElementById('update-label').textContent = `更新于 ${data.as_of}`;
+
+        // Path 1
+        const p1 = renderTrackGrid(data.tracks, data);
+        const p1robust = data.tracks.robust_candidate ? renderRobust(data.tracks.robust_candidate, data.strategies, false) : '';
+
+        // Path 2
+        const p2tracks = data.path2?.tracks ?? {};
+        const p2 = renderTrackGrid(p2tracks, data);
+        const p2robust = data.path2?.strategy_base_id
+          ? renderRobust({ strategy_base_id: data.path2.strategy_base_id, robust_metrics: data.path2.robust_metrics }, data.strategies, true)
+          : '';
+
+        // Holdings
+        let holdingsHTML = '';
+        if (holdingsRes.status === 'fulfilled' && holdingsRes.value.ok) {
+          const csv = await holdingsRes.value.text();
+          const rows = parseCSV(csv);
+          holdingsHTML = `
+          <section class="section">
+            <div class="section-header">
+              <h2 class="section-title">当前<em style="font-style:italic;color:var(--accent)">持仓</em></h2>
+            </div>
+            <p class="section-note">以下为最新月度调仓后的目标权重，数据同步自 GitHub。</p>
+            ${renderHoldings(rows)}
+          </section>`;
+        }
+
+        content.innerHTML = `
+          <section class="section">
+            <div class="section-header">
+              <h2 class="section-title">Path 1</h2>
+              <span class="section-badge">稳健路线</span>
+            </div>
+            <p class="section-note">
+              控制换手率与回撤，追求可实际交易的稳健高夏普策略。熊市空仓机制降低尾部风险，月度调仓 + 周度仓位平滑执行。
+            </p>
+            ${p1}
+            ${p1robust}
+          </section>
+
+          <section class="section">
+            <div class="section-header">
+              <h2 class="section-title">Path 2</h2>
+              <span class="section-badge">高收益探索</span>
+            </div>
+            <p class="section-note">
+              无换手率约束，追求最大年化收益上限。高换手、高波动，回撤容忍度更高，作为 Path 1 的上界参考。
+            </p>
+            ${p2}
+            ${p2robust}
+          </section>
+
+          ${holdingsHTML}
+        `;
+      } catch (e) {
+        content.innerHTML = `<div class="state-msg">加载失败，请稍后重试。</div>`;
+        document.getElementById('update-label').textContent = '';
+        console.error(e);
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>
