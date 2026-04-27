@@ -94,6 +94,19 @@
     .section-block { margin-bottom: 32px; }
     .section-title { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #e0d8cc; }
 
+    /* Explanation block */
+    .explanation-block { border: 1px solid #e0d8cc; margin-bottom: 28px; }
+    .explanation-summary { list-style: none; padding: 13px 16px; cursor: pointer; font-size: 13px; font-weight: 600; letter-spacing: .06em; display: flex; align-items: center; justify-content: space-between; user-select: none; background: var(--card); }
+    .explanation-summary::-webkit-details-marker { display: none; }
+    .explanation-summary:hover { background: #ebe5d8; }
+    .expand-arrow { font-size: 10px; color: var(--muted); transition: transform .2s; }
+    details.explanation-block[open] .expand-arrow { transform: rotate(90deg); }
+    .explanation-body { padding: 16px 16px 8px; }
+    .expl-section { margin-bottom: 16px; }
+    .expl-section-title { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .expl-list { padding-left: 18px; font-size: 13px; line-height: 1.7; color: #2a2a2a; }
+    .expl-list li { margin-bottom: 2px; }
+
     /* Window metrics table */
     .window-table { width: 100%; border-collapse: collapse; margin-bottom: 0; }
     .window-table th { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 8px 10px; text-align: left; border-bottom: 1.5px solid var(--rule); }
@@ -318,6 +331,106 @@ function buildWindowChart(canvasId, strategies) {
   });
 }
 
+// ── Explanation builder (ported from live_trading_platform.py) ────────────────
+function inferAdjustmentStyle(id) {
+  if (id.includes('__port_weekly_exposure_buffered')) return '月度换股 + 周度总仓位（双周确认）';
+  if (id.includes('__port_weekly_exposure_asym'))    return '月度换股 + 周度总仓位（快减慢加）';
+  if (id.includes('__port_weekly_exposure'))         return '月度换股 + 周度总仓位';
+  if (id.includes('__sat_three_stage_buffered'))     return '月度换股 + 周度卫星仓位（双周确认）';
+  if (id.includes('__sat_three_stage_risk'))         return '月度换股 + 周度卫星仓位（三档风控）';
+  if (id.includes('__sat_weekly_risk'))              return '月度换股 + 周度卫星仓位';
+  return '月度换股';
+}
+function inferScheduleKind(id) {
+  if (id.includes('__port_weekly_exposure')) return 'portfolio_weekly_overlay';
+  if (id.includes('__sat_'))                 return 'satellite_weekly_overlay';
+  return 'monthly';
+}
+const SCHEDULE_KIND_LABELS = {
+  monthly:                    '纯月度',
+  portfolio_weekly_overlay:   '月度换股 + 周度总仓位',
+  satellite_weekly_overlay:   '月度换股 + 周度卫星仓位',
+  biweekly:                   '双周换股',
+  weekly:                     '单周换股',
+};
+
+function buildExplanation(detail, view) {
+  const id     = detail.strategy_id;
+  const market = detail.market_scope;
+  const path   = detail.path;
+  const adjStyle    = inferAdjustmentStyle(id);
+  const schedKind   = (view.formal_schedule || {}).schedule_kind || inferScheduleKind(id);
+  const schedLabel  = SCHEDULE_KIND_LABELS[schedKind] || '未识别';
+
+  // 定位
+  const universe = market === 'hkconnect' ? '沪港通标的池' : 'A股全市场研究池';
+  let coreSource;
+  if      (id.includes('total_mv'))     coreSource = '核心底座偏向总市值/大市值胜出者核心。';
+  else if (id.includes('equal_weight')) coreSource = '核心底座采用等权胜出者核心，更强调弹性与分散。';
+  else if (id.includes('index_core'))   coreSource = '核心底座采用指数核心，更偏防守与市场代表性。';
+  else if (market === 'hkconnect')      coreSource = '策略仅在沪港通可交易标的内做优胜劣汰。';
+  else                                  coreSource = '核心底座采用当前策略族定义的胜出者核心。';
+
+  // 选股结构
+  const sel = [];
+  if      (path === 'path1') sel.push('Path 1 是主攻稳健线：优先在回撤、换手、Sharpe 和实盘可执行性之间做平衡。');
+  else if (path === 'path2') sel.push('Path 2 是高收益探索线：更重视 CAGR 上限突破，同时继续监控回撤和换手。');
+  if      (id.includes('aggr_10_90')) sel.push('进攻仓位配置约为 10/90，探索侧更积极。');
+  else if (id.includes('aggr_08_92')) sel.push('进攻仓位配置约为 8/92，在进攻与风控之间相对折中。');
+  else if (id.includes('aggr_05_95')) sel.push('进攻仓位配置约为 5/95，属于更集中、更高弹性的探索结构。');
+  else if (id.includes('aggr_03_97')) sel.push('进攻仓位配置约为 3/97，属于高度集中、高弹性的探索结构。');
+  if      (id.includes('prom6')) sel.push('晋升池规模为 6 只，个股分散度高于 prom2/prom3 版本。');
+  else if (id.includes('prom3')) sel.push('晋升池规模为 3 只，收益弹性更集中。');
+  else if (id.includes('prom2')) sel.push('晋升池规模为 2 只，属于高集中度候选。');
+  if (id.includes('core_6_1'))      sel.push('包含核心 6-1 动量过滤，偏向保留中期趋势更强的标的。');
+  if (id.includes('theme'))         sel.push('沪港通高成长主线候选，偏向成长/主题强势标的。');
+  if (id.includes('breakout'))      sel.push('沪港通高集中突破候选，偏向强势突破与高弹性标的。');
+  if (id.includes('equal_elastic')) sel.push('沪港通等权高弹性候选，强调弹性分散和等权暴露。');
+  if (!sel.length) sel.push('策略按当前研究配置从候选池中选择相对胜出的股票组合。');
+
+  // 风控
+  const risk = [];
+  if (id.includes('cash_off'))           risk.push('包含熊市空仓/降风险逻辑，风险关闭时可以显著降低总仓位。');
+  if      (id.includes('risk30'))        risk.push('熊市风险状态下目标仓位可降至约 30%。');
+  else if (id.includes('risk50'))        risk.push('熊市风险状态下目标仓位可降至约 50%。');
+  if (id.includes('full_risk'))          risk.push('关闭熊市降仓，风险暴露更高，收益弹性也更强。');
+  if      (id.includes('cap80'))         risk.push('单票权重上限约 80%，允许高集中但保留上限约束。');
+  else if (id.includes('cap60'))         risk.push('单票权重上限约 60%，集中度略低于 cap80。');
+  if (id.includes('sat_three_stage'))    risk.push('卫星仓位采用周频三档风控，股票池不必月中重选，但卫星暴露会随周度状态变化。');
+  if (id.includes('port_weekly_exposure')) risk.push('采用月度选股 + 周度总仓位调整，月中主要调整总暴露而不是重新换股。');
+  if (id.includes('buffered'))           risk.push('带 buffered 确认，降低单周信号噪声导致的来回切换。');
+  if (id.includes('asym'))              risk.push('采用快减慢加的不对称仓位路径，风险变差时更快降仓，恢复时更慢加仓。');
+  if (!risk.length) risk.push('风险控制主要来自策略自身的趋势、动量、仓位或调仓频率约束。');
+
+  // 调仓规则
+  const schedTexts = {
+    monthly:                  '当前建议按真实月末换股生成；数据截止日可以每天推进，但月度股票池本身不应被临时月末提前改写。',
+    portfolio_weekly_overlay: '股票池按真实月末确定；周度只更新总仓位/风险暴露，实盘上可能不等到月末就先降仓或加仓。',
+    satellite_weekly_overlay: '月末确定股票池和目标权重；周度只调整卫星仓位状态，页面会把月末股票池与周度卫星暴露拆开看。',
+    biweekly:                 '策略按双周评估点换股，当前建议会在双周信号日更新。',
+    weekly:                   '策略按周评估点换股，当前建议会在周度信号日更新。',
+  };
+  const schedText = schedTexts[schedKind] || '当前建议按策略定义的实际评估点更新。';
+
+  const lis = arr => arr.map(s => `<li>${s}</li>`).join('');
+  const sec = (title, items) => `
+    <div class="expl-section">
+      <div class="expl-section-title">${title}</div>
+      <ul class="expl-list">${lis(items)}</ul>
+    </div>`;
+
+  return `
+    <details class="explanation-block">
+      <summary class="explanation-summary">策略详细说明 <span class="expand-arrow">▶</span></summary>
+      <div class="explanation-body">
+        ${sec('策略定位', [`标的范围：${universe}。`, coreSource])}
+        ${sec('选股与组合结构', sel)}
+        ${sec('仓位与风控', risk)}
+        ${sec('调仓 / 生效规则', [`实际调整类型：${adjStyle}。`, `当前判定口径：${schedLabel}。`, schedText])}
+      </div>
+    </details>`;
+}
+
 // ── Detail ────────────────────────────────────────────────────────────────────
 let currentDetailId   = '';
 let currentDetailData = null;
@@ -427,6 +540,8 @@ function renderDetail(detail, selectedTag) {
         <select class="window-select" id="window-select">${winOpts}</select>
       </div>
     </div>
+
+    ${buildExplanation(detail, view)}
 
     <div class="section-block">
       <div class="section-title">窗口表现对比</div>
