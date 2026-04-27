@@ -20,11 +20,9 @@
     .wrap { width: min(1100px, calc(100% - 48px)); margin: 0 auto; }
 
     /* NAV */
-    nav { border-bottom: 1.5px solid var(--rule); padding: 16px 0; display: flex; align-items: center; justify-content: space-between; }
-    .nav-left { display: flex; align-items: center; gap: 20px; }
-    .back-link { font-size: 13px; font-weight: 500; letter-spacing: .06em; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 6px; }
-    .back-link:hover { color: var(--ink); }
-    .nav-title { font-family: var(--serif); font-size: 18px; letter-spacing: -.01em; }
+    nav { border-bottom: 1.5px solid var(--rule); padding: 20px 0; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; }
+    .nav-title { font-family: var(--serif); font-size: clamp(24px, 3vw, 32px); letter-spacing: -.02em; }
     .nav-title em { font-style: italic; color: var(--accent); }
     .nav-right { display: flex; align-items: center; gap: 14px; }
     .update-label { font-size: 12px; color: var(--muted); }
@@ -167,7 +165,6 @@
 
   <nav>
     <div class="nav-left">
-      <a class="back-link" href="/">← Will's VibeHome</a>
       <span class="nav-title">AI Investor <em>策略中心</em></span>
     </div>
     <div class="nav-right">
