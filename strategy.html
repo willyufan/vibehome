@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>策略中心 — AI Investor</title>
-  <meta name="description" content="AI Investor A股量化策略追踪中心" />
+  <title>AI Investor 策略中心</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -21,114 +20,145 @@
     .wrap { width: min(1100px, calc(100% - 48px)); margin: 0 auto; }
 
     /* NAV */
-    nav { border-bottom: 1.5px solid var(--rule); padding: 18px 0; display: flex; align-items: center; justify-content: space-between; }
-    .back-link { font-size: 13px; font-weight: 500; letter-spacing: .06em; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 6px; transition: color .15s; }
+    nav { border-bottom: 1.5px solid var(--rule); padding: 16px 0; display: flex; align-items: center; justify-content: space-between; }
+    .nav-left { display: flex; align-items: center; gap: 20px; }
+    .back-link { font-size: 13px; font-weight: 500; letter-spacing: .06em; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 6px; }
     .back-link:hover { color: var(--ink); }
-    .nav-right { display: flex; align-items: center; gap: 16px; }
+    .nav-title { font-family: var(--serif); font-size: 18px; letter-spacing: -.01em; }
+    .nav-title em { font-style: italic; color: var(--accent); }
+    .nav-right { display: flex; align-items: center; gap: 14px; }
     .update-label { font-size: 12px; color: var(--muted); }
-    .gh-link { font-size: 12px; font-weight: 500; letter-spacing: .08em; color: var(--muted); text-decoration: none; border: 1px solid currentColor; padding: 5px 12px; transition: color .15s, border-color .15s; }
+    .gh-link { font-size: 12px; font-weight: 500; letter-spacing: .08em; color: var(--muted); text-decoration: none; border: 1px solid currentColor; padding: 4px 10px; transition: color .15s, border-color .15s; }
     .gh-link:hover { color: var(--ink); border-color: var(--ink); }
 
-    /* PAGE HEADER */
-    .page-header { padding: 40px 0 32px; border-bottom: 1.5px solid var(--rule); }
-    .page-title { font-family: var(--serif); font-size: clamp(36px,5vw,64px); line-height: 1; letter-spacing: -.02em; margin-bottom: 12px; }
-    .page-title em { font-style: italic; color: var(--accent); }
-    .page-desc { font-size: 14px; color: var(--muted); max-width: 560px; line-height: 1.7; }
-
     /* TABS */
-    .tabs { display: flex; gap: 0; border-bottom: 1.5px solid var(--rule); margin-top: 0; }
-    .tab-btn { font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; background: transparent; border: none; border-bottom: 3px solid transparent; padding: 18px 24px 15px; cursor: pointer; color: var(--muted); transition: color .15s, border-color .15s; margin-bottom: -1.5px; }
+    .tabs { display: flex; border-bottom: 1.5px solid var(--rule); }
+    .tab-btn { font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; background: transparent; border: none; border-bottom: 3px solid transparent; padding: 16px 22px 13px; cursor: pointer; color: var(--muted); transition: color .15s, border-color .15s; margin-bottom: -1.5px; }
     .tab-btn.active { color: var(--ink); border-bottom-color: var(--ink); }
     .tab-btn:hover:not(.active) { color: var(--ink); }
-    .tab-pane { display: none; padding: 36px 0; }
+    .tab-pane { display: none; padding: 32px 0; }
     .tab-pane.active { display: block; }
 
     /* MARKET SECTIONS */
-    .market-section { margin-bottom: 48px; }
-    .market-heading { font-family: var(--serif); font-size: clamp(20px,2.5vw,28px); letter-spacing: -.01em; margin-bottom: 24px; display: flex; align-items: center; gap: 12px; }
-    .market-badge { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); padding: 3px 10px; border: 1px solid var(--accent); font-family: var(--sans); }
-
-    /* PATH LABEL */
-    .path-label { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; padding-top: 16px; border-top: 1px solid #e0d8cc; }
+    .market-section { margin-bottom: 44px; }
+    .market-heading { font-family: var(--serif); font-size: clamp(18px,2.5vw,26px); letter-spacing: -.01em; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+    .market-badge { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); padding: 2px 8px; border: 1px solid var(--accent); font-family: var(--sans); }
+    .path-label { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; padding-top: 14px; border-top: 1px solid #e0d8cc; }
     .path-label:first-child { border-top: none; padding-top: 0; }
 
     /* STRATEGY CARDS */
     .strategy-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0; border-top: 1.5px solid var(--ink); border-left: 1.5px solid var(--ink); margin-bottom: 8px; }
-    .strategy-card { background: var(--bg); padding: 22px 20px; cursor: pointer; transition: background .15s; position: relative; border-right: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
+    .strategy-card { background: var(--bg); padding: 20px 18px; cursor: pointer; transition: background .15s; position: relative; border-right: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
     .strategy-card:hover { background: var(--card); }
     .strategy-card.is-risk-off { opacity: .7; }
-    .card-window { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
-    .card-name { font-family: var(--serif); font-size: 14px; line-height: 1.4; margin-bottom: 14px; min-height: 48px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-    .card-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; }
-    .metric { }
-    .metric-label { font-size: 10px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
-    .metric-val { font-size: 16px; font-weight: 600; letter-spacing: -.01em; }
+    .strategy-card.highlighted { background: var(--card); outline: 2px solid var(--ink); outline-offset: -2px; }
+    .card-window { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .card-name { font-family: var(--serif); font-size: 14px; line-height: 1.4; margin-bottom: 12px; min-height: 44px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; }
+    .metric-label { font-size: 10px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 1px; }
+    .metric-val { font-size: 15px; font-weight: 600; letter-spacing: -.01em; }
     .metric-val.pos { color: var(--green); }
     .metric-val.neg { color: var(--accent); }
     .metric-val.neu { color: var(--ink); }
-    .card-footer { margin-top: 14px; padding-top: 12px; border-top: 1px solid #e0d8cc; display: flex; align-items: center; justify-content: space-between; }
-    .risk-badge { font-size: 11px; font-weight: 600; letter-spacing: .08em; padding: 3px 8px; }
+    .card-footer { margin-top: 12px; padding-top: 10px; border-top: 1px solid #e0d8cc; display: flex; align-items: center; justify-content: space-between; }
+    .risk-badge { font-size: 11px; font-weight: 600; letter-spacing: .06em; padding: 2px 7px; }
     .risk-badge.risk_on { background: #d4edda; color: #155724; }
     .risk-badge.caution { background: #fff3cd; color: #856404; }
     .risk-badge.risk_off { background: #f8d7da; color: #721c24; }
     .risk-badge.unknown { background: #e2e3e5; color: #383d41; }
-    .exposure-val { font-size: 12px; color: var(--muted); }
-    .card-arrow { position: absolute; top: 20px; right: 16px; font-size: 14px; color: var(--muted); opacity: 0; transition: opacity .15s; }
-    .strategy-card:hover .card-arrow { opacity: 1; }
+    .card-date { font-size: 11px; color: var(--muted); }
 
     /* CHART SECTION */
-    .chart-section { margin-top: 40px; border-top: 1.5px solid var(--rule); padding-top: 32px; }
-    .chart-title { font-family: var(--serif); font-size: clamp(18px,2.5vw,26px); letter-spacing: -.01em; margin-bottom: 24px; }
-    .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
-    .chart-wrap { background: var(--card); padding: 20px; }
-    .chart-label { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
-    .chart-canvas-wrap { position: relative; height: 220px; }
+    .chart-section { border-top: 1.5px solid var(--rule); padding-top: 28px; margin-top: 8px; }
+    .chart-section-title { font-family: var(--serif); font-size: clamp(16px,2vw,22px); letter-spacing: -.01em; margin-bottom: 20px; }
+    .chart-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+    .chart-wrap { background: var(--card); padding: 16px; }
+    .chart-label { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+    .chart-canvas-wrap { position: relative; height: 200px; }
 
     /* TAB 2 — DETAIL */
-    .detail-selector { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; flex-wrap: wrap; }
+    .detail-selector { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; flex-wrap: wrap; }
     .detail-selector label { font-size: 13px; font-weight: 600; letter-spacing: .06em; color: var(--muted); }
-    .strategy-select { font-family: var(--sans); font-size: 14px; padding: 10px 16px; border: 1.5px solid var(--ink); background: var(--bg); color: var(--ink); cursor: pointer; min-width: 360px; max-width: 100%; }
+    .strategy-select { font-family: var(--sans); font-size: 14px; padding: 9px 14px; border: 1.5px solid var(--ink); background: var(--bg); color: var(--ink); cursor: pointer; min-width: 340px; max-width: 100%; }
     .detail-content { }
-    .detail-header { padding-bottom: 24px; border-bottom: 1.5px solid var(--rule); margin-bottom: 28px; }
-    .detail-name { font-family: var(--serif); font-size: clamp(22px,3vw,36px); line-height: 1.15; letter-spacing: -.01em; margin-bottom: 8px; }
-    .detail-meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 16px; }
-    .detail-meta span { display: flex; align-items: center; gap: 4px; }
-    .detail-section-title { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
 
-    /* WINDOW METRICS TABLE */
-    .window-table { width: 100%; border-collapse: collapse; margin-bottom: 32px; }
-    .window-table th { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 8px 12px; text-align: left; border-bottom: 1.5px solid var(--rule); }
-    .window-table td { padding: 10px 12px; font-size: 14px; border-bottom: 1px solid #e0d8cc; }
-    .window-table tr.highlight td { background: var(--card); }
+    /* Detail header */
+    .detail-name { font-family: var(--serif); font-size: clamp(18px,2.5vw,28px); line-height: 1.2; letter-spacing: -.01em; margin-bottom: 10px; }
+    .detail-meta-row { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; align-items: center; }
+    .detail-meta-row .risk-badge { font-size: 11px; }
 
-    /* HOLDINGS */
-    .holdings-wrap { margin-bottom: 32px; }
-    .holdings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0; border-top: 1.5px solid var(--ink); border-left: 1.5px solid var(--ink); }
-    .holding-item { background: var(--bg); padding: 12px 14px; border-right: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
-    .holding-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
-    .holding-name { font-size: 14px; font-weight: 500; }
-    .holding-code { font-size: 11px; color: var(--muted); font-family: monospace; }
-    .holding-weight { font-size: 15px; font-weight: 600; }
+    /* Window selector (within detail) */
+    .window-selector-wrap { margin-bottom: 24px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .window-selector-wrap label { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .window-select { font-family: var(--sans); font-size: 13px; padding: 7px 12px; border: 1.5px solid var(--ink); background: var(--bg); color: var(--ink); cursor: pointer; }
+
+    /* Section dividers */
+    .section-block { margin-bottom: 32px; }
+    .section-title { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #e0d8cc; }
+
+    /* Window metrics table */
+    .window-table { width: 100%; border-collapse: collapse; margin-bottom: 0; }
+    .window-table th { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 8px 10px; text-align: left; border-bottom: 1.5px solid var(--rule); }
+    .window-table td { padding: 9px 10px; font-size: 14px; border-bottom: 1px solid #e0d8cc; }
+    .window-table tr.highlight td { background: var(--card); font-weight: 600; }
+
+    /* Equity curve chart */
+    .curve-wrap { background: var(--card); padding: 16px; margin-bottom: 0; }
+    .curve-canvas-wrap { position: relative; height: 240px; }
+    .curve-legend { display: flex; gap: 16px; margin-top: 8px; font-size: 11px; color: var(--muted); }
+    .curve-legend span { display: flex; align-items: center; gap: 5px; }
+    .curve-legend i { display: inline-block; width: 24px; height: 3px; border-radius: 2px; }
+
+    /* Change diff table */
+    .diff-summary { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+    .diff-table { width: 100%; border-collapse: collapse; }
+    .diff-table th { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 7px 10px; text-align: left; border-bottom: 1.5px solid var(--rule); }
+    .diff-table td { padding: 8px 10px; font-size: 13px; border-bottom: 1px solid #e0d8cc; }
+    .diff-table .action-add { color: var(--green); font-weight: 700; }
+    .diff-table .action-inc { color: var(--green); }
+    .diff-table .action-dec { color: var(--amber); }
+    .diff-table .action-clr { color: var(--accent); font-weight: 700; }
+    .diff-table tr.big-change td { background: #fef3c7; }
+    .diff-table tr.med-change td { background: #fefce8; }
+
+    /* History */
+    .history-window-select { font-family: var(--sans); font-size: 13px; padding: 7px 12px; border: 1.5px solid var(--ink); background: var(--bg); color: var(--ink); cursor: pointer; margin-bottom: 16px; min-width: 260px; }
+    .snapshot-block { margin-bottom: 16px; border: 1px solid #e0d8cc; }
+    .snapshot-header { padding: 10px 14px; background: var(--card); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; user-select: none; }
+    .snapshot-header:hover { background: #ebe5d8; }
+    .snapshot-body { display: none; }
+    .snapshot-body.open { display: block; }
+    .snapshot-table { width: 100%; border-collapse: collapse; }
+    .snapshot-table td { padding: 7px 14px; font-size: 13px; border-bottom: 1px solid #f0ebe0; }
+    .snapshot-table tr:last-child td { border-bottom: none; }
+
+    /* Holdings grid */
+    .holdings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0; border-top: 1.5px solid var(--ink); border-left: 1.5px solid var(--ink); }
+    .holding-item { background: var(--bg); padding: 10px 12px; border-right: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
+    .holding-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+    .holding-name { font-size: 13px; font-weight: 500; }
+    .holding-code { font-size: 10px; color: var(--muted); font-family: monospace; }
+    .holding-weight { font-size: 14px; font-weight: 600; }
     .holding-bar-wrap { height: 2px; background: #e0d8cc; }
     .holding-bar { height: 100%; background: var(--accent); }
-    .cash-holding { background: var(--card); }
 
     /* STATES */
-    .state-msg { padding: 56px 0; text-align: center; font-size: 14px; color: var(--muted); letter-spacing: .06em; }
+    .state-msg { padding: 48px 0; text-align: center; font-size: 14px; color: var(--muted); letter-spacing: .06em; }
+    .loading-inline { font-size: 13px; color: var(--muted); padding: 24px 0; }
 
     /* FOOTER */
-    footer { border-top: 1.5px solid var(--rule); padding: 28px 0; display: flex; align-items: center; justify-content: space-between; }
+    footer { border-top: 1.5px solid var(--rule); padding: 24px 0; display: flex; align-items: center; justify-content: space-between; }
     .footer-copy { font-size: 12px; color: var(--muted); }
-    .footer-email { font-size: 12px; color: var(--muted); text-decoration: none; transition: color .15s; }
+    .footer-email { font-size: 12px; color: var(--muted); text-decoration: none; }
     .footer-email:hover { color: var(--ink); }
 
     @media (max-width: 720px) {
       .wrap { width: calc(100% - 32px); }
       .chart-grid { grid-template-columns: 1fr; }
       .strategy-grid { grid-template-columns: 1fr; }
-      .strategy-select { min-width: 0; width: 100%; }
-      .window-table { font-size: 13px; }
-      .window-table th, .window-table td { padding: 8px 6px; }
+      .strategy-select, .window-select, .history-window-select { min-width: 0; width: 100%; }
+      .window-table, .diff-table { font-size: 12px; }
+      .window-table th, .window-table td, .diff-table th, .diff-table td { padding: 6px 6px; }
     }
   </style>
 </head>
@@ -136,17 +166,15 @@
 <div class="wrap">
 
   <nav>
-    <a class="back-link" href="/">← Will's VibeHome</a>
+    <div class="nav-left">
+      <a class="back-link" href="/">← Will's VibeHome</a>
+      <span class="nav-title">AI Investor <em>策略中心</em></span>
+    </div>
     <div class="nav-right">
       <span class="update-label" id="update-label">加载中…</span>
       <a class="gh-link" href="https://github.com/willyufan/aiinvestor" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </nav>
-
-  <header class="page-header">
-    <h1 class="page-title">AI Investor<br><em>策略中心</em></h1>
-    <p class="page-desc">持续追踪 A 股与沪港通量化策略回测结果，数据实时同步自 GitHub。</p>
-  </header>
 
   <div class="tabs">
     <button class="tab-btn active" data-tab="winners">胜出策略</button>
@@ -172,8 +200,8 @@
     </div>
 
     <div class="chart-section">
-      <h2 class="chart-title">各窗口 CAGR 对比</h2>
-      <div class="chart-grid">
+      <h2 class="chart-section-title">各窗口 CAGR 对比</h2>
+      <div class="chart-grid" id="chart-grid">
         <div class="chart-wrap">
           <div class="chart-label">Path 1 · 稳健路线</div>
           <div class="chart-canvas-wrap"><canvas id="chart-path1"></canvas></div>
@@ -182,6 +210,7 @@
           <div class="chart-label">Path 2 · 高收益探索</div>
           <div class="chart-canvas-wrap"><canvas id="chart-path2"></canvas></div>
         </div>
+        <!-- HK chart injected dynamically -->
       </div>
     </div>
   </div>
@@ -205,33 +234,31 @@
 </div>
 
 <script>
-const SNAPSHOT_URL = 'https://raw.githubusercontent.com/willyufan/aiinvestor/main/results/public_snapshot.json';
-let snapshotData = null;
+const SNAPSHOT_URL  = 'https://raw.githubusercontent.com/willyufan/aiinvestor/main/results/public_snapshot.json';
+const STRATEGY_BASE = 'https://raw.githubusercontent.com/willyufan/aiinvestor/main/results/strategies/';
+
+let snapshotData  = null;
 let allStrategies = [];
+const detailCache = {};   // strategy_id → detail JSON
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
-const pct  = v => (v * 100).toFixed(1) + '%';
-const fmt2 = v => parseFloat(v).toFixed(2);
+const pct   = v => (v * 100).toFixed(1) + '%';
+const fmt2  = v => parseFloat(v).toFixed(2);
 
 function riskLabel(state) {
-  const map = { risk_on: '满仓', caution: '减仓', risk_off: '空仓', unknown: '—' };
-  return map[state] || state;
+  return { risk_on: '满仓', caution: '减仓', risk_off: '空仓', unknown: '—' }[state] || state;
 }
-
-function windowLabel(tag) {
-  const map = { since_2017_01:'2017', since_2020_01:'2020', since_2023_01:'2023', since_2025_01:'2025', since_2026_01:'2026' };
-  return map[tag] || tag;
+function windowTagLabel(tag) {
+  return { since_2017_01:'2017窗口', since_2020_01:'2020窗口', since_2023_01:'2023窗口', since_2025_01:'2025窗口', since_2026_01:'2026窗口' }[tag] || tag;
 }
 
 // ── Card ──────────────────────────────────────────────────────────────────────
 function buildCard(s) {
   const m = s.metrics;
-  const riskOff = s.risk_state === 'risk_off';
   const card = document.createElement('div');
-  card.className = 'strategy-card' + (riskOff ? ' is-risk-off' : '');
+  card.className = 'strategy-card' + (s.risk_state === 'risk_off' ? ' is-risk-off' : '');
   card.dataset.id = s.strategy_id;
   card.innerHTML = `
-    <span class="card-arrow">→</span>
     <div class="card-window">${s.window_label}</div>
     <div class="card-name">${s.display_name}</div>
     <div class="card-metrics">
@@ -254,123 +281,349 @@ function buildCard(s) {
     </div>
     <div class="card-footer">
       <span class="risk-badge ${s.risk_state}">${riskLabel(s.risk_state)} ${pct(s.target_exposure)}</span>
-      <span class="exposure-val">${s.updated_at ? '更新 ' + s.updated_at : ''}</span>
+      <span class="card-date">${s.updated_at ? '更新 ' + s.updated_at : ''}</span>
     </div>`;
   card.addEventListener('click', () => goToDetail(s.strategy_id));
   return card;
 }
 
 // ── Charts ────────────────────────────────────────────────────────────────────
-const CHART_COLORS = ['#c8392b','#1a7a4a','#2563eb','#b06000','#7c3aed'];
+const CHART_COLORS = ['#c8392b','#1a7a4a','#2563eb','#b06000','#7c3aed','#0891b2'];
 
 function buildWindowChart(canvasId, strategies) {
-  const ctx = document.getElementById(canvasId).getContext('2d');
-  const tags = ['since_2017_01','since_2020_01','since_2023_01','since_2025_01'];
-  const labels = tags.map(windowLabel);
-
+  const ctx = document.getElementById(canvasId);
+  if (!ctx) return;
+  const tags   = ['since_2017_01','since_2020_01','since_2023_01','since_2025_01'];
+  const labels = tags.map(t => ({ since_2017_01:'2017', since_2020_01:'2020', since_2023_01:'2023', since_2025_01:'2025' })[t]);
   const datasets = strategies
     .filter(s => s.window_metrics && s.window_metrics.length > 0)
     .map((s, i) => ({
-      label: s.display_name.length > 22 ? s.display_name.slice(0, 22) + '…' : s.display_name,
-      data: tags.map(tag => {
-        const wm = (s.window_metrics || []).find(w => w.tag === tag);
-        return wm ? +(wm.cagr * 100).toFixed(1) : null;
-      }),
+      label: s.display_name.length > 20 ? s.display_name.slice(0, 20) + '…' : s.display_name,
+      data:  tags.map(tag => { const wm = (s.window_metrics||[]).find(w => w.tag === tag); return wm ? +(wm.cagr*100).toFixed(1) : null; }),
       backgroundColor: CHART_COLORS[i % CHART_COLORS.length] + '99',
-      borderColor: CHART_COLORS[i % CHART_COLORS.length],
+      borderColor:     CHART_COLORS[i % CHART_COLORS.length],
       borderWidth: 1.5,
     }));
-
   new Chart(ctx, {
     type: 'bar',
     data: { labels, datasets },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'bottom', labels: { font: { size: 10, family: 'Inter' }, boxWidth: 12, padding: 10 } },
-        tooltip: { callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.raw}%` } },
+        legend: { position: 'bottom', labels: { font: { size: 10, family: 'Inter' }, boxWidth: 10, padding: 8 } },
+        tooltip: { callbacks: { label: c => ` ${c.dataset.label}: ${c.raw}%` } },
       },
       scales: {
-        y: { ticks: { callback: v => v + '%', font: { size: 11 } }, grid: { color: '#e0d8cc' } },
-        x: { ticks: { font: { size: 11 } }, grid: { display: false } },
+        y: { ticks: { callback: v => v+'%', font:{size:11} }, grid:{color:'#e0d8cc'} },
+        x: { ticks: { font:{size:11} }, grid:{display:false} },
       },
     },
   });
 }
 
 // ── Detail ────────────────────────────────────────────────────────────────────
-function goToDetail(strategyId) {
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === 'detail'));
-  document.querySelectorAll('.tab-pane').forEach(p => p.classList.toggle('active', p.id === 'tab-detail'));
-  document.querySelectorAll('.tab-pane').forEach(p => p.style.display = p.classList.contains('active') ? 'block' : 'none');
-  const sel = document.getElementById('strategy-select');
-  sel.value = strategyId;
-  renderDetail(strategyId);
+let currentDetailId   = '';
+let currentDetailData = null;
+let curveChart        = null;
+
+async function fetchDetail(strategyId) {
+  if (detailCache[strategyId]) return detailCache[strategyId];
+  const res = await fetch(STRATEGY_BASE + strategyId + '.json');
+  if (!res.ok) throw new Error('fetch detail failed');
+  const data = await res.json();
+  detailCache[strategyId] = data;
+  return data;
 }
 
-function renderDetail(strategyId) {
+function goToDetail(strategyId) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === 'detail'));
+  document.querySelectorAll('.tab-pane').forEach(p => {
+    const active = p.id === 'tab-detail';
+    p.classList.toggle('active', active);
+    p.style.display = active ? 'block' : 'none';
+  });
+  const sel = document.getElementById('strategy-select');
+  sel.value = strategyId;
+  loadDetail(strategyId);
+}
+
+async function loadDetail(strategyId) {
   const container = document.getElementById('detail-content');
-  if (!strategyId) { container.innerHTML = '<p style="color:var(--muted);font-size:14px">请从上方选择一个策略。</p>'; return; }
-  const s = allStrategies.find(x => x.strategy_id === strategyId);
-  if (!s) { container.innerHTML = '<p style="color:var(--muted)">未找到策略数据。</p>'; return; }
+  if (!strategyId) { container.innerHTML = '<p style="color:var(--muted);font-size:14px;padding:24px 0">请从上方选择一个策略。</p>'; return; }
+  currentDetailId = strategyId;
+  container.innerHTML = '<div class="loading-inline">加载策略详情…</div>';
+  if (curveChart) { curveChart.destroy(); curveChart = null; }
+  try {
+    const detail = await fetchDetail(strategyId);
+    currentDetailData = detail;
+    // pick default sample_tag from snapshot data
+    const snap = allStrategies.find(x => x.strategy_id === strategyId);
+    const defaultTag = snap ? snap.sample_tag : Object.keys(detail.sample_views)[0];
+    renderDetail(detail, defaultTag);
+  } catch(e) {
+    container.innerHTML = '<div class="state-msg">策略详情加载失败，请稍后重试。</div>';
+    console.error(e);
+  }
+}
 
-  const m = s.metrics;
-  const marketLabel = s.market_scope === 'hkconnect' ? '沪港通' : 'A股';
+function renderDetail(detail, selectedTag) {
+  if (curveChart) { curveChart.destroy(); curveChart = null; }
+  const container = document.getElementById('detail-content');
+  const views = detail.sample_views || {};
+  const view  = views[selectedTag] || Object.values(views)[0];
+  if (!view) { container.innerHTML = '<div class="state-msg">无此窗口数据。</div>'; return; }
 
-  // Window metrics table
-  const winRows = (s.window_metrics || []).map(w => `
-    <tr${w.tag === s.sample_tag ? ' class="highlight"' : ''}>
-      <td>${w.label} 窗口${w.tag === s.sample_tag ? ' ★' : ''}</td>
-      <td class="${w.cagr > 0 ? 'pos' : 'neg'}" style="color:${w.cagr > 0 ? 'var(--green)' : 'var(--accent)'};">${pct(w.cagr)}</td>
+  const snap    = allStrategies.find(x => x.strategy_id === detail.strategy_id);
+  const market  = detail.market_scope === 'hkconnect' ? '沪港通' : 'A股';
+  const rState  = view.risk_state || 'unknown';
+  const expo    = view.target_total_exposure || 1.0;
+
+  // Window options
+  const winOpts = Object.keys(views).map(tag =>
+    `<option value="${tag}"${tag === selectedTag ? ' selected' : ''}>${windowTagLabel(tag)}</option>`
+  ).join('');
+
+  // Window metrics table rows
+  const snapMetrics = (snap && snap.window_metrics) || [];
+  const winRows = snapMetrics.map(w => `
+    <tr${w.tag === selectedTag ? ' class="highlight"' : ''}>
+      <td>${windowTagLabel(w.tag)}${w.tag === selectedTag ? ' ★' : ''}</td>
+      <td style="color:${w.cagr>0?'var(--green)':'var(--accent)'}">${pct(w.cagr)}</td>
       <td>${fmt2(w.sharpe)}</td>
       <td style="color:var(--accent)">${pct(w.max_drawdown)}</td>
       <td>${pct(w.total_return)}</td>
     </tr>`).join('');
 
   // Holdings
-  const weights = s.latest_weights || [];
-  const maxW = Math.max(...weights.map(r => r.weight));
+  const weights = view.latest_weights || [];
+  const maxW    = Math.max(...weights.map(r => r.weight), 0.01);
   const holdingsHTML = weights.length === 0
-    ? '<p style="color:var(--muted);font-size:13px">持仓数据暂无。</p>'
+    ? '<p style="color:var(--muted);font-size:13px;padding:12px 0">持仓数据暂无。</p>'
     : `<div class="holdings-grid">${weights.map(r => {
-        const isCash = r.ts_code === 'CASH';
-        const barW = maxW > 0 ? (r.weight / maxW * 100).toFixed(1) : 0;
-        return `<div class="holding-item${isCash ? ' cash-holding' : ''}">
+        const barW = (r.weight / maxW * 100).toFixed(1);
+        return `<div class="holding-item">
           <div class="holding-top">
-            <div>
-              <div class="holding-name">${r.name}</div>
-              <div class="holding-code">${r.ts_code}</div>
-            </div>
+            <div><div class="holding-name">${r.name}</div><div class="holding-code">${r.ts_code}</div></div>
             <div class="holding-weight">${pct(r.weight)}</div>
           </div>
           <div class="holding-bar-wrap"><div class="holding-bar" style="width:${barW}%"></div></div>
         </div>`;
       }).join('')}</div>`;
 
+  // Schedule dates
+  const sched = view.formal_schedule || {};
+  const schedLines = [];
+  if (sched.data_as_of)              schedLines.push(`数据截止：${sched.data_as_of}`);
+  if (sched.suggestion_effective_date) schedLines.push(`建议生效日：${sched.suggestion_effective_date}`);
+
   container.innerHTML = `
-    <div class="detail-header">
-      <h2 class="detail-name">${s.display_name}</h2>
-      <div class="detail-meta">
-        <span>市场：${marketLabel}</span>
-        <span>路径：${s.path.toUpperCase()}</span>
-        <span>类型：${s.winner_type}</span>
-        <span class="risk-badge ${s.risk_state}" style="padding:3px 10px">${riskLabel(s.risk_state)} ${pct(s.target_exposure)}</span>
-        ${s.updated_at ? `<span>更新：${s.updated_at}</span>` : ''}
+    <div style="padding-bottom:20px; border-bottom:1.5px solid var(--rule); margin-bottom:24px">
+      <div class="detail-name">${detail.display_name}</div>
+      <div class="detail-meta-row">
+        <span>市场：${market}</span>
+        <span>路径：${detail.path.toUpperCase()}</span>
+        <span class="risk-badge ${rState}">${riskLabel(rState)} ${pct(expo)}</span>
+        ${schedLines.map(l=>`<span>${l}</span>`).join('')}
+      </div>
+      <div class="window-selector-wrap">
+        <label>回测窗口</label>
+        <select class="window-select" id="window-select">${winOpts}</select>
       </div>
     </div>
 
-    <div style="margin-bottom:28px">
-      <div class="detail-section-title">各窗口表现（★ = 当前胜出窗口）</div>
+    <div class="section-block">
+      <div class="section-title">窗口表现对比</div>
       <table class="window-table">
         <thead><tr><th>窗口</th><th>CAGR</th><th>Sharpe</th><th>最大回撤</th><th>总收益</th></tr></thead>
-        <tbody>${winRows}</tbody>
+        <tbody>${winRows || '<tr><td colspan="5" style="color:var(--muted)">暂无数据</td></tr>'}</tbody>
       </table>
     </div>
 
-    <div class="holdings-wrap">
-      <div class="detail-section-title">当前持仓目标权重</div>
+    <div class="section-block">
+      <div class="section-title">总仓位 + 累计收益率曲线</div>
+      <div class="curve-wrap">
+        <div class="curve-canvas-wrap"><canvas id="curve-chart"></canvas></div>
+        <div class="curve-legend">
+          <span><i style="background:#2563eb"></i>总仓位</span>
+          <span><i style="background:#16a34a"></i>累计收益率</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-block" id="change-block"></div>
+
+    <div class="section-block">
+      <div class="section-title">当前目标持仓</div>
       ${holdingsHTML}
+    </div>
+
+    <div class="section-block" id="history-block">
+      <div class="section-title">全部调仓历史</div>
+      <div id="history-content"><div class="loading-inline">加载历史…</div></div>
     </div>`;
+
+  // Wire window selector
+  document.getElementById('window-select').addEventListener('change', e => {
+    renderDetail(currentDetailData, e.target.value);
+  });
+
+  // Draw curve chart
+  drawCurveChart(view);
+
+  // Build rebalance change diff
+  buildChangeDiff(view);
+
+  // Build history
+  buildHistory(view);
+}
+
+// ── Curve chart ───────────────────────────────────────────────────────────────
+function drawCurveChart(view) {
+  const snapshots = (view.snapshots || []).slice().sort((a,b) => a.date.localeCompare(b.date));
+  const equityCurve = view.equity_curve_points || [];
+  if (!snapshots.length && !equityCurve.length) return;
+
+  // Exposure from snapshots
+  const expDates  = snapshots.map(s => s.date);
+  const expValues = snapshots.map(s => {
+    const cash = (s.holdings||[]).find(r => r.ts_code === 'CASH');
+    return cash ? Math.max(0, Math.min(1, 1 - cash.weight)) : 1.0;
+  });
+
+  // Return from equity curve (NAV-1)
+  const navMap = {};
+  equityCurve.forEach(p => { navMap[p.date] = p.nav - 1; });
+
+  // Use equity curve dates for the return line (finer grain)
+  const retDates  = equityCurve.map(p => p.date);
+  const retValues = equityCurve.map(p => +(( p.nav - 1) * 100).toFixed(2));
+
+  const ctx = document.getElementById('curve-chart');
+  if (!ctx) return;
+  curveChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      datasets: [
+        {
+          label: '累计收益率 (%)',
+          data: retDates.map((d,i) => ({ x: d, y: retValues[i] })),
+          borderColor: '#16a34a',
+          borderWidth: 2,
+          pointRadius: 0,
+          yAxisID: 'yReturn',
+          tension: 0.2,
+        },
+        {
+          label: '总仓位 (%)',
+          data: expDates.map((d,i) => ({ x: d, y: +(expValues[i]*100).toFixed(1) })),
+          borderColor: '#2563eb',
+          borderWidth: 2,
+          pointRadius: 3,
+          pointHoverRadius: 5,
+          stepped: 'before',
+          yAxisID: 'yExposure',
+          tension: 0,
+        },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.y}%` } },
+      },
+      scales: {
+        x: { type: 'category', ticks: { maxTicksLimit: 8, font:{size:10} }, grid:{display:false} },
+        yReturn:   { position: 'left',  ticks:{ callback: v=>v+'%', font:{size:10} }, grid:{color:'#e0d8cc'} },
+        yExposure: { position: 'right', min:0, max:110, ticks:{ callback: v=>v+'%', font:{size:10} }, grid:{display:false} },
+      },
+    },
+  });
+}
+
+// ── Rebalance change diff ─────────────────────────────────────────────────────
+function buildChangeDiff(view) {
+  const block = document.getElementById('change-block');
+  if (!block) return;
+  const snapshots = (view.snapshots || []).slice().sort((a,b) => b.date.localeCompare(a.date));
+  if (snapshots.length < 2) { block.innerHTML = ''; return; }
+  const curr = snapshots[0];
+  const prev = snapshots[1];
+
+  const currMap = {};
+  (curr.holdings||[]).forEach(r => { currMap[r.ts_code] = r; });
+  const prevMap = {};
+  (prev.holdings||[]).forEach(r => { prevMap[r.ts_code] = r; });
+
+  const allCodes = [...new Set([...Object.keys(currMap), ...Object.keys(prevMap)])];
+  const rows = [];
+  const summary = { '新增':0, '加仓':0, '减仓':0, '清仓':0 };
+
+  allCodes.forEach(code => {
+    const cw = currMap[code] ? currMap[code].weight : 0;
+    const pw = prevMap[code] ? prevMap[code].weight : 0;
+    const diff = cw - pw;
+    if (Math.abs(diff) < 1e-6) return;
+    const name = (currMap[code]||prevMap[code]).name;
+    let action;
+    if (pw < 1e-6 && cw > 1e-6)       action = '新增';
+    else if (cw < 1e-6 && pw > 1e-6)  action = '清仓';
+    else if (diff > 0)                 action = '加仓';
+    else                               action = '减仓';
+    summary[action]++;
+    rows.push({ code, name, action, cw, pw, diff });
+  });
+
+  if (!rows.length) { block.innerHTML = ''; return; }
+
+  const order = { '新增':0, '加仓':1, '减仓':2, '清仓':3 };
+  rows.sort((a,b) => order[a.action]-order[b.action] || Math.abs(b.diff)-Math.abs(a.diff));
+
+  const summaryParts = Object.entries(summary).filter(([,v])=>v>0).map(([k,v]) => `${k} ${v} 只`);
+  const actionClass = { '新增':'action-add','加仓':'action-inc','减仓':'action-dec','清仓':'action-clr' };
+
+  block.innerHTML = `
+    <div class="section-title">最新调仓建议变化明细</div>
+    <div class="diff-summary">当前调仓日：${curr.date} | 上次调仓日：${prev.date} | ${summaryParts.join(' · ')}</div>
+    <table class="diff-table">
+      <thead><tr><th>代码</th><th>名称</th><th>动作</th><th>上次权重</th><th>当前权重</th><th>变化</th></tr></thead>
+      <tbody>${rows.map(r => {
+        const cls = Math.abs(r.diff)>=0.10 ? 'big-change' : Math.abs(r.diff)>=0.05 ? 'med-change' : '';
+        return `<tr${cls?' class="'+cls+'"':''}><td style="font-family:monospace;font-size:12px">${r.code}</td><td>${r.name}</td><td class="${actionClass[r.action]}">${r.action}</td><td>${pct(r.pw)}</td><td>${pct(r.cw)}</td><td style="color:${r.diff>0?'var(--green)':'var(--accent)'}">${r.diff>0?'+':''}${pct(r.diff)}</td></tr>`;
+      }).join('')}</tbody>
+    </table>`;
+}
+
+// ── History ───────────────────────────────────────────────────────────────────
+function buildHistory(view) {
+  const block = document.getElementById('history-content');
+  if (!block) return;
+  const snapshots = (view.snapshots || []).slice().sort((a,b) => b.date.localeCompare(a.date));
+  if (!snapshots.length) { block.innerHTML = '<div class="loading-inline">暂无历史调仓数据。</div>'; return; }
+
+  block.innerHTML = snapshots.map((snap, idx) => `
+    <div class="snapshot-block">
+      <div class="snapshot-header" data-idx="${idx}">
+        <span>调仓日：${snap.date}</span>
+        <span style="font-size:11px;color:var(--muted);font-weight:400">${(snap.holdings||[]).length} 只 ▾</span>
+      </div>
+      <div class="snapshot-body${idx===0?' open':''}">
+        <table class="snapshot-table">
+          <thead><tr style="background:var(--card)"><td style="font-weight:600;font-size:11px">代码</td><td style="font-weight:600;font-size:11px">名称</td><td style="font-weight:600;font-size:11px">权重</td></tr></thead>
+          <tbody>${(snap.holdings||[]).map(r =>
+            `<tr><td style="font-family:monospace;font-size:12px;color:var(--muted)">${r.ts_code}</td><td>${r.name}</td><td style="font-weight:600">${pct(r.weight)}</td></tr>`
+          ).join('')}</tbody>
+        </table>
+      </div>
+    </div>`).join('');
+
+  block.querySelectorAll('.snapshot-header').forEach(h => {
+    h.addEventListener('click', () => {
+      const body = h.nextElementSibling;
+      body.classList.toggle('open');
+    });
+  });
 }
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
@@ -380,7 +633,7 @@ async function load() {
     if (!res.ok) throw new Error('fetch failed');
     snapshotData = await res.json();
 
-    document.getElementById('loading').style.display = 'none';
+    document.getElementById('loading').style.display  = 'none';
     document.getElementById('update-label').textContent = `更新于 ${snapshotData.as_of}`;
 
     const path1 = snapshotData.path1 || [];
@@ -389,8 +642,8 @@ async function load() {
     allStrategies = [...path1, ...path2, ...hk];
 
     // Grids
-    const g1 = document.getElementById('grid-path1');
-    const g2 = document.getElementById('grid-path2');
+    const g1  = document.getElementById('grid-path1');
+    const g2  = document.getElementById('grid-path2');
     const gHk = document.getElementById('grid-hk');
     path1.forEach(s => g1.appendChild(buildCard(s)));
     path2.forEach(s => g2.appendChild(buildCard(s)));
@@ -399,14 +652,20 @@ async function load() {
       document.getElementById('section-hk').style.display = 'block';
     }
 
-    // Show tab content
     document.getElementById('tab-winners').style.display = 'block';
 
     // Charts
     buildWindowChart('chart-path1', path1.filter(s => s.winner_type !== 'robust candidate'));
     buildWindowChart('chart-path2', path2.filter(s => s.winner_type !== 'robust candidate'));
+    if (hk.length > 0) {
+      const hkWrap = document.createElement('div');
+      hkWrap.className = 'chart-wrap';
+      hkWrap.innerHTML = '<div class="chart-label">沪港通</div><div class="chart-canvas-wrap"><canvas id="chart-hk"></canvas></div>';
+      document.getElementById('chart-grid').appendChild(hkWrap);
+      buildWindowChart('chart-hk', hk);
+    }
 
-    // Populate select
+    // Populate strategy select (optgroup)
     const sel = document.getElementById('strategy-select');
     const groups = { 'A股 · Path 1': path1, 'A股 · Path 2': path2, '沪港通': hk };
     Object.entries(groups).forEach(([label, list]) => {
@@ -421,7 +680,24 @@ async function load() {
       });
       sel.appendChild(grp);
     });
-    sel.addEventListener('change', e => renderDetail(e.target.value));
+    sel.addEventListener('change', e => loadDetail(e.target.value));
+
+    // Highlight robust cards
+    const robustIds = new Set([
+      ...(path1.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
+      ...(path2.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
+    ]);
+    document.querySelectorAll('.strategy-card').forEach(c => {
+      if (robustIds.has(c.dataset.id)) c.classList.add('highlighted');
+    });
+
+    // Default detail: A股 robust candidate from path1
+    const defaultStrategy = path1.find(s => s.winner_type === 'robust candidate') || path1[0];
+    if (defaultStrategy) {
+      const detailSel = document.getElementById('strategy-select');
+      detailSel.value = defaultStrategy.strategy_id;
+      // Pre-fetch but don't auto-navigate to detail tab
+    }
 
   } catch (e) {
     document.getElementById('loading').textContent = '数据加载失败，请稍后重试。';
@@ -439,6 +715,11 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
       p.classList.toggle('active', active);
       p.style.display = active ? 'block' : 'none';
     });
+    // When switching to detail tab, load the currently selected strategy
+    if (target === 'detail') {
+      const sel = document.getElementById('strategy-select');
+      if (sel.value) loadDetail(sel.value);
+    }
   });
 });
 
