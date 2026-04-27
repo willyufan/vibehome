@@ -53,12 +53,12 @@
     .path-label:first-child { border-top: none; padding-top: 0; }
 
     /* STRATEGY CARDS */
-    .strategy-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5px; background: var(--ink); border: 1.5px solid var(--ink); margin-bottom: 8px; }
-    .strategy-card { background: var(--bg); padding: 22px 20px; cursor: pointer; transition: background .15s; position: relative; }
+    .strategy-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0; border-top: 1.5px solid var(--ink); border-left: 1.5px solid var(--ink); margin-bottom: 8px; }
+    .strategy-card { background: var(--bg); padding: 22px 20px; cursor: pointer; transition: background .15s; position: relative; border-right: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
     .strategy-card:hover { background: var(--card); }
     .strategy-card.is-risk-off { opacity: .7; }
     .card-window { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
-    .card-name { font-family: var(--serif); font-size: 15px; line-height: 1.35; margin-bottom: 14px; min-height: 48px; }
+    .card-name { font-family: var(--serif); font-size: 14px; line-height: 1.4; margin-bottom: 14px; min-height: 48px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
     .card-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; }
     .metric { }
     .metric-label { font-size: 10px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
@@ -103,8 +103,8 @@
 
     /* HOLDINGS */
     .holdings-wrap { margin-bottom: 32px; }
-    .holdings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5px; background: var(--ink); border: 1.5px solid var(--ink); }
-    .holding-item { background: var(--bg); padding: 12px 14px; }
+    .holdings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0; border-top: 1.5px solid var(--ink); border-left: 1.5px solid var(--ink); }
+    .holding-item { background: var(--bg); padding: 12px 14px; border-right: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
     .holding-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
     .holding-name { font-size: 14px; font-weight: 500; }
     .holding-code { font-size: 11px; color: var(--muted); font-family: monospace; }
