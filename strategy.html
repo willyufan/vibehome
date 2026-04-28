@@ -504,8 +504,11 @@ function renderDetail(detail, selectedTag) {
       <td>${pct(w.total_return)}</td>
     </tr>`).join('');
 
-  // Holdings
-  const weights = view.latest_weights || [];
+  // Holdings — use most-recent snapshot so it matches buildChangeDiff
+  const sortedSnapsForHoldings = (view.snapshots || []).slice().sort((a,b) => b.date.localeCompare(a.date));
+  const latestSnap = sortedSnapsForHoldings[0] || null;
+  const weights = (latestSnap ? latestSnap.holdings : null) || view.latest_weights || [];
+  const holdingsDate = latestSnap ? latestSnap.date : '';
   const maxW    = Math.max(...weights.map(r => r.weight), 0.01);
   const holdingsHTML = weights.length === 0
     ? '<p style="color:var(--muted);font-size:13px;padding:12px 0">持仓数据暂无。</p>'
@@ -565,7 +568,7 @@ function renderDetail(detail, selectedTag) {
     <div class="section-block" id="change-block"></div>
 
     <div class="section-block">
-      <div class="section-title">当前目标持仓</div>
+      <div class="section-title">当前目标持仓${holdingsDate ? `<span style="font-size:11px;font-weight:400;color:var(--muted);margin-left:8px">${holdingsDate}</span>` : ''}</div>
       ${holdingsHTML}
     </div>
 
