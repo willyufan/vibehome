@@ -291,7 +291,10 @@ function buildCard(s) {
     </div>
     <div class="card-footer">
       <span class="risk-badge ${s.risk_state}">${riskLabel(s.risk_state)} ${pct(s.target_exposure)}</span>
-      <span class="card-date">${s.updated_at ? '更新 ' + s.updated_at : ''}</span>
+      <span class="card-date">${[
+        s.data_as_of            ? '数据截止 ' + s.data_as_of            : '',
+        s.signal_effective_date ? '换股/信号 ' + s.signal_effective_date : '',
+      ].filter(Boolean).join(' · ') || (s.updated_at ? '更新 ' + s.updated_at : '')}</span>
     </div>`;
   card.addEventListener('click', () => goToDetail(s.strategy_id));
   return card;
