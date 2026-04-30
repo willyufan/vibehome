@@ -93,6 +93,9 @@
     /* Section dividers */
     .section-block { margin-bottom: 32px; }
     .section-title { font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #e0d8cc; }
+    .metrics-row { display: flex; flex-wrap: wrap; gap: 20px 32px; margin-bottom: 8px; }
+    .m-label { font-size: 10px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+    .m-val { font-size: 20px; font-weight: 600; font-family: var(--serif); }
 
     /* Explanation block */
     .explanation-block { border: 1px solid #e0d8cc; margin-bottom: 28px; }
@@ -575,6 +578,8 @@ function renderDetail(detail, selectedTag) {
       ${holdingsHTML}
     </div>
 
+    <div id="satellite-block"></div>
+
     <div class="section-block" id="history-block">
       <div class="section-title">全部调仓历史</div>
       <div id="history-content"><div class="loading-inline">加载历史…</div></div>
@@ -590,6 +595,9 @@ function renderDetail(detail, selectedTag) {
 
   // Build rebalance change diff
   buildChangeDiff(view);
+
+  // Build satellite sections (no-op for non-satellite strategies)
+  buildSatellite(view);
 
   // Build history
   buildHistory(view);
@@ -711,6 +719,109 @@ function buildChangeDiff(view) {
         return `<tr${cls?' class="'+cls+'"':''}><td style="font-family:monospace;font-size:12px">${r.code}</td><td>${r.name}</td><td class="${actionClass[r.action]}">${r.action}</td><td>${pct(r.pw)}</td><td>${pct(r.cw)}</td><td style="color:${r.diff>0?'var(--green)':'var(--accent)'}">${r.diff>0?'+':''}${pct(r.diff)}</td></tr>`;
       }).join('')}</tbody>
     </table>`;
+}
+
+// ── Satellite overlay sections ────────────────────────────────────────────────
+function buildSatellite(view) {
+  const block = document.getElementById('satellite-block');
+  if (!block) return;
+  const sv = view.split_view || {};
+  if (sv.mode !== 'satellite_weekly_overlay') { block.innerHTML = ''; return; }
+
+  const sched = view.formal_schedule || {};
+  const os = sv.overlay_summary || {};
+  const basket = sv.basket_weights || [];
+  const history = sv.overlay_history || [];
+
+  const riskStageLabel = s => ({
+    'risk_on': '满仓', 'caution': '减仓', 'risk_off': '空仓'
+  }[s] || s || '—');
+
+  // ── 周度卫星仓位状态 ──
+  const momentumText = os.market_12_1_momentum != null
+    ? `${(os.market_12_1_momentum * 100).toFixed(2)}%` : '—';
+  const stateHTML = `
+    <div class="section-block">
+      <div class="section-title">周度卫星仓位状态</div>
+      <div class="metrics-row" style="margin-bottom:12px">
+        <div><div class="m-label">风险状态</div><div class="m-val">${riskStageLabel(os.risk_state)}</div></div>
+        <div><div class="m-label">总仓位目标</div><div class="m-val">${pct(os.target_total_exposure)}</div></div>
+        <div><div class="m-label">核心仓位</div><div class="m-val">${pct(os.core_exposure_target)}</div></div>
+        <div><div class="m-label">卫星仓位</div><div class="m-val">${pct(os.satellite_exposure_target)}</div></div>
+        <div><div class="m-label">市场动量</div><div class="m-val">${momentumText}</div></div>
+        <div><div class="m-label">评估日</div><div class="m-val" style="font-size:12px">${sched.exposure_effective_date || '—'}</div></div>
+      </div>
+      <p style="font-size:12px;color:var(--muted);margin:0">最近实际调仓日：${os.latest_overlay_trade_date || '—'} · 本期周度调仓次数：${os.weekly_overlay_trade_count ?? 0}</p>
+    </div>`;
+
+  // ── 月末股票池 ──
+  const maxBW = Math.max(...basket.map(r => r.weight), 0.01);
+  const basketHTML = basket.length === 0 ? '<p style="color:var(--muted);font-size:13px">暂无数据。</p>'
+    : `<div class="holdings-grid">${basket.map(r => {
+        const barW = (r.weight / maxBW * 100).toFixed(1);
+        return `<div class="holding-item">
+          <div class="holding-top">
+            <div><div class="holding-name">${r.name}</div><div class="holding-code">${r.ts_code}</div></div>
+            <div class="holding-weight">${pct(r.weight)}</div>
+          </div>
+          <div class="holding-bar-wrap"><div class="holding-bar" style="width:${barW}%"></div></div>
+        </div>`;
+      }).join('')}</div>`;
+  const basketBlock = `
+    <div class="section-block">
+      <div class="section-title">月末股票池<span style="font-size:11px;font-weight:400;color:var(--muted);margin-left:8px">${sched.basket_effective_date || ''}</span></div>
+      ${basketHTML}
+    </div>`;
+
+  // ── 周度卫星仓位调仓/评估历史 ──
+  const sideLabel = s => s === 'buy' ? '买入' : s === 'sell' ? '卖出' : s;
+  const sideCls   = s => s === 'buy' ? 'action-add' : s === 'sell' ? 'action-dec' : '';
+  const histRows = history.map((row, idx) => {
+    const tradeTag = row.is_trade
+      ? `<span style="font-size:11px;color:var(--accent);font-weight:600">实际调仓</span>`
+      : `<span style="font-size:11px;color:var(--muted)">仅评估</span>`;
+    const detailRows = (row.trade_details || []).map(d =>
+      `<tr>
+        <td style="font-family:monospace;font-size:12px;color:var(--muted)">${d.ts_code}</td>
+        <td>${d.name}</td>
+        <td class="${sideCls(d.side)}">${sideLabel(d.side)}</td>
+        <td>${pct(d.current_weight)}</td>
+        <td>${pct(d.post_trade_weight)}</td>
+        <td style="color:${d.diff_weight>0?'var(--green)':'var(--accent)'}">${d.diff_weight>0?'+':''}${pct(d.diff_weight)}</td>
+        <td style="color:var(--muted);font-size:11px">${pct(d.gross_amount_pct_nav)}</td>
+      </tr>`
+    ).join('');
+    const detailTable = detailRows
+      ? `<table class="snapshot-table" style="margin-top:8px">
+          <thead><tr><td style="font-weight:600;font-size:11px">代码</td><td style="font-weight:600;font-size:11px">名称</td><td style="font-weight:600;font-size:11px">方向</td><td style="font-weight:600;font-size:11px">调前权重</td><td style="font-weight:600;font-size:11px">调后权重</td><td style="font-weight:600;font-size:11px">变化</td><td style="font-weight:600;font-size:11px">成交额%NAV</td></tr></thead>
+          <tbody>${detailRows}</tbody>
+        </table>`
+      : `<p style="font-size:12px;color:var(--muted);margin:8px 0 0">无买卖明细（仅评估仓位状态）。</p>`;
+    return `<div class="snapshot-block">
+      <div class="snapshot-header" data-sat-idx="${idx}">
+        <span>${row.date} &nbsp;${tradeTag}&nbsp;
+          <span style="font-size:11px;color:var(--muted)">${riskStageLabel(row.risk_stage)} · 双边换手 ${pct(row.two_way_turnover)}</span>
+        </span>
+        <span style="font-size:11px;color:var(--muted)">▾</span>
+      </div>
+      <div class="snapshot-body${idx===0?' open':''}">
+        ${detailTable}
+      </div>
+    </div>`;
+  }).join('');
+
+  const histBlock = history.length === 0 ? '' : `
+    <div class="section-block">
+      <div class="section-title">周度卫星仓位调仓/评估历史</div>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 12px">"仅评估"表示周度状态更新但没有产生实际买卖。</p>
+      ${histRows}
+    </div>`;
+
+  block.innerHTML = stateHTML + basketBlock + histBlock;
+
+  block.querySelectorAll('.snapshot-header[data-sat-idx]').forEach(h => {
+    h.addEventListener('click', () => h.nextElementSibling.classList.toggle('open'));
+  });
 }
 
 // ── History ───────────────────────────────────────────────────────────────────
