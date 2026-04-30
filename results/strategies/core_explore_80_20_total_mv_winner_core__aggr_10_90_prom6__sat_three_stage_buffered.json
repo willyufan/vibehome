@@ -534,6 +534,7 @@
       "snapshots": [
         {
           "date": "2017-01-26",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -544,6 +545,7 @@
         },
         {
           "date": "2017-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -554,6 +556,7 @@
         },
         {
           "date": "2017-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -564,6 +567,7 @@
         },
         {
           "date": "2017-04-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -574,6 +578,7 @@
         },
         {
           "date": "2017-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -589,6 +594,7 @@
         },
         {
           "date": "2017-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -609,6 +615,7 @@
         },
         {
           "date": "2017-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -629,6 +636,7 @@
         },
         {
           "date": "2017-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600690.SH",
@@ -659,6 +667,7 @@
         },
         {
           "date": "2017-09-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600309.SH",
@@ -694,6 +703,7 @@
         },
         {
           "date": "2017-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -719,6 +729,7 @@
         },
         {
           "date": "2017-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -739,6 +750,7 @@
         },
         {
           "date": "2017-12-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -764,6 +776,7 @@
         },
         {
           "date": "2018-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600971.SH",
@@ -794,6 +807,7 @@
         },
         {
           "date": "2018-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600309.SH",
@@ -864,6 +878,7 @@
         },
         {
           "date": "2018-03-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600309.SH",
@@ -944,6 +959,7 @@
         },
         {
           "date": "2018-04-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600309.SH",
@@ -1014,6 +1030,7 @@
         },
         {
           "date": "2018-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600309.SH",
@@ -1079,6 +1096,7 @@
         },
         {
           "date": "2018-06-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1139,6 +1157,7 @@
         },
         {
           "date": "2018-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1184,6 +1203,7 @@
         },
         {
           "date": "2018-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1244,6 +1264,7 @@
         },
         {
           "date": "2018-09-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1289,6 +1310,7 @@
         },
         {
           "date": "2018-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1329,6 +1351,7 @@
         },
         {
           "date": "2018-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1394,6 +1417,7 @@
         },
         {
           "date": "2018-12-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1434,6 +1458,7 @@
         },
         {
           "date": "2019-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1479,6 +1504,7 @@
         },
         {
           "date": "2019-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1514,6 +1540,7 @@
         },
         {
           "date": "2019-03-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1549,6 +1576,7 @@
         },
         {
           "date": "2019-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -1594,6 +1622,7 @@
         },
         {
           "date": "2019-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600276.SH",
@@ -1664,6 +1693,7 @@
         },
         {
           "date": "2019-06-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600276.SH",
@@ -1759,6 +1789,7 @@
         },
         {
           "date": "2019-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002001.SZ",
@@ -1844,6 +1875,7 @@
         },
         {
           "date": "2019-08-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600276.SH",
@@ -1944,6 +1976,7 @@
         },
         {
           "date": "2019-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600809.SH",
@@ -2034,6 +2067,7 @@
         },
         {
           "date": "2019-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002458.SZ",
@@ -2129,6 +2163,7 @@
         },
         {
           "date": "2019-11-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002458.SZ",
@@ -2224,6 +2259,7 @@
         },
         {
           "date": "2019-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002458.SZ",
@@ -2314,6 +2350,7 @@
         },
         {
           "date": "2020-01-23",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603986.SH",
@@ -2404,6 +2441,7 @@
         },
         {
           "date": "2020-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603986.SH",
@@ -2494,6 +2532,7 @@
         },
         {
           "date": "2020-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300601.SZ",
@@ -2584,6 +2623,7 @@
         },
         {
           "date": "2020-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -2634,6 +2674,7 @@
         },
         {
           "date": "2020-05-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -2679,6 +2720,7 @@
         },
         {
           "date": "2020-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -2729,6 +2771,7 @@
         },
         {
           "date": "2020-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -2814,6 +2857,7 @@
         },
         {
           "date": "2020-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300482.SZ",
@@ -2899,6 +2943,7 @@
         },
         {
           "date": "2020-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -2994,6 +3039,7 @@
         },
         {
           "date": "2020-10-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -3089,6 +3135,7 @@
         },
         {
           "date": "2020-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -3179,6 +3226,7 @@
         },
         {
           "date": "2020-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600809.SH",
@@ -3274,6 +3322,7 @@
         },
         {
           "date": "2021-01-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -3359,6 +3408,7 @@
         },
         {
           "date": "2021-02-26",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -3454,6 +3504,7 @@
         },
         {
           "date": "2021-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002568.SZ",
@@ -3549,6 +3600,7 @@
         },
         {
           "date": "2021-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600809.SH",
@@ -3649,6 +3701,7 @@
         },
         {
           "date": "2021-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002709.SZ",
@@ -3744,6 +3797,7 @@
         },
         {
           "date": "2021-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600809.SH",
@@ -3839,6 +3893,7 @@
         },
         {
           "date": "2021-07-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002709.SZ",
@@ -3929,6 +3984,7 @@
         },
         {
           "date": "2021-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -3979,6 +4035,7 @@
         },
         {
           "date": "2021-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4029,6 +4086,7 @@
         },
         {
           "date": "2021-10-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4089,6 +4147,7 @@
         },
         {
           "date": "2021-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4139,6 +4198,7 @@
         },
         {
           "date": "2021-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4189,6 +4249,7 @@
         },
         {
           "date": "2022-01-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4239,6 +4300,7 @@
         },
         {
           "date": "2022-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4299,6 +4361,7 @@
         },
         {
           "date": "2022-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4344,6 +4407,7 @@
         },
         {
           "date": "2022-04-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4394,6 +4458,7 @@
         },
         {
           "date": "2022-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4444,6 +4509,7 @@
         },
         {
           "date": "2022-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4494,6 +4560,7 @@
         },
         {
           "date": "2022-07-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4544,6 +4611,7 @@
         },
         {
           "date": "2022-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4594,6 +4662,7 @@
         },
         {
           "date": "2022-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4644,6 +4713,7 @@
         },
         {
           "date": "2022-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4699,6 +4769,7 @@
         },
         {
           "date": "2022-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4749,6 +4820,7 @@
         },
         {
           "date": "2022-12-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4799,6 +4871,7 @@
         },
         {
           "date": "2023-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4854,6 +4927,7 @@
         },
         {
           "date": "2023-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4904,6 +4978,7 @@
         },
         {
           "date": "2023-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -4954,6 +5029,7 @@
         },
         {
           "date": "2023-04-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5004,6 +5080,7 @@
         },
         {
           "date": "2023-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603688.SH",
@@ -5099,6 +5176,7 @@
         },
         {
           "date": "2023-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5149,6 +5227,7 @@
         },
         {
           "date": "2023-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5199,6 +5278,7 @@
         },
         {
           "date": "2023-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5249,6 +5329,7 @@
         },
         {
           "date": "2023-09-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5299,6 +5380,7 @@
         },
         {
           "date": "2023-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5349,6 +5431,7 @@
         },
         {
           "date": "2023-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5399,6 +5482,7 @@
         },
         {
           "date": "2023-12-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5449,6 +5533,7 @@
         },
         {
           "date": "2024-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5499,6 +5584,7 @@
         },
         {
           "date": "2024-02-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5544,6 +5630,7 @@
         },
         {
           "date": "2024-03-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5594,6 +5681,7 @@
         },
         {
           "date": "2024-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5639,6 +5727,7 @@
         },
         {
           "date": "2024-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5684,6 +5773,7 @@
         },
         {
           "date": "2024-06-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5744,6 +5834,7 @@
         },
         {
           "date": "2024-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5789,6 +5880,7 @@
         },
         {
           "date": "2024-08-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5839,6 +5931,7 @@
         },
         {
           "date": "2024-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5884,6 +5977,7 @@
         },
         {
           "date": "2024-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -5929,6 +6023,7 @@
         },
         {
           "date": "2024-11-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000099.SZ",
@@ -6019,6 +6114,7 @@
         },
         {
           "date": "2024-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002916.SZ",
@@ -6114,6 +6210,7 @@
         },
         {
           "date": "2025-01-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -6204,6 +6301,7 @@
         },
         {
           "date": "2025-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300679.SZ",
@@ -6304,6 +6402,7 @@
         },
         {
           "date": "2025-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688608.SH",
@@ -6399,6 +6498,7 @@
         },
         {
           "date": "2025-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688608.SH",
@@ -6489,6 +6589,7 @@
         },
         {
           "date": "2025-05-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -6539,6 +6640,7 @@
         },
         {
           "date": "2025-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688049.SH",
@@ -6634,6 +6736,7 @@
         },
         {
           "date": "2025-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300718.SZ",
@@ -6724,6 +6827,7 @@
         },
         {
           "date": "2025-08-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603893.SH",
@@ -6814,6 +6918,7 @@
         },
         {
           "date": "2025-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002602.SZ",
@@ -6899,6 +7004,7 @@
         },
         {
           "date": "2025-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -6989,6 +7095,7 @@
         },
         {
           "date": "2025-11-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002602.SZ",
@@ -7079,6 +7186,7 @@
         },
         {
           "date": "2025-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000408.SZ",
@@ -7179,6 +7287,7 @@
         },
         {
           "date": "2026-01-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603256.SH",
@@ -7274,6 +7383,7 @@
         },
         {
           "date": "2026-02-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -7364,6 +7474,7 @@
         },
         {
           "date": "2026-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688498.SH",
@@ -7453,7 +7564,68 @@
           ]
         },
         {
+          "date": "2026-04-03",
+          "event_type": "weekly_satellite_overlay",
+          "holdings": [],
+          "overlay_event": {
+            "risk_stage": "risk_on",
+            "raw_risk_stage": "caution",
+            "one_way_turnover": 0.094166,
+            "two_way_turnover": 0.188331,
+            "buy_amount": 1.005014,
+            "sell_amount": 0.0,
+            "buy_amount_pct_nav": 0.188331,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost": 0.000302,
+            "trading_cost_pct_nav": 5.6e-05,
+            "is_trade": true,
+            "trade_details": [
+              {
+                "ts_code": "002353.SZ",
+                "name": "杰瑞股份",
+                "side": "buy",
+                "current_weight": 0.011657,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.188331,
+                "gross_amount_pct_nav": 0.188331,
+                "fee_pct_nav": 5.6e-05
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-04-24",
+          "event_type": "weekly_satellite_overlay",
+          "holdings": [],
+          "overlay_event": {
+            "risk_stage": "risk_on",
+            "raw_risk_stage": "risk_on",
+            "one_way_turnover": 0.010149,
+            "two_way_turnover": 0.020297,
+            "buy_amount": 0.0,
+            "sell_amount": 0.119971,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.020297,
+            "trading_cost": 9.6e-05,
+            "trading_cost_pct_nav": 1.6e-05,
+            "is_trade": true,
+            "trade_details": [
+              {
+                "ts_code": "002353.SZ",
+                "name": "杰瑞股份",
+                "side": "sell",
+                "current_weight": 0.220294,
+                "post_trade_weight": 0.2,
+                "diff_weight": -0.020297,
+                "gross_amount_pct_nav": 0.020297,
+                "fee_pct_nav": 1.6e-05
+              }
+            ]
+          }
+        },
+        {
           "date": "2026-04-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -7507,7 +7679,393 @@
             }
           ]
         }
-      ]
+      ],
+      "split_view": {
+        "mode": "satellite_weekly_overlay",
+        "basket_weights": [
+          {
+            "ts_code": "688498.SH",
+            "name": "源杰科技",
+            "weight": 0.170172
+          },
+          {
+            "ts_code": "688195.SH",
+            "name": "腾景科技",
+            "weight": 0.154745
+          },
+          {
+            "ts_code": "300394.SZ",
+            "name": "天孚通信",
+            "weight": 0.129339
+          },
+          {
+            "ts_code": "002602.SZ",
+            "name": "世纪华通",
+            "weight": 0.112636
+          },
+          {
+            "ts_code": "000408.SZ",
+            "name": "藏格矿业",
+            "weight": 0.110831
+          },
+          {
+            "ts_code": "688028.SH",
+            "name": "沃尔德",
+            "weight": 0.092535
+          },
+          {
+            "ts_code": "CASH",
+            "name": "现金",
+            "weight": 0.038562
+          },
+          {
+            "ts_code": "300308.SZ",
+            "name": "中际旭创",
+            "weight": 0.036377
+          },
+          {
+            "ts_code": "601899.SH",
+            "name": "紫金矿业",
+            "weight": 0.030304
+          },
+          {
+            "ts_code": "688127.SH",
+            "name": "蓝特光学",
+            "weight": 0.020909
+          },
+          {
+            "ts_code": "001389.SZ",
+            "name": "广合科技",
+            "weight": 0.019098
+          },
+          {
+            "ts_code": "688378.SH",
+            "name": "奥来德",
+            "weight": 0.016519
+          },
+          {
+            "ts_code": "300487.SZ",
+            "name": "蓝晓科技",
+            "weight": 0.016364
+          },
+          {
+            "ts_code": "003035.SZ",
+            "name": "南网能源",
+            "weight": 0.015891
+          },
+          {
+            "ts_code": "600295.SH",
+            "name": "鄂尔多斯",
+            "weight": 0.014937
+          },
+          {
+            "ts_code": "002353.SZ",
+            "name": "杰瑞股份",
+            "weight": 0.011346
+          },
+          {
+            "ts_code": "000426.SZ",
+            "name": "兴业银锡",
+            "weight": 0.009436
+          }
+        ],
+        "overlay_summary": {
+          "risk_state": "caution",
+          "target_total_exposure": 0.54,
+          "core_exposure_target": 0.6,
+          "satellite_exposure_target": 0.3,
+          "market_12_1_momentum": 0.2118,
+          "weekly_overlay_trade_count": 2,
+          "latest_overlay_trade_date": "2026-04-24",
+          "latest_overlay_date": "2026-04-24"
+        },
+        "overlay_history": [
+          {
+            "date": "2026-04-24",
+            "risk_stage": "risk_on",
+            "is_trade": true,
+            "one_way_turnover": 0.010149,
+            "two_way_turnover": 0.020297,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.020297,
+            "trading_cost_pct_nav": 1.6e-05,
+            "trade_details": [
+              {
+                "ts_code": "002353.SZ",
+                "name": "杰瑞股份",
+                "side": "sell",
+                "current_weight": 0.220294,
+                "post_trade_weight": 0.2,
+                "diff_weight": -0.020297,
+                "gross_amount_pct_nav": 0.020297
+              }
+            ]
+          },
+          {
+            "date": "2026-04-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-03",
+            "risk_stage": "risk_on",
+            "is_trade": true,
+            "one_way_turnover": 0.094166,
+            "two_way_turnover": 0.188331,
+            "buy_amount_pct_nav": 0.188331,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 5.6e-05,
+            "trade_details": [
+              {
+                "ts_code": "002353.SZ",
+                "name": "杰瑞股份",
+                "side": "buy",
+                "current_weight": 0.011657,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.188331,
+                "gross_amount_pct_nav": 0.188331
+              }
+            ]
+          },
+          {
+            "date": "2026-03-27",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-20",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-23",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-16",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-09",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-19",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-12",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-05",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-21",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-14",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-07",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-24",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-09-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          }
+        ]
+      }
     },
     "since_2020_01": {
       "sample_tag": "since_2020_01",
@@ -7894,6 +8452,7 @@
       "snapshots": [
         {
           "date": "2020-01-23",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -7994,6 +8553,7 @@
         },
         {
           "date": "2020-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -8094,6 +8654,7 @@
         },
         {
           "date": "2020-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -8194,6 +8755,7 @@
         },
         {
           "date": "2020-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -8249,6 +8811,7 @@
         },
         {
           "date": "2020-05-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -8299,6 +8862,7 @@
         },
         {
           "date": "2020-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -8349,6 +8913,7 @@
         },
         {
           "date": "2020-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -8434,6 +8999,7 @@
         },
         {
           "date": "2020-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300482.SZ",
@@ -8519,6 +9085,7 @@
         },
         {
           "date": "2020-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -8614,6 +9181,7 @@
         },
         {
           "date": "2020-10-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -8714,6 +9282,7 @@
         },
         {
           "date": "2020-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -8804,6 +9373,7 @@
         },
         {
           "date": "2020-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -8899,6 +9469,7 @@
         },
         {
           "date": "2021-01-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -8989,6 +9560,7 @@
         },
         {
           "date": "2021-02-26",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300677.SZ",
@@ -9084,6 +9656,7 @@
         },
         {
           "date": "2021-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000799.SZ",
@@ -9179,6 +9752,7 @@
         },
         {
           "date": "2021-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000799.SZ",
@@ -9279,6 +9853,7 @@
         },
         {
           "date": "2021-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002709.SZ",
@@ -9374,6 +9949,7 @@
         },
         {
           "date": "2021-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000799.SZ",
@@ -9474,6 +10050,7 @@
         },
         {
           "date": "2021-07-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "600295.SH",
@@ -9569,6 +10146,7 @@
         },
         {
           "date": "2021-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9619,6 +10197,7 @@
         },
         {
           "date": "2021-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9669,6 +10248,7 @@
         },
         {
           "date": "2021-10-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9729,6 +10309,7 @@
         },
         {
           "date": "2021-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9779,6 +10360,7 @@
         },
         {
           "date": "2021-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9829,6 +10411,7 @@
         },
         {
           "date": "2022-01-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9879,6 +10462,7 @@
         },
         {
           "date": "2022-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9934,6 +10518,7 @@
         },
         {
           "date": "2022-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -9979,6 +10564,7 @@
         },
         {
           "date": "2022-04-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10029,6 +10615,7 @@
         },
         {
           "date": "2022-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10079,6 +10666,7 @@
         },
         {
           "date": "2022-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10129,6 +10717,7 @@
         },
         {
           "date": "2022-07-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10179,6 +10768,7 @@
         },
         {
           "date": "2022-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10229,6 +10819,7 @@
         },
         {
           "date": "2022-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10279,6 +10870,7 @@
         },
         {
           "date": "2022-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10334,6 +10926,7 @@
         },
         {
           "date": "2022-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10384,6 +10977,7 @@
         },
         {
           "date": "2022-12-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10434,6 +11028,7 @@
         },
         {
           "date": "2023-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10489,6 +11084,7 @@
         },
         {
           "date": "2023-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10539,6 +11135,7 @@
         },
         {
           "date": "2023-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10589,6 +11186,7 @@
         },
         {
           "date": "2023-04-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10639,6 +11237,7 @@
         },
         {
           "date": "2023-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603688.SH",
@@ -10734,6 +11333,7 @@
         },
         {
           "date": "2023-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10784,6 +11384,7 @@
         },
         {
           "date": "2023-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10834,6 +11435,7 @@
         },
         {
           "date": "2023-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10884,6 +11486,7 @@
         },
         {
           "date": "2023-09-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10934,6 +11537,7 @@
         },
         {
           "date": "2023-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -10984,6 +11588,7 @@
         },
         {
           "date": "2023-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11034,6 +11639,7 @@
         },
         {
           "date": "2023-12-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11084,6 +11690,7 @@
         },
         {
           "date": "2024-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11134,6 +11741,7 @@
         },
         {
           "date": "2024-02-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11179,6 +11787,7 @@
         },
         {
           "date": "2024-03-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11229,6 +11838,7 @@
         },
         {
           "date": "2024-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11274,6 +11884,7 @@
         },
         {
           "date": "2024-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11319,6 +11930,7 @@
         },
         {
           "date": "2024-06-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11379,6 +11991,7 @@
         },
         {
           "date": "2024-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11424,6 +12037,7 @@
         },
         {
           "date": "2024-08-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11474,6 +12088,7 @@
         },
         {
           "date": "2024-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11519,6 +12134,7 @@
         },
         {
           "date": "2024-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -11564,6 +12180,7 @@
         },
         {
           "date": "2024-11-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000099.SZ",
@@ -11654,6 +12271,7 @@
         },
         {
           "date": "2024-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002463.SZ",
@@ -11744,6 +12362,7 @@
         },
         {
           "date": "2025-01-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300476.SZ",
@@ -11834,6 +12453,7 @@
         },
         {
           "date": "2025-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000099.SZ",
@@ -11929,6 +12549,7 @@
         },
         {
           "date": "2025-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300476.SZ",
@@ -12029,6 +12650,7 @@
         },
         {
           "date": "2025-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688608.SH",
@@ -12124,6 +12746,7 @@
         },
         {
           "date": "2025-05-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -12174,6 +12797,7 @@
         },
         {
           "date": "2025-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300476.SZ",
@@ -12269,6 +12893,7 @@
         },
         {
           "date": "2025-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300476.SZ",
@@ -12364,6 +12989,7 @@
         },
         {
           "date": "2025-08-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603893.SH",
@@ -12459,6 +13085,7 @@
         },
         {
           "date": "2025-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603893.SH",
@@ -12554,6 +13181,7 @@
         },
         {
           "date": "2025-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -12649,6 +13277,7 @@
         },
         {
           "date": "2025-11-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000408.SZ",
@@ -12744,6 +13373,7 @@
         },
         {
           "date": "2025-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "000408.SZ",
@@ -12839,6 +13469,7 @@
         },
         {
           "date": "2026-01-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603256.SH",
@@ -12934,6 +13565,7 @@
         },
         {
           "date": "2026-02-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -13024,6 +13656,7 @@
         },
         {
           "date": "2026-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688498.SH",
@@ -13113,7 +13746,38 @@
           ]
         },
         {
+          "date": "2026-04-03",
+          "event_type": "weekly_satellite_overlay",
+          "holdings": [],
+          "overlay_event": {
+            "risk_stage": "risk_on",
+            "raw_risk_stage": "caution",
+            "one_way_turnover": 0.093897,
+            "two_way_turnover": 0.187795,
+            "buy_amount": 0.676883,
+            "sell_amount": 0.0,
+            "buy_amount_pct_nav": 0.187795,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost": 0.000203,
+            "trading_cost_pct_nav": 5.6e-05,
+            "is_trade": true,
+            "trade_details": [
+              {
+                "ts_code": "002353.SZ",
+                "name": "杰瑞股份",
+                "side": "buy",
+                "current_weight": 0.012194,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.187795,
+                "gross_amount_pct_nav": 0.187795,
+                "fee_pct_nav": 5.6e-05
+              }
+            ]
+          }
+        },
+        {
           "date": "2026-04-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13167,7 +13831,383 @@
             }
           ]
         }
-      ]
+      ],
+      "split_view": {
+        "mode": "satellite_weekly_overlay",
+        "basket_weights": [
+          {
+            "ts_code": "688498.SH",
+            "name": "源杰科技",
+            "weight": 0.18902
+          },
+          {
+            "ts_code": "300394.SZ",
+            "name": "天孚通信",
+            "weight": 0.131407
+          },
+          {
+            "ts_code": "603256.SH",
+            "name": "宏和科技",
+            "weight": 0.118112
+          },
+          {
+            "ts_code": "000408.SZ",
+            "name": "藏格矿业",
+            "weight": 0.113949
+          },
+          {
+            "ts_code": "300476.SZ",
+            "name": "胜宏科技",
+            "weight": 0.112951
+          },
+          {
+            "ts_code": "688028.SH",
+            "name": "沃尔德",
+            "weight": 0.096874
+          },
+          {
+            "ts_code": "300308.SZ",
+            "name": "中际旭创",
+            "weight": 0.0384
+          },
+          {
+            "ts_code": "CASH",
+            "name": "现金",
+            "weight": 0.03809
+          },
+          {
+            "ts_code": "601899.SH",
+            "name": "紫金矿业",
+            "weight": 0.031929
+          },
+          {
+            "ts_code": "688127.SH",
+            "name": "蓝特光学",
+            "weight": 0.022036
+          },
+          {
+            "ts_code": "001389.SZ",
+            "name": "广合科技",
+            "weight": 0.020127
+          },
+          {
+            "ts_code": "688378.SH",
+            "name": "奥来德",
+            "weight": 0.01741
+          },
+          {
+            "ts_code": "300487.SZ",
+            "name": "蓝晓科技",
+            "weight": 0.017246
+          },
+          {
+            "ts_code": "003035.SZ",
+            "name": "南网能源",
+            "weight": 0.016747
+          },
+          {
+            "ts_code": "600295.SH",
+            "name": "鄂尔多斯",
+            "weight": 0.015742
+          },
+          {
+            "ts_code": "002353.SZ",
+            "name": "杰瑞股份",
+            "weight": 0.011689
+          },
+          {
+            "ts_code": "000426.SZ",
+            "name": "兴业银锡",
+            "weight": 0.00827
+          }
+        ],
+        "overlay_summary": {
+          "risk_state": "caution",
+          "target_total_exposure": 0.54,
+          "core_exposure_target": 0.6,
+          "satellite_exposure_target": 0.3,
+          "market_12_1_momentum": 0.2118,
+          "weekly_overlay_trade_count": 1,
+          "latest_overlay_trade_date": "2026-04-03",
+          "latest_overlay_date": "2026-04-24"
+        },
+        "overlay_history": [
+          {
+            "date": "2026-04-24",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-03",
+            "risk_stage": "risk_on",
+            "is_trade": true,
+            "one_way_turnover": 0.093897,
+            "two_way_turnover": 0.187795,
+            "buy_amount_pct_nav": 0.187795,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 5.6e-05,
+            "trade_details": [
+              {
+                "ts_code": "002353.SZ",
+                "name": "杰瑞股份",
+                "side": "buy",
+                "current_weight": 0.012194,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.187795,
+                "gross_amount_pct_nav": 0.187795
+              }
+            ]
+          },
+          {
+            "date": "2026-03-27",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-20",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-23",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-16",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-09",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-19",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-12",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-05",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-21",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-14",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-07",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-24",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-09-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          }
+        ]
+      }
     },
     "since_2023_01": {
       "sample_tag": "since_2023_01",
@@ -13405,6 +14445,7 @@
       "snapshots": [
         {
           "date": "2023-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13425,6 +14466,7 @@
         },
         {
           "date": "2023-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13460,6 +14502,7 @@
         },
         {
           "date": "2023-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13490,6 +14533,7 @@
         },
         {
           "date": "2023-04-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13530,6 +14574,7 @@
         },
         {
           "date": "2023-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300002.SZ",
@@ -13630,6 +14675,7 @@
         },
         {
           "date": "2023-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13680,6 +14726,7 @@
         },
         {
           "date": "2023-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13730,6 +14777,7 @@
         },
         {
           "date": "2023-08-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13780,6 +14828,7 @@
         },
         {
           "date": "2023-09-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13830,6 +14879,7 @@
         },
         {
           "date": "2023-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13880,6 +14930,7 @@
         },
         {
           "date": "2023-11-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13925,6 +14976,7 @@
         },
         {
           "date": "2023-12-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -13975,6 +15027,7 @@
         },
         {
           "date": "2024-01-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14025,6 +15078,7 @@
         },
         {
           "date": "2024-02-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14070,6 +15124,7 @@
         },
         {
           "date": "2024-03-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14120,6 +15175,7 @@
         },
         {
           "date": "2024-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14165,6 +15221,7 @@
         },
         {
           "date": "2024-05-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14210,6 +15267,7 @@
         },
         {
           "date": "2024-06-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14270,6 +15328,7 @@
         },
         {
           "date": "2024-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14315,6 +15374,7 @@
         },
         {
           "date": "2024-08-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14360,6 +15420,7 @@
         },
         {
           "date": "2024-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14405,6 +15466,7 @@
         },
         {
           "date": "2024-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -14450,6 +15512,7 @@
         },
         {
           "date": "2024-11-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002463.SZ",
@@ -14545,6 +15608,7 @@
         },
         {
           "date": "2024-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300502.SZ",
@@ -14635,6 +15699,7 @@
         },
         {
           "date": "2025-01-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -14725,6 +15790,7 @@
         },
         {
           "date": "2025-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002463.SZ",
@@ -14820,6 +15886,7 @@
         },
         {
           "date": "2025-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688608.SH",
@@ -14915,6 +15982,7 @@
         },
         {
           "date": "2025-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688608.SH",
@@ -15015,6 +16083,7 @@
         },
         {
           "date": "2025-05-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -15065,6 +16134,7 @@
         },
         {
           "date": "2025-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603893.SH",
@@ -15160,6 +16230,7 @@
         },
         {
           "date": "2025-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300718.SZ",
@@ -15250,6 +16321,7 @@
         },
         {
           "date": "2025-08-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603893.SH",
@@ -15340,6 +16412,7 @@
         },
         {
           "date": "2025-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300502.SZ",
@@ -15420,6 +16493,7 @@
         },
         {
           "date": "2025-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -15510,6 +16584,7 @@
         },
         {
           "date": "2025-11-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300308.SZ",
@@ -15595,6 +16670,7 @@
         },
         {
           "date": "2025-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300502.SZ",
@@ -15685,6 +16761,7 @@
         },
         {
           "date": "2026-01-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300308.SZ",
@@ -15780,6 +16857,7 @@
         },
         {
           "date": "2026-02-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300394.SZ",
@@ -15865,6 +16943,7 @@
         },
         {
           "date": "2026-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300502.SZ",
@@ -15959,7 +17038,68 @@
           ]
         },
         {
+          "date": "2026-04-03",
+          "event_type": "weekly_satellite_overlay",
+          "holdings": [],
+          "overlay_event": {
+            "risk_stage": "risk_on",
+            "raw_risk_stage": "caution",
+            "one_way_turnover": 0.095433,
+            "two_way_turnover": 0.190865,
+            "buy_amount": 0.344947,
+            "sell_amount": 0.0,
+            "buy_amount_pct_nav": 0.190865,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost": 0.000103,
+            "trading_cost_pct_nav": 5.7e-05,
+            "is_trade": true,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.009123,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.190865,
+                "gross_amount_pct_nav": 0.190865,
+                "fee_pct_nav": 5.7e-05
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-04-24",
+          "event_type": "weekly_satellite_overlay",
+          "holdings": [],
+          "overlay_event": {
+            "risk_stage": "risk_on",
+            "raw_risk_stage": "risk_on",
+            "one_way_turnover": 0.010612,
+            "two_way_turnover": 0.021223,
+            "buy_amount": 0.044127,
+            "sell_amount": 0.0,
+            "buy_amount_pct_nav": 0.021223,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost": 1.3e-05,
+            "trading_cost_pct_nav": 6e-06,
+            "is_trade": true,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.178775,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.021223,
+                "gross_amount_pct_nav": 0.021223,
+                "fee_pct_nav": 6e-06
+              }
+            ]
+          }
+        },
+        {
           "date": "2026-04-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -16008,7 +17148,398 @@
             }
           ]
         }
-      ]
+      ],
+      "split_view": {
+        "mode": "satellite_weekly_overlay",
+        "basket_weights": [
+          {
+            "ts_code": "300502.SZ",
+            "name": "新易盛",
+            "weight": 0.167809
+          },
+          {
+            "ts_code": "688498.SH",
+            "name": "源杰科技",
+            "weight": 0.165088
+          },
+          {
+            "ts_code": "688195.SH",
+            "name": "腾景科技",
+            "weight": 0.142266
+          },
+          {
+            "ts_code": "300394.SZ",
+            "name": "天孚通信",
+            "weight": 0.120973
+          },
+          {
+            "ts_code": "603256.SH",
+            "name": "宏和科技",
+            "weight": 0.102865
+          },
+          {
+            "ts_code": "688028.SH",
+            "name": "沃尔德",
+            "weight": 0.087037
+          },
+          {
+            "ts_code": "300308.SZ",
+            "name": "中际旭创",
+            "weight": 0.044908
+          },
+          {
+            "ts_code": "601899.SH",
+            "name": "紫金矿业",
+            "weight": 0.031426
+          },
+          {
+            "ts_code": "688127.SH",
+            "name": "蓝特光学",
+            "weight": 0.020369
+          },
+          {
+            "ts_code": "001389.SZ",
+            "name": "广合科技",
+            "weight": 0.018503
+          },
+          {
+            "ts_code": "688378.SH",
+            "name": "奥来德",
+            "weight": 0.016005
+          },
+          {
+            "ts_code": "300487.SZ",
+            "name": "蓝晓科技",
+            "weight": 0.015947
+          },
+          {
+            "ts_code": "003035.SZ",
+            "name": "南网能源",
+            "weight": 0.015397
+          },
+          {
+            "ts_code": "600295.SH",
+            "name": "鄂尔多斯",
+            "weight": 0.014561
+          },
+          {
+            "ts_code": "002353.SZ",
+            "name": "杰瑞股份",
+            "weight": 0.011076
+          },
+          {
+            "ts_code": "000426.SZ",
+            "name": "兴业银锡",
+            "weight": 0.009907
+          },
+          {
+            "ts_code": "CASH",
+            "name": "现金",
+            "weight": 0.008641
+          },
+          {
+            "ts_code": "601958.SH",
+            "name": "金钼股份",
+            "weight": 0.007221
+          }
+        ],
+        "overlay_summary": {
+          "risk_state": "caution",
+          "target_total_exposure": 0.54,
+          "core_exposure_target": 0.6,
+          "satellite_exposure_target": 0.3,
+          "market_12_1_momentum": 0.2118,
+          "weekly_overlay_trade_count": 2,
+          "latest_overlay_trade_date": "2026-04-24",
+          "latest_overlay_date": "2026-04-24"
+        },
+        "overlay_history": [
+          {
+            "date": "2026-04-24",
+            "risk_stage": "risk_on",
+            "is_trade": true,
+            "one_way_turnover": 0.010612,
+            "two_way_turnover": 0.021223,
+            "buy_amount_pct_nav": 0.021223,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 6e-06,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.178775,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.021223,
+                "gross_amount_pct_nav": 0.021223
+              }
+            ]
+          },
+          {
+            "date": "2026-04-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-03",
+            "risk_stage": "risk_on",
+            "is_trade": true,
+            "one_way_turnover": 0.095433,
+            "two_way_turnover": 0.190865,
+            "buy_amount_pct_nav": 0.190865,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 5.7e-05,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.009123,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.190865,
+                "gross_amount_pct_nav": 0.190865
+              }
+            ]
+          },
+          {
+            "date": "2026-03-27",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-20",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-23",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-16",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-09",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-19",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-12",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-05",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-21",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-14",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-07",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-24",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-09-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          }
+        ]
+      }
     },
     "since_2025_01": {
       "sample_tag": "since_2025_01",
@@ -16155,6 +17686,7 @@
       "snapshots": [
         {
           "date": "2025-01-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -16245,6 +17777,7 @@
         },
         {
           "date": "2025-02-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -16345,6 +17878,7 @@
         },
         {
           "date": "2025-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -16445,6 +17979,7 @@
         },
         {
           "date": "2025-04-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688608.SH",
@@ -16535,6 +18070,7 @@
         },
         {
           "date": "2025-05-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -16585,6 +18121,7 @@
         },
         {
           "date": "2025-06-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300476.SZ",
@@ -16680,6 +18217,7 @@
         },
         {
           "date": "2025-07-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300476.SZ",
@@ -16780,6 +18318,7 @@
         },
         {
           "date": "2025-08-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603893.SH",
@@ -16875,6 +18414,7 @@
         },
         {
           "date": "2025-09-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603893.SH",
@@ -16970,6 +18510,7 @@
         },
         {
           "date": "2025-10-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688049.SH",
@@ -17070,6 +18611,7 @@
         },
         {
           "date": "2025-11-28",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "002558.SZ",
@@ -17165,6 +18707,7 @@
         },
         {
           "date": "2025-12-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "300476.SZ",
@@ -17260,6 +18803,7 @@
         },
         {
           "date": "2026-01-30",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603256.SH",
@@ -17355,6 +18899,7 @@
         },
         {
           "date": "2026-02-27",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "603256.SH",
@@ -17445,6 +18990,7 @@
         },
         {
           "date": "2026-03-31",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "688498.SH",
@@ -17539,7 +19085,68 @@
           ]
         },
         {
+          "date": "2026-04-03",
+          "event_type": "weekly_satellite_overlay",
+          "holdings": [],
+          "overlay_event": {
+            "risk_stage": "risk_on",
+            "raw_risk_stage": "caution",
+            "one_way_turnover": 0.093314,
+            "two_way_turnover": 0.186628,
+            "buy_amount": 0.380735,
+            "sell_amount": 0.0,
+            "buy_amount_pct_nav": 0.186628,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost": 0.000114,
+            "trading_cost_pct_nav": 5.6e-05,
+            "is_trade": true,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.013361,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.186628,
+                "gross_amount_pct_nav": 0.186628,
+                "fee_pct_nav": 5.6e-05
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-04-24",
+          "event_type": "weekly_satellite_overlay",
+          "holdings": [],
+          "overlay_event": {
+            "risk_stage": "risk_on",
+            "raw_risk_stage": "risk_on",
+            "one_way_turnover": 0.008186,
+            "two_way_turnover": 0.016372,
+            "buy_amount": 0.03741,
+            "sell_amount": 0.0,
+            "buy_amount_pct_nav": 0.016372,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost": 1.1e-05,
+            "trading_cost_pct_nav": 5e-06,
+            "is_trade": true,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.183627,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.016372,
+                "gross_amount_pct_nav": 0.016372,
+                "fee_pct_nav": 5e-06
+              }
+            ]
+          }
+        },
+        {
           "date": "2026-04-29",
+          "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
@@ -17593,7 +19200,398 @@
             }
           ]
         }
-      ]
+      ],
+      "split_view": {
+        "mode": "satellite_weekly_overlay",
+        "basket_weights": [
+          {
+            "ts_code": "688498.SH",
+            "name": "源杰科技",
+            "weight": 0.188021
+          },
+          {
+            "ts_code": "688195.SH",
+            "name": "腾景科技",
+            "weight": 0.14636
+          },
+          {
+            "ts_code": "603256.SH",
+            "name": "宏和科技",
+            "weight": 0.118012
+          },
+          {
+            "ts_code": "002558.SZ",
+            "name": "巨人网络",
+            "weight": 0.116704
+          },
+          {
+            "ts_code": "300476.SZ",
+            "name": "胜宏科技",
+            "weight": 0.114087
+          },
+          {
+            "ts_code": "688028.SH",
+            "name": "沃尔德",
+            "weight": 0.094567
+          },
+          {
+            "ts_code": "300308.SZ",
+            "name": "中际旭创",
+            "weight": 0.040746
+          },
+          {
+            "ts_code": "601899.SH",
+            "name": "紫金矿业",
+            "weight": 0.032703
+          },
+          {
+            "ts_code": "688127.SH",
+            "name": "蓝特光学",
+            "weight": 0.021409
+          },
+          {
+            "ts_code": "001389.SZ",
+            "name": "广合科技",
+            "weight": 0.019448
+          },
+          {
+            "ts_code": "688378.SH",
+            "name": "奥来德",
+            "weight": 0.016822
+          },
+          {
+            "ts_code": "300487.SZ",
+            "name": "蓝晓科技",
+            "weight": 0.016761
+          },
+          {
+            "ts_code": "003035.SZ",
+            "name": "南网能源",
+            "weight": 0.016183
+          },
+          {
+            "ts_code": "600295.SH",
+            "name": "鄂尔多斯",
+            "weight": 0.015305
+          },
+          {
+            "ts_code": "000426.SZ",
+            "name": "兴业银锡",
+            "weight": 0.014492
+          },
+          {
+            "ts_code": "002353.SZ",
+            "name": "杰瑞股份",
+            "weight": 0.01168
+          },
+          {
+            "ts_code": "CASH",
+            "name": "现金",
+            "weight": 0.009111
+          },
+          {
+            "ts_code": "601958.SH",
+            "name": "金钼股份",
+            "weight": 0.00759
+          }
+        ],
+        "overlay_summary": {
+          "risk_state": "caution",
+          "target_total_exposure": 0.54,
+          "core_exposure_target": 0.6,
+          "satellite_exposure_target": 0.3,
+          "market_12_1_momentum": 0.2118,
+          "weekly_overlay_trade_count": 2,
+          "latest_overlay_trade_date": "2026-04-24",
+          "latest_overlay_date": "2026-04-24"
+        },
+        "overlay_history": [
+          {
+            "date": "2026-04-24",
+            "risk_stage": "risk_on",
+            "is_trade": true,
+            "one_way_turnover": 0.008186,
+            "two_way_turnover": 0.016372,
+            "buy_amount_pct_nav": 0.016372,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 5e-06,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.183627,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.016372,
+                "gross_amount_pct_nav": 0.016372
+              }
+            ]
+          },
+          {
+            "date": "2026-04-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-04-03",
+            "risk_stage": "risk_on",
+            "is_trade": true,
+            "one_way_turnover": 0.093314,
+            "two_way_turnover": 0.186628,
+            "buy_amount_pct_nav": 0.186628,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 5.6e-05,
+            "trade_details": [
+              {
+                "ts_code": "000426.SZ",
+                "name": "兴业银锡",
+                "side": "buy",
+                "current_weight": 0.013361,
+                "post_trade_weight": 0.2,
+                "diff_weight": 0.186628,
+                "gross_amount_pct_nav": 0.186628
+              }
+            ]
+          },
+          {
+            "date": "2026-03-27",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-20",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-03-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-13",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-02-06",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-23",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-16",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2026-01-09",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-19",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-12",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-12-05",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-21",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-14",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-11-07",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-24",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-17",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-10-10",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          },
+          {
+            "date": "2025-09-26",
+            "risk_stage": "risk_on",
+            "is_trade": false,
+            "one_way_turnover": 0.0,
+            "two_way_turnover": 0.0,
+            "buy_amount_pct_nav": 0.0,
+            "sell_amount_pct_nav": 0.0,
+            "trading_cost_pct_nav": 0.0,
+            "trade_details": []
+          }
+        ]
+      }
     }
   }
 }
