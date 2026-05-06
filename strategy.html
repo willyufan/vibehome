@@ -205,6 +205,8 @@
       <div class="strategy-grid" id="grid-path1"></div>
       <div class="path-label">Path 2 · 高收益探索</div>
       <div class="strategy-grid" id="grid-path2"></div>
+      <div class="path-label">Path 3 · 扩展探索</div>
+      <div class="strategy-grid" id="grid-path3"></div>
     </div>
 
     <div class="market-section" id="section-hk" style="display:none">
@@ -222,6 +224,10 @@
         <div class="chart-wrap">
           <div class="chart-label">Path 2 · 高收益探索</div>
           <div class="chart-canvas-wrap"><canvas id="chart-path2"></canvas></div>
+        </div>
+        <div class="chart-wrap">
+          <div class="chart-label">Path 3 · 扩展探索</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-path3"></canvas></div>
         </div>
         <!-- HK chart injected dynamically -->
       </div>
@@ -381,6 +387,7 @@ function buildExplanation(detail, view) {
   const sel = [];
   if      (path === 'path1') sel.push('Path 1 是主攻稳健线：优先在回撤、换手、Sharpe 和实盘可执行性之间做平衡。');
   else if (path === 'path2') sel.push('Path 2 是高收益探索线：更重视 CAGR 上限突破，同时继续监控回撤和换手。');
+  else if (path === 'path3') sel.push('Path 3 是扩展探索线：在 Path 2 基础上进一步扩展参数空间，寻找更多元的高弹性候选。');
   if      (id.includes('aggr_10_90')) sel.push('进攻仓位配置约为 10/90，探索侧更积极。');
   else if (id.includes('aggr_08_92')) sel.push('进攻仓位配置约为 8/92，在进攻与风控之间相对折中。');
   else if (id.includes('aggr_05_95')) sel.push('进攻仓位配置约为 5/95，属于更集中、更高弹性的探索结构。');
@@ -867,15 +874,18 @@ async function load() {
 
     const path1 = snapshotData.path1 || [];
     const path2 = snapshotData.path2 || [];
+    const path3 = snapshotData.path3 || [];
     const hk    = snapshotData.hkconnect || [];
-    allStrategies = [...path1, ...path2, ...hk];
+    allStrategies = [...path1, ...path2, ...path3, ...hk];
 
     // Grids
     const g1  = document.getElementById('grid-path1');
     const g2  = document.getElementById('grid-path2');
+    const g3  = document.getElementById('grid-path3');
     const gHk = document.getElementById('grid-hk');
     path1.forEach(s => g1.appendChild(buildCard(s)));
     path2.forEach(s => g2.appendChild(buildCard(s)));
+    path3.forEach(s => g3.appendChild(buildCard(s)));
     if (hk.length > 0) {
       hk.forEach(s => gHk.appendChild(buildCard(s)));
       document.getElementById('section-hk').style.display = 'block';
@@ -886,6 +896,7 @@ async function load() {
     // Charts
     buildWindowChart('chart-path1', path1.filter(s => s.winner_type !== 'robust candidate'));
     buildWindowChart('chart-path2', path2.filter(s => s.winner_type !== 'robust candidate'));
+    if (path3.length > 0) buildWindowChart('chart-path3', path3.filter(s => s.winner_type !== 'robust candidate'));
     if (hk.length > 0) {
       const hkWrap = document.createElement('div');
       hkWrap.className = 'chart-wrap';
@@ -896,7 +907,7 @@ async function load() {
 
     // Populate strategy select (optgroup)
     const sel = document.getElementById('strategy-select');
-    const groups = { 'A股 · Path 1': path1, 'A股 · Path 2': path2, '沪港通': hk };
+    const groups = { 'A股 · Path 1': path1, 'A股 · Path 2': path2, 'A股 · Path 3': path3, '沪港通': hk };
     Object.entries(groups).forEach(([label, list]) => {
       if (!list.length) return;
       const grp = document.createElement('optgroup');
@@ -915,6 +926,7 @@ async function load() {
     const robustIds = new Set([
       ...(path1.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
       ...(path2.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
+      ...(path3.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
     ]);
     document.querySelectorAll('.strategy-card').forEach(c => {
       if (robustIds.has(c.dataset.id)) c.classList.add('highlighted');
