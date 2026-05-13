@@ -41863,7 +41863,8 @@
           ]
         }
       ],
-      "split_view": {}
+      "split_view": {},
+      "month_end_preview": {}
     },
     "since_2020_01": {
       "sample_tag": "since_2020_01",
@@ -73358,7 +73359,8 @@
           ]
         }
       ],
-      "split_view": {}
+      "split_view": {},
+      "month_end_preview": {}
     },
     "since_2023_01": {
       "sample_tag": "since_2023_01",
@@ -89703,7 +89705,8 @@
           ]
         }
       ],
-      "split_view": {}
+      "split_view": {},
+      "month_end_preview": {}
     },
     "since_2025_01": {
       "sample_tag": "since_2025_01",
@@ -96593,7 +96596,8 @@
           ]
         }
       ],
-      "split_view": {}
+      "split_view": {},
+      "month_end_preview": {}
     },
     "since_2026_01": {
       "sample_tag": "since_2026_01",
@@ -98398,7 +98402,8 @@
           ]
         }
       ],
-      "split_view": {}
+      "split_view": {},
+      "month_end_preview": {}
     }
   }
 }
