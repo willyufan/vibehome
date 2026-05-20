@@ -4,6 +4,9 @@
   "market_scope": "hkconnect",
   "path": "path3",
   "winner_type": "2020-window winner",
+  "experimental": false,
+  "tracked_only": false,
+  "frequency": "",
   "sample_views": {
     "since_2017_01": {
       "sample_tag": "since_2017_01",
@@ -54,7 +57,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-05-19",
+        "data_as_of": "2026-05-20",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-05-15",
         "basket_effective_date": "2026-05-15",
@@ -18270,7 +18273,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-05-19",
+        "data_as_of": "2026-05-20",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-05-15",
         "basket_effective_date": "2026-05-15",
@@ -30696,7 +30699,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-05-19",
+        "data_as_of": "2026-05-20",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-05-15",
         "basket_effective_date": "2026-05-15",
@@ -37172,7 +37175,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-05-19",
+        "data_as_of": "2026-05-20",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-05-15",
         "basket_effective_date": "2026-05-15",
@@ -39808,7 +39811,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-05-19",
+        "data_as_of": "2026-05-20",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-05-15",
         "basket_effective_date": "2026-05-15",
