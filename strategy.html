@@ -207,6 +207,8 @@
       <div class="strategy-grid" id="grid-path2"></div>
       <div class="path-label">Path 3 · 扩展探索</div>
       <div class="strategy-grid" id="grid-path3"></div>
+      <div class="path-label" id="path4-label" style="display:none">Path 4 · 强主题观察（实验性）</div>
+      <div class="strategy-grid" id="grid-path4" style="display:none"></div>
     </div>
 
     <div class="market-section" id="section-hk" style="display:none">
@@ -229,9 +231,11 @@
           <div class="chart-label">Path 3 · 扩展探索</div>
           <div class="chart-canvas-wrap"><canvas id="chart-path3"></canvas></div>
         </div>
-        <!-- HK chart injected dynamically -->
+        <!-- Path 4 + HK charts injected dynamically -->
       </div>
     </div>
+
+    <div id="leaderboard-section"></div>
   </div>
 
   <!-- TAB 2: Detail -->
@@ -388,6 +392,7 @@ function buildExplanation(detail, view) {
   if      (path === 'path1') sel.push('Path 1 是主攻稳健线：优先在回撤、换手、Sharpe 和实盘可执行性之间做平衡。');
   else if (path === 'path2') sel.push('Path 2 是高收益探索线：更重视 CAGR 上限突破，同时继续监控回撤和换手。');
   else if (path === 'path3') sel.push('Path 3 是扩展探索线：在 Path 2 基础上进一步扩展参数空间，寻找更多元的高弹性候选。');
+  else if (path === 'path4') sel.push('Path 4 是强主题观察线（实验性）：重点追踪高成长/主题涌现型策略，评估实盘可行性，暂不纳入正式对比赛道。');
   if      (id.includes('aggr_10_90')) sel.push('进攻仓位配置约为 10/90，探索侧更积极。');
   else if (id.includes('aggr_08_92')) sel.push('进攻仓位配置约为 8/92，在进攻与风控之间相对折中。');
   else if (id.includes('aggr_05_95')) sel.push('进攻仓位配置约为 5/95，属于更集中、更高弹性的探索结构。');
@@ -587,6 +592,8 @@ function renderDetail(detail, selectedTag) {
 
     <div id="satellite-block"></div>
 
+    <div id="preview-block"></div>
+
     <div class="section-block" id="history-block">
       <div class="section-title">全部调仓历史</div>
       <div id="history-content"><div class="loading-inline">加载历史…</div></div>
@@ -605,6 +612,9 @@ function renderDetail(detail, selectedTag) {
 
   // Build satellite sections (no-op for non-satellite strategies)
   buildSatellite(view);
+
+  // Build month-end preview
+  buildPreview(view);
 
   // Build history
   buildHistory(view);
@@ -726,6 +736,70 @@ function buildChangeDiff(view) {
         return `<tr${cls?' class="'+cls+'"':''}><td style="font-family:monospace;font-size:12px">${r.code}</td><td>${r.name}</td><td class="${actionClass[r.action]}">${r.action}</td><td>${pct(r.pw)}</td><td>${pct(r.cw)}</td><td style="color:${r.diff>0?'var(--green)':'var(--accent)'}">${r.diff>0?'+':''}${pct(r.diff)}</td></tr>`;
       }).join('')}</tbody>
     </table>`;
+}
+
+// ── Month-end preview ─────────────────────────────────────────────────────────
+function buildPreview(view) {
+  const block = document.getElementById('preview-block');
+  if (!block) return;
+  const p = view.month_end_preview || {};
+  if (!p.holdings || !p.holdings.length) { block.innerHTML = ''; return; }
+
+  // Diff vs latest_weights (current official)
+  const snap = (view.snapshots || []).slice().sort((a,b) => b.date.localeCompare(a.date))[0] || {};
+  const officialMap = {};
+  (snap.holdings || []).forEach(r => { officialMap[r.ts_code] = r.weight; });
+  const previewMap = {};
+  p.holdings.forEach(r => { previewMap[r.ts_code] = r.weight; });
+  const allCodes = [...new Set([...Object.keys(officialMap), ...Object.keys(previewMap)])];
+  const diffRows = [];
+  const order = { '新增':0, '加仓':1, '减仓':2, '清仓':3 };
+  allCodes.forEach(code => {
+    const ow = officialMap[code] || 0;
+    const pw = previewMap[code] || 0;
+    const diff = pw - ow;
+    if (Math.abs(diff) < 1e-6) return;
+    const name = (p.holdings.find(r => r.ts_code === code) || {}).name || code;
+    let action;
+    if (ow < 1e-6)       action = '新增';
+    else if (pw < 1e-6)  action = '清仓';
+    else if (diff > 0)   action = '加仓';
+    else                 action = '减仓';
+    diffRows.push({ code, name, action, ow, pw, diff });
+  });
+  diffRows.sort((a,b) => order[a.action]-order[b.action] || Math.abs(b.diff)-Math.abs(a.diff));
+  const actionClass = { '新增':'action-add','加仓':'action-inc','减仓':'action-dec','清仓':'action-clr' };
+
+  const diffHTML = diffRows.length === 0
+    ? '<p style="font-size:12px;color:var(--muted)">Preview 与当前正式组合没有权重变化。</p>'
+    : `<table class="diff-table">
+        <thead><tr><th>代码</th><th>名称</th><th>动作</th><th>正式权重</th><th>Preview 权重</th><th>变化</th></tr></thead>
+        <tbody>${diffRows.map(r => `<tr>
+          <td style="font-family:monospace;font-size:12px">${r.code}</td>
+          <td>${r.name}</td>
+          <td class="${actionClass[r.action]}">${r.action}</td>
+          <td>${pct(r.ow)}</td><td>${pct(r.pw)}</td>
+          <td style="color:${r.diff>0?'var(--green)':'var(--accent)'}">${r.diff>0?'+':''}${pct(r.diff)}</td>
+        </tr>`).join('')}</tbody>
+      </table>`;
+
+  const momentumText = p.market_momentum != null ? `市场动量 ${pct(p.market_momentum)} · ` : '';
+  const riskLabel = {'risk_on':'满仓','caution':'减仓','risk_off':'空仓'}[p.risk_state] || p.risk_state || '';
+
+  block.innerHTML = `
+    <div class="section-block">
+      <div class="section-title">Month-End Preview
+        <span style="font-size:11px;font-weight:400;color:var(--muted);margin-left:8px">${p.preview_as_of || ''}</span>
+      </div>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 12px">使用最新收盘数据模拟「如果今天是月末」的候选组合，仅供参考，不影响正式回测与 winner 评选。</p>
+      <div class="metrics-row" style="margin-bottom:16px">
+        <div><div class="m-label">Preview 仓位</div><div class="m-val">${pct(p.target_total_exposure)}</div></div>
+        <div><div class="m-label">Preview 风险状态</div><div class="m-val">${riskLabel}</div></div>
+        <div><div class="m-label">当前正式信号日</div><div class="m-val" style="font-size:14px">${p.formal_signal_date || '—'}</div></div>
+      </div>
+      <div class="section-title" style="margin-top:0">相对正式组合变化</div>
+      ${diffHTML}
+    </div>`;
 }
 
 // ── Satellite overlay sections ────────────────────────────────────────────────
@@ -862,6 +936,76 @@ function buildHistory(view) {
   });
 }
 
+// ── Leaderboard ───────────────────────────────────────────────────────────────
+function buildLeaderboard(leaderboards) {
+  const section = document.getElementById('leaderboard-section');
+  if (!section) return;
+  const ashare = (leaderboards.a_share) || {};
+  if (!Object.keys(ashare).length) { section.innerHTML = ''; return; }
+
+  const PATH_LABELS = {
+    path1: 'Path 1 · 稳健路线',
+    path2: 'Path 2 · 高收益探索',
+    path3: 'Path 3 · 扩展探索',
+    path4: 'Path 4 · 强主题观察（实验性）',
+  };
+
+  const pathBlocks = Object.entries(ashare).map(([pathKey, tracks]) => {
+    const trackRows = Object.entries(tracks).map(([trackKey, trackData]) => {
+      const entries = trackData.entries || [];
+      if (!entries.length) return '';
+      const rows = entries.map(e => {
+        const winnerMark = e.is_official_winner
+          ? `<span style="color:var(--accent);font-weight:700" title="当前胜出策略">★</span> ` : '';
+        const cagr = e.metrics && e.metrics.weighted_cagr != null
+          ? `<span style="color:var(--green)">${(e.metrics.weighted_cagr*100).toFixed(1)}%</span>` : '—';
+        const sharpe = e.metrics && e.metrics.weighted_sharpe != null
+          ? fmt2(e.metrics.weighted_sharpe) : '—';
+        const dd = e.metrics && e.metrics.weighted_max_drawdown != null
+          ? `<span style="color:var(--accent)">${(e.metrics.weighted_max_drawdown*100).toFixed(1)}%</span>` : '—';
+        const shortName = e.strategy_base_name.length > 50
+          ? e.strategy_base_name.slice(0, 50) + '…' : e.strategy_base_name;
+        return `<tr>
+          <td style="color:var(--muted);font-weight:600;text-align:center">#${e.rank}</td>
+          <td>${winnerMark}<span title="${e.strategy_base_name}">${shortName}</span></td>
+          <td style="text-align:right">${cagr}</td>
+          <td style="text-align:right">${sharpe}</td>
+          <td style="text-align:right">${dd}</td>
+        </tr>`;
+      }).join('');
+      return `
+        <details class="explanation-block" style="margin-bottom:8px">
+          <summary class="explanation-summary">${trackData.label} Top ${entries.length} <span class="expand-arrow">▶</span></summary>
+          <div class="explanation-body" style="padding:0">
+            <table class="window-table" style="margin:0">
+              <thead><tr>
+                <th style="width:36px">#</th>
+                <th>策略</th>
+                <th style="text-align:right">加权CAGR</th>
+                <th style="text-align:right">加权Sharpe</th>
+                <th style="text-align:right">加权MaxDD</th>
+              </tr></thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        </details>`;
+    }).join('');
+
+    return `
+      <div style="margin-bottom:28px">
+        <div class="path-label" style="border-top:none;padding-top:0;margin-bottom:12px">${PATH_LABELS[pathKey] || pathKey}</div>
+        ${trackRows}
+      </div>`;
+  }).join('');
+
+  section.innerHTML = `
+    <div class="chart-section" style="margin-top:0">
+      <h2 class="chart-section-title">各路径 Top 5 候选策略</h2>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 20px">按加权多窗口 CAGR 排名，★ 表示当前窗口胜出策略。</p>
+      ${pathBlocks}
+    </div>`;
+}
+
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 async function load() {
   try {
@@ -875,17 +1019,24 @@ async function load() {
     const path1 = snapshotData.path1 || [];
     const path2 = snapshotData.path2 || [];
     const path3 = snapshotData.path3 || [];
+    const path4 = snapshotData.path4 || [];
     const hk    = snapshotData.hkconnect || [];
-    allStrategies = [...path1, ...path2, ...path3, ...hk];
+    allStrategies = [...path1, ...path2, ...path3, ...path4, ...hk];
 
     // Grids
     const g1  = document.getElementById('grid-path1');
     const g2  = document.getElementById('grid-path2');
     const g3  = document.getElementById('grid-path3');
+    const g4  = document.getElementById('grid-path4');
     const gHk = document.getElementById('grid-hk');
     path1.forEach(s => g1.appendChild(buildCard(s)));
     path2.forEach(s => g2.appendChild(buildCard(s)));
     path3.forEach(s => g3.appendChild(buildCard(s)));
+    if (path4.length > 0) {
+      path4.forEach(s => g4.appendChild(buildCard(s)));
+      document.getElementById('path4-label').style.display = '';
+      g4.style.display = '';
+    }
     if (hk.length > 0) {
       hk.forEach(s => gHk.appendChild(buildCard(s)));
       document.getElementById('section-hk').style.display = 'block';
@@ -897,17 +1048,28 @@ async function load() {
     buildWindowChart('chart-path1', path1.filter(s => s.winner_type !== 'robust candidate'));
     buildWindowChart('chart-path2', path2.filter(s => s.winner_type !== 'robust candidate'));
     if (path3.length > 0) buildWindowChart('chart-path3', path3.filter(s => s.winner_type !== 'robust candidate'));
+    const chartGrid = document.getElementById('chart-grid');
+    if (path4.length > 0) {
+      const p4Wrap = document.createElement('div');
+      p4Wrap.className = 'chart-wrap';
+      p4Wrap.innerHTML = '<div class="chart-label">Path 4 · 强主题观察</div><div class="chart-canvas-wrap"><canvas id="chart-path4"></canvas></div>';
+      chartGrid.appendChild(p4Wrap);
+      buildWindowChart('chart-path4', path4.filter(s => s.winner_type !== 'robust candidate'));
+    }
     if (hk.length > 0) {
       const hkWrap = document.createElement('div');
       hkWrap.className = 'chart-wrap';
       hkWrap.innerHTML = '<div class="chart-label">沪港通</div><div class="chart-canvas-wrap"><canvas id="chart-hk"></canvas></div>';
-      document.getElementById('chart-grid').appendChild(hkWrap);
+      chartGrid.appendChild(hkWrap);
       buildWindowChart('chart-hk', hk);
     }
 
+    // Leaderboard section
+    buildLeaderboard(snapshotData.leaderboards || {});
+
     // Populate strategy select (optgroup)
     const sel = document.getElementById('strategy-select');
-    const groups = { 'A股 · Path 1': path1, 'A股 · Path 2': path2, 'A股 · Path 3': path3, '沪港通': hk };
+    const groups = { 'A股 · Path 1': path1, 'A股 · Path 2': path2, 'A股 · Path 3': path3, 'A股 · Path 4（实验）': path4, '沪港通': hk };
     Object.entries(groups).forEach(([label, list]) => {
       if (!list.length) return;
       const grp = document.createElement('optgroup');
@@ -927,6 +1089,7 @@ async function load() {
       ...(path1.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
       ...(path2.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
       ...(path3.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
+      ...(path4.filter(s=>s.winner_type==='robust candidate').map(s=>s.strategy_id)),
     ]);
     document.querySelectorAll('.strategy-card').forEach(c => {
       if (robustIds.has(c.dataset.id)) c.classList.add('highlighted');
