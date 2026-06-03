@@ -3,7 +3,7 @@
   "display_name": "沪港通Path1 月度等权缓冲(周度轻成本30v13风险叠加)",
   "market_scope": "hkconnect",
   "path": "path1",
-  "winner_type": "2025-window winner",
+  "winner_type": "leaderboard candidate",
   "experimental": false,
   "tracked_only": false,
   "frequency": "",
@@ -117,7 +117,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-01",
+        "data_as_of": "2026-06-02",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -10876,7 +10876,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-01",
+        "data_as_of": "2026-06-02",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -18210,7 +18210,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-01",
+        "data_as_of": "2026-06-02",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -22179,7 +22179,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-01",
+        "data_as_of": "2026-06-02",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -23893,7 +23893,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-01",
+        "data_as_of": "2026-06-02",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
