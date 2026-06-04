@@ -3,7 +3,7 @@
   "display_name": "核心80_探索20_总市值底座_胜出者核心__进攻5/95 晋升3只(核心6-1动量, 关闭熊市降仓, 单票60%)",
   "market_scope": "a_share",
   "path": "path2",
-  "winner_type": "2025-window winner",
+  "winner_type": "leaderboard candidate",
   "experimental": false,
   "tracked_only": false,
   "frequency": "",
@@ -13,8 +13,8 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-06-02",
-        "latest_valuation_date": "2026-06-02",
+        "sample_end": "2026-06-04",
+        "latest_valuation_date": "2026-06-04",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -107,7 +107,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-02",
+        "data_as_of": "2026-06-04",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -571,8 +571,8 @@
           "nav": 4.899775
         },
         {
-          "date": "2026-06-02",
-          "nav": 5.002978
+          "date": "2026-06-04",
+          "nav": 5.392379
         }
       ],
       "snapshots": [
@@ -8707,7 +8707,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-02",
+        "preview_as_of": "2026-06-04",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -8716,92 +8716,92 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.297094
+            "weight": 0.275856
+          },
+          {
+            "ts_code": "603986.SH",
+            "name": "兆易创新",
+            "weight": 0.257435
           },
           {
             "ts_code": "603256.SH",
             "name": "宏和科技",
-            "weight": 0.248023
-          },
-          {
-            "ts_code": "688025.SH",
-            "name": "杰普特",
-            "weight": 0.237355
+            "weight": 0.250066
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.041183
+            "weight": 0.041229
           },
           {
-            "ts_code": "601991.SH",
-            "name": "大唐发电",
-            "weight": 0.018854
+            "ts_code": "688690.SH",
+            "name": "纳微科技",
+            "weight": 0.018961
           },
           {
-            "ts_code": "300679.SZ",
-            "name": "电连技术",
-            "weight": 0.017337
+            "ts_code": "688700.SH",
+            "name": "东威科技",
+            "weight": 0.018166
+          },
+          {
+            "ts_code": "688268.SH",
+            "name": "华特气体",
+            "weight": 0.017733
           },
           {
             "ts_code": "300757.SZ",
             "name": "罗博特科",
-            "weight": 0.016957
+            "weight": 0.016144
           },
           {
             "ts_code": "605589.SH",
             "name": "圣泉集团",
-            "weight": 0.016881
+            "weight": 0.016071
           },
           {
-            "ts_code": "002608.SZ",
-            "name": "江苏国信",
-            "weight": 0.016805
-          },
-          {
-            "ts_code": "601699.SH",
-            "name": "潞安环能",
-            "weight": 0.016123
-          },
-          {
-            "ts_code": "002281.SZ",
-            "name": "光迅科技",
-            "weight": 0.011155
+            "ts_code": "002138.SZ",
+            "name": "顺络电子",
+            "weight": 0.015999
           },
           {
             "ts_code": "688146.SH",
             "name": "中船特气",
-            "weight": 0.010647
+            "weight": 0.011121
+          },
+          {
+            "ts_code": "002281.SZ",
+            "name": "光迅科技",
+            "weight": 0.010149
           },
           {
             "ts_code": "300285.SZ",
             "name": "国瓷材料",
-            "weight": 0.009395
-          },
-          {
-            "ts_code": "688300.SH",
-            "name": "联瑞新材",
-            "weight": 0.008765
+            "weight": 0.009465
           },
           {
             "ts_code": "300604.SZ",
             "name": "长川科技",
-            "weight": 0.008633
+            "weight": 0.008678
           },
           {
             "ts_code": "688630.SH",
             "name": "芯碁微装",
-            "weight": 0.008384
+            "weight": 0.008521
           },
           {
             "ts_code": "301200.SZ",
             "name": "大族数控",
-            "weight": 0.008338
+            "weight": 0.008176
           },
           {
-            "ts_code": "001389.SZ",
-            "name": "广合科技",
-            "weight": 0.008071
+            "ts_code": "003031.SZ",
+            "name": "中瓷电子",
+            "weight": 0.008141
+          },
+          {
+            "ts_code": "688668.SH",
+            "name": "鼎通科技",
+            "weight": 0.00809
           }
         ]
       }
@@ -8811,8 +8811,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-06-02",
-        "latest_valuation_date": "2026-06-02",
+        "sample_end": "2026-06-04",
+        "latest_valuation_date": "2026-06-04",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -8905,7 +8905,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-02",
+        "data_as_of": "2026-06-04",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -9225,8 +9225,8 @@
           "nav": 3.319743
         },
         {
-          "date": "2026-06-02",
-          "nav": 3.335395
+          "date": "2026-06-04",
+          "nav": 3.596483
         }
       ],
       "snapshots": [
@@ -15385,7 +15385,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-02",
+        "preview_as_of": "2026-06-04",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -15394,92 +15394,92 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.321796
+            "weight": 0.29171
           },
           {
             "ts_code": "688025.SH",
             "name": "杰普特",
-            "weight": 0.251949
+            "weight": 0.257623
           },
           {
             "ts_code": "002353.SZ",
             "name": "杰瑞股份",
-            "weight": 0.20871
+            "weight": 0.234024
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.041182
+            "weight": 0.041229
           },
           {
-            "ts_code": "601991.SH",
-            "name": "大唐发电",
-            "weight": 0.018854
+            "ts_code": "688690.SH",
+            "name": "纳微科技",
+            "weight": 0.018961
           },
           {
-            "ts_code": "300679.SZ",
-            "name": "电连技术",
-            "weight": 0.017336
+            "ts_code": "688700.SH",
+            "name": "东威科技",
+            "weight": 0.018166
+          },
+          {
+            "ts_code": "688268.SH",
+            "name": "华特气体",
+            "weight": 0.017733
           },
           {
             "ts_code": "300757.SZ",
             "name": "罗博特科",
-            "weight": 0.016957
+            "weight": 0.016144
           },
           {
             "ts_code": "605589.SH",
             "name": "圣泉集团",
-            "weight": 0.016881
+            "weight": 0.016071
           },
           {
-            "ts_code": "002608.SZ",
-            "name": "江苏国信",
-            "weight": 0.016805
-          },
-          {
-            "ts_code": "601699.SH",
-            "name": "潞安环能",
-            "weight": 0.016122
-          },
-          {
-            "ts_code": "002281.SZ",
-            "name": "光迅科技",
-            "weight": 0.011177
+            "ts_code": "002138.SZ",
+            "name": "顺络电子",
+            "weight": 0.015999
           },
           {
             "ts_code": "688146.SH",
             "name": "中船特气",
-            "weight": 0.01062
+            "weight": 0.011121
+          },
+          {
+            "ts_code": "002281.SZ",
+            "name": "光迅科技",
+            "weight": 0.010149
           },
           {
             "ts_code": "300285.SZ",
             "name": "国瓷材料",
-            "weight": 0.009356
-          },
-          {
-            "ts_code": "688300.SH",
-            "name": "联瑞新材",
-            "weight": 0.008729
+            "weight": 0.009465
           },
           {
             "ts_code": "300604.SZ",
             "name": "长川科技",
-            "weight": 0.008681
-          },
-          {
-            "ts_code": "301200.SZ",
-            "name": "大族数控",
-            "weight": 0.008399
+            "weight": 0.008678
           },
           {
             "ts_code": "688630.SH",
             "name": "芯碁微装",
-            "weight": 0.008361
+            "weight": 0.008521
           },
           {
-            "ts_code": "001389.SZ",
-            "name": "广合科技",
-            "weight": 0.008085
+            "ts_code": "301200.SZ",
+            "name": "大族数控",
+            "weight": 0.008176
+          },
+          {
+            "ts_code": "003031.SZ",
+            "name": "中瓷电子",
+            "weight": 0.008141
+          },
+          {
+            "ts_code": "688668.SH",
+            "name": "鼎通科技",
+            "weight": 0.00809
           }
         ]
       }
@@ -15489,8 +15489,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-06-02",
-        "latest_valuation_date": "2026-06-02",
+        "sample_end": "2026-06-04",
+        "latest_valuation_date": "2026-06-04",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -15583,7 +15583,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-02",
+        "data_as_of": "2026-06-04",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -15759,8 +15759,8 @@
           "nav": 4.446855
         },
         {
-          "date": "2026-06-02",
-          "nav": 4.615649
+          "date": "2026-06-04",
+          "nav": 4.988302
         }
       ],
       "snapshots": [
@@ -19003,7 +19003,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-02",
+        "preview_as_of": "2026-06-04",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -19012,92 +19012,92 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.308499
-          },
-          {
-            "ts_code": "603256.SH",
-            "name": "宏和科技",
-            "weight": 0.25528
-          },
-          {
-            "ts_code": "688025.SH",
-            "name": "杰普特",
-            "weight": 0.218693
+            "weight": 0.283676
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.041183
+            "weight": 0.279718
           },
           {
-            "ts_code": "601991.SH",
-            "name": "大唐发电",
-            "weight": 0.018854
+            "ts_code": "603256.SH",
+            "name": "宏和科技",
+            "weight": 0.254649
           },
           {
-            "ts_code": "300679.SZ",
-            "name": "电连技术",
-            "weight": 0.017337
+            "ts_code": "688690.SH",
+            "name": "纳微科技",
+            "weight": 0.01881
+          },
+          {
+            "ts_code": "688700.SH",
+            "name": "东威科技",
+            "weight": 0.018022
+          },
+          {
+            "ts_code": "688268.SH",
+            "name": "华特气体",
+            "weight": 0.017592
           },
           {
             "ts_code": "300757.SZ",
             "name": "罗博特科",
-            "weight": 0.016957
+            "weight": 0.016015
           },
           {
             "ts_code": "605589.SH",
             "name": "圣泉集团",
-            "weight": 0.016881
+            "weight": 0.015944
           },
           {
-            "ts_code": "002608.SZ",
-            "name": "江苏国信",
-            "weight": 0.016805
-          },
-          {
-            "ts_code": "601699.SH",
-            "name": "潞安环能",
-            "weight": 0.016123
-          },
-          {
-            "ts_code": "002281.SZ",
-            "name": "光迅科技",
-            "weight": 0.011155
+            "ts_code": "002138.SZ",
+            "name": "顺络电子",
+            "weight": 0.015872
           },
           {
             "ts_code": "688146.SH",
             "name": "中船特气",
-            "weight": 0.010647
+            "weight": 0.011032
+          },
+          {
+            "ts_code": "002281.SZ",
+            "name": "光迅科技",
+            "weight": 0.010068
           },
           {
             "ts_code": "300285.SZ",
             "name": "国瓷材料",
-            "weight": 0.009395
-          },
-          {
-            "ts_code": "688300.SH",
-            "name": "联瑞新材",
-            "weight": 0.008765
+            "weight": 0.00939
           },
           {
             "ts_code": "300604.SZ",
             "name": "长川科技",
-            "weight": 0.008633
+            "weight": 0.00861
           },
           {
             "ts_code": "688630.SH",
             "name": "芯碁微装",
-            "weight": 0.008384
+            "weight": 0.008454
           },
           {
             "ts_code": "301200.SZ",
             "name": "大族数控",
-            "weight": 0.008338
+            "weight": 0.008111
           },
           {
-            "ts_code": "001389.SZ",
-            "name": "广合科技",
-            "weight": 0.008071
+            "ts_code": "003031.SZ",
+            "name": "中瓷电子",
+            "weight": 0.008076
+          },
+          {
+            "ts_code": "688668.SH",
+            "name": "鼎通科技",
+            "weight": 0.008026
+          },
+          {
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.007936
           }
         ]
       }
@@ -19107,8 +19107,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-06-02",
-        "latest_valuation_date": "2026-06-02",
+        "sample_end": "2026-06-04",
+        "latest_valuation_date": "2026-06-04",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -19201,7 +19201,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-02",
+        "data_as_of": "2026-06-04",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -19281,8 +19281,8 @@
           "nav": 3.551853
         },
         {
-          "date": "2026-06-02",
-          "nav": 3.641651
+          "date": "2026-06-04",
+          "nav": 3.925052
         }
       ],
       "snapshots": [
@@ -20701,7 +20701,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-02",
+        "preview_as_of": "2026-06-04",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -20710,92 +20710,92 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.309708
+            "weight": 0.284628
           },
           {
             "ts_code": "603256.SH",
             "name": "宏和科技",
-            "weight": 0.251819
+            "weight": 0.25776
           },
           {
             "ts_code": "688025.SH",
             "name": "杰普特",
-            "weight": 0.220945
+            "weight": 0.240968
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.041183
+            "weight": 0.041229
           },
           {
-            "ts_code": "601991.SH",
-            "name": "大唐发电",
-            "weight": 0.018854
+            "ts_code": "688690.SH",
+            "name": "纳微科技",
+            "weight": 0.018961
           },
           {
-            "ts_code": "300679.SZ",
-            "name": "电连技术",
-            "weight": 0.017337
+            "ts_code": "688700.SH",
+            "name": "东威科技",
+            "weight": 0.018166
+          },
+          {
+            "ts_code": "688268.SH",
+            "name": "华特气体",
+            "weight": 0.017733
           },
           {
             "ts_code": "300757.SZ",
             "name": "罗博特科",
-            "weight": 0.016957
+            "weight": 0.016144
           },
           {
             "ts_code": "605589.SH",
             "name": "圣泉集团",
-            "weight": 0.016881
+            "weight": 0.016071
           },
           {
-            "ts_code": "002608.SZ",
-            "name": "江苏国信",
-            "weight": 0.016805
-          },
-          {
-            "ts_code": "601699.SH",
-            "name": "潞安环能",
-            "weight": 0.016123
-          },
-          {
-            "ts_code": "002281.SZ",
-            "name": "光迅科技",
-            "weight": 0.011155
+            "ts_code": "002138.SZ",
+            "name": "顺络电子",
+            "weight": 0.015999
           },
           {
             "ts_code": "688146.SH",
             "name": "中船特气",
-            "weight": 0.010647
+            "weight": 0.011121
+          },
+          {
+            "ts_code": "002281.SZ",
+            "name": "光迅科技",
+            "weight": 0.010149
           },
           {
             "ts_code": "300285.SZ",
             "name": "国瓷材料",
-            "weight": 0.009395
-          },
-          {
-            "ts_code": "688300.SH",
-            "name": "联瑞新材",
-            "weight": 0.008765
+            "weight": 0.009465
           },
           {
             "ts_code": "300604.SZ",
             "name": "长川科技",
-            "weight": 0.008633
+            "weight": 0.008678
           },
           {
             "ts_code": "688630.SH",
             "name": "芯碁微装",
-            "weight": 0.008384
+            "weight": 0.008521
           },
           {
             "ts_code": "301200.SZ",
             "name": "大族数控",
-            "weight": 0.008338
+            "weight": 0.008176
           },
           {
-            "ts_code": "001389.SZ",
-            "name": "广合科技",
-            "weight": 0.008071
+            "ts_code": "003031.SZ",
+            "name": "中瓷电子",
+            "weight": 0.008141
+          },
+          {
+            "ts_code": "688668.SH",
+            "name": "鼎通科技",
+            "weight": 0.00809
           }
         ]
       }
@@ -20805,8 +20805,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-06-02",
-        "latest_valuation_date": "2026-06-02",
+        "sample_end": "2026-06-04",
+        "latest_valuation_date": "2026-06-04",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -20894,7 +20894,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-02",
+        "data_as_of": "2026-06-04",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -20926,8 +20926,8 @@
           "nav": 1.428227
         },
         {
-          "date": "2026-06-02",
-          "nav": 1.467338
+          "date": "2026-06-04",
+          "nav": 1.531725
         }
       ],
       "snapshots": [
@@ -21389,7 +21389,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-02",
+        "preview_as_of": "2026-06-04",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -21398,92 +21398,92 @@
           {
             "ts_code": "603256.SH",
             "name": "宏和科技",
-            "weight": 0.284041
+            "weight": 0.273428
           },
           {
-            "ts_code": "688025.SH",
-            "name": "杰普特",
-            "weight": 0.257229
+            "ts_code": "300285.SZ",
+            "name": "国瓷材料",
+            "weight": 0.263207
           },
           {
             "ts_code": "601869.SH",
             "name": "长飞光纤",
-            "weight": 0.240471
+            "weight": 0.246171
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.041144
+            "weight": 0.0412
           },
           {
-            "ts_code": "601991.SH",
-            "name": "大唐发电",
-            "weight": 0.018909
+            "ts_code": "688690.SH",
+            "name": "纳微科技",
+            "weight": 0.019019
           },
           {
-            "ts_code": "300679.SZ",
-            "name": "电连技术",
-            "weight": 0.017328
+            "ts_code": "688700.SH",
+            "name": "东威科技",
+            "weight": 0.018193
+          },
+          {
+            "ts_code": "688268.SH",
+            "name": "华特气体",
+            "weight": 0.017743
           },
           {
             "ts_code": "300757.SZ",
             "name": "罗博特科",
-            "weight": 0.016933
+            "weight": 0.01609
           },
           {
             "ts_code": "605589.SH",
             "name": "圣泉集团",
-            "weight": 0.016854
+            "weight": 0.016015
           },
           {
-            "ts_code": "002608.SZ",
-            "name": "江苏国信",
-            "weight": 0.016775
-          },
-          {
-            "ts_code": "601699.SH",
-            "name": "潞安环能",
-            "weight": 0.016063
+            "ts_code": "002138.SZ",
+            "name": "顺络电子",
+            "weight": 0.01594
           },
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.012643
-          },
-          {
-            "ts_code": "002281.SZ",
-            "name": "光迅科技",
-            "weight": 0.01067
+            "weight": 0.012141
           },
           {
             "ts_code": "688146.SH",
             "name": "中船特气",
-            "weight": 0.010355
+            "weight": 0.01087
           },
           {
-            "ts_code": "688300.SH",
-            "name": "联瑞新材",
-            "weight": 0.008444
-          },
-          {
-            "ts_code": "300604.SZ",
-            "name": "长川科技",
-            "weight": 0.00827
+            "ts_code": "002281.SZ",
+            "name": "光迅科技",
+            "weight": 0.009675
           },
           {
             "ts_code": "688630.SH",
             "name": "芯碁微装",
-            "weight": 0.008117
+            "weight": 0.008405
+          },
+          {
+            "ts_code": "300604.SZ",
+            "name": "长川科技",
+            "weight": 0.008282
+          },
+          {
+            "ts_code": "688668.SH",
+            "name": "鼎通科技",
+            "weight": 0.00798
+          },
+          {
+            "ts_code": "003031.SZ",
+            "name": "中瓷电子",
+            "weight": 0.007872
           },
           {
             "ts_code": "301200.SZ",
             "name": "大族数控",
-            "weight": 0.007979
-          },
-          {
-            "ts_code": "001389.SZ",
-            "name": "广合科技",
-            "weight": 0.007774
+            "weight": 0.007769
           }
         ]
       }
