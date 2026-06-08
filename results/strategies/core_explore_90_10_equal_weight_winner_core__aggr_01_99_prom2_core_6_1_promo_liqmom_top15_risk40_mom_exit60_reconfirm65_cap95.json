@@ -13,8 +13,8 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-06-05",
-        "latest_valuation_date": "2026-06-05",
+        "sample_end": "2026-06-08",
+        "latest_valuation_date": "2026-06-08",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -77,7 +77,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-05",
+        "data_as_of": "2026-06-08",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -541,8 +541,8 @@
           "nav": 17.768347
         },
         {
-          "date": "2026-06-05",
-          "nav": 18.628762
+          "date": "2026-06-08",
+          "nav": 18.617996
         }
       ],
       "snapshots": [
@@ -4277,7 +4277,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-05",
+        "preview_as_of": "2026-06-08",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -4286,42 +4286,42 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.468816
+            "weight": 0.461097
           },
           {
             "ts_code": "603256.SH",
             "name": "宏和科技",
-            "weight": 0.422184
+            "weight": 0.429903
           },
           {
             "ts_code": "688403.SH",
             "name": "汇成股份",
-            "weight": 0.020503
+            "weight": 0.019901
           },
           {
             "ts_code": "600378.SH",
             "name": "昊华科技",
-            "weight": 0.019536
+            "weight": 0.018768
+          },
+          {
+            "ts_code": "300001.SZ",
+            "name": "特锐德",
+            "weight": 0.018059
+          },
+          {
+            "ts_code": "002472.SZ",
+            "name": "双环传动",
+            "weight": 0.014518
           },
           {
             "ts_code": "601991.SH",
             "name": "大唐发电",
-            "weight": 0.015474
-          },
-          {
-            "ts_code": "000582.SZ",
-            "name": "北部湾港",
-            "weight": 0.015087
+            "weight": 0.014377
           },
           {
             "ts_code": "000921.SZ",
             "name": "海信家电",
-            "weight": 0.014894
-          },
-          {
-            "ts_code": "000887.SZ",
-            "name": "中鼎股份",
-            "weight": 0.014507
+            "weight": 0.014377
           },
           {
             "ts_code": "300408.SZ",
@@ -4336,8 +4336,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-06-05",
-        "latest_valuation_date": "2026-06-05",
+        "sample_end": "2026-06-08",
+        "latest_valuation_date": "2026-06-08",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -4400,7 +4400,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-05",
+        "data_as_of": "2026-06-08",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -4720,8 +4720,8 @@
           "nav": 19.785506
         },
         {
-          "date": "2026-06-05",
-          "nav": 20.742572
+          "date": "2026-06-08",
+          "nav": 20.714333
         }
       ],
       "snapshots": [
@@ -7470,7 +7470,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-05",
+        "preview_as_of": "2026-06-08",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -7479,42 +7479,42 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.473531
+            "weight": 0.464922
           },
           {
             "ts_code": "603256.SH",
             "name": "宏和科技",
-            "weight": 0.417469
+            "weight": 0.426078
           },
           {
             "ts_code": "688403.SH",
             "name": "汇成股份",
-            "weight": 0.020503
+            "weight": 0.019901
           },
           {
             "ts_code": "600378.SH",
             "name": "昊华科技",
-            "weight": 0.019536
+            "weight": 0.018768
+          },
+          {
+            "ts_code": "300001.SZ",
+            "name": "特锐德",
+            "weight": 0.018059
+          },
+          {
+            "ts_code": "002472.SZ",
+            "name": "双环传动",
+            "weight": 0.014518
           },
           {
             "ts_code": "601991.SH",
             "name": "大唐发电",
-            "weight": 0.015474
-          },
-          {
-            "ts_code": "000582.SZ",
-            "name": "北部湾港",
-            "weight": 0.015087
+            "weight": 0.014377
           },
           {
             "ts_code": "000921.SZ",
             "name": "海信家电",
-            "weight": 0.014894
-          },
-          {
-            "ts_code": "000887.SZ",
-            "name": "中鼎股份",
-            "weight": 0.014507
+            "weight": 0.014377
           },
           {
             "ts_code": "300408.SZ",
@@ -7529,8 +7529,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-06-05",
-        "latest_valuation_date": "2026-06-05",
+        "sample_end": "2026-06-08",
+        "latest_valuation_date": "2026-06-08",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -7593,7 +7593,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-05",
+        "data_as_of": "2026-06-08",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -7769,8 +7769,8 @@
           "nav": 4.55833
         },
         {
-          "date": "2026-06-05",
-          "nav": 4.788385
+          "date": "2026-06-08",
+          "nav": 4.784763
         }
       ],
       "snapshots": [
@@ -9223,7 +9223,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-05",
+        "preview_as_of": "2026-06-08",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -9232,42 +9232,42 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.46964
+            "weight": 0.459082
           },
           {
             "ts_code": "603256.SH",
             "name": "宏和科技",
-            "weight": 0.42136
+            "weight": 0.431918
           },
           {
             "ts_code": "688403.SH",
             "name": "汇成股份",
-            "weight": 0.020503
+            "weight": 0.019901
           },
           {
             "ts_code": "600378.SH",
             "name": "昊华科技",
-            "weight": 0.019536
+            "weight": 0.018768
+          },
+          {
+            "ts_code": "300001.SZ",
+            "name": "特锐德",
+            "weight": 0.018059
+          },
+          {
+            "ts_code": "002472.SZ",
+            "name": "双环传动",
+            "weight": 0.014518
           },
           {
             "ts_code": "601991.SH",
             "name": "大唐发电",
-            "weight": 0.015474
-          },
-          {
-            "ts_code": "000582.SZ",
-            "name": "北部湾港",
-            "weight": 0.015087
+            "weight": 0.014377
           },
           {
             "ts_code": "000921.SZ",
             "name": "海信家电",
-            "weight": 0.014894
-          },
-          {
-            "ts_code": "000887.SZ",
-            "name": "中鼎股份",
-            "weight": 0.014507
+            "weight": 0.014377
           },
           {
             "ts_code": "300408.SZ",
@@ -9282,8 +9282,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-06-05",
-        "latest_valuation_date": "2026-06-05",
+        "sample_end": "2026-06-08",
+        "latest_valuation_date": "2026-06-08",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -9346,7 +9346,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-05",
+        "data_as_of": "2026-06-08",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -9426,8 +9426,8 @@
           "nav": 2.647471
         },
         {
-          "date": "2026-06-05",
-          "nav": 2.784051
+          "date": "2026-06-08",
+          "nav": 2.782964
         }
       ],
       "snapshots": [
@@ -10226,7 +10226,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-05",
+        "preview_as_of": "2026-06-08",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -10235,42 +10235,42 @@
           {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.476516
+            "weight": 0.454455
           },
           {
             "ts_code": "603256.SH",
             "name": "宏和科技",
-            "weight": 0.414484
+            "weight": 0.436545
           },
           {
             "ts_code": "688403.SH",
             "name": "汇成股份",
-            "weight": 0.020503
+            "weight": 0.019901
           },
           {
             "ts_code": "600378.SH",
             "name": "昊华科技",
-            "weight": 0.019536
+            "weight": 0.018768
+          },
+          {
+            "ts_code": "300001.SZ",
+            "name": "特锐德",
+            "weight": 0.018059
+          },
+          {
+            "ts_code": "002472.SZ",
+            "name": "双环传动",
+            "weight": 0.014518
           },
           {
             "ts_code": "601991.SH",
             "name": "大唐发电",
-            "weight": 0.015474
-          },
-          {
-            "ts_code": "000582.SZ",
-            "name": "北部湾港",
-            "weight": 0.015087
+            "weight": 0.014377
           },
           {
             "ts_code": "000921.SZ",
             "name": "海信家电",
-            "weight": 0.014894
-          },
-          {
-            "ts_code": "000887.SZ",
-            "name": "中鼎股份",
-            "weight": 0.014507
+            "weight": 0.014377
           },
           {
             "ts_code": "300408.SZ",
@@ -10285,8 +10285,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-06-05",
-        "latest_valuation_date": "2026-06-05",
+        "sample_end": "2026-06-08",
+        "latest_valuation_date": "2026-06-08",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -10349,7 +10349,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-05",
+        "data_as_of": "2026-06-08",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -10381,8 +10381,8 @@
           "nav": 0.929338
         },
         {
-          "date": "2026-06-05",
-          "nav": 1.007467
+          "date": "2026-06-08",
+          "nav": 0.984813
         }
       ],
       "snapshots": [
@@ -10599,7 +10599,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-05",
+        "preview_as_of": "2026-06-08",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -10618,32 +10618,32 @@
           {
             "ts_code": "688403.SH",
             "name": "汇成股份",
-            "weight": 0.020503
+            "weight": 0.019901
           },
           {
             "ts_code": "600378.SH",
             "name": "昊华科技",
-            "weight": 0.019536
+            "weight": 0.018768
+          },
+          {
+            "ts_code": "300001.SZ",
+            "name": "特锐德",
+            "weight": 0.018059
+          },
+          {
+            "ts_code": "002472.SZ",
+            "name": "双环传动",
+            "weight": 0.014518
           },
           {
             "ts_code": "601991.SH",
             "name": "大唐发电",
-            "weight": 0.015474
-          },
-          {
-            "ts_code": "000582.SZ",
-            "name": "北部湾港",
-            "weight": 0.015087
+            "weight": 0.014377
           },
           {
             "ts_code": "000921.SZ",
             "name": "海信家电",
-            "weight": 0.014894
-          },
-          {
-            "ts_code": "000887.SZ",
-            "name": "中鼎股份",
-            "weight": 0.014507
+            "weight": 0.014377
           },
           {
             "ts_code": "300408.SZ",
