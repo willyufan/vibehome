@@ -2,19 +2,19 @@
   "strategy_id": "core_explore_90_10_total_mv_winner_core__aggr_13_87_prom12_emergent_theme_quality_gate_signal26_leader72_risk15_cap12_exit66",
   "display_name": "核心90_探索10_总市值底座_胜出者核心__进攻13/87 晋升12只(强主题涌现, 信号26%, 龙头72%, 熊市15%, 单票12%, 出场66%)",
   "market_scope": "a_share",
-  "path": "path4",
+  "path": "path2",
   "winner_type": "leaderboard candidate",
-  "experimental": true,
-  "tracked_only": true,
-  "frequency": "monthly",
+  "experimental": false,
+  "tracked_only": false,
+  "frequency": "",
   "sample_views": {
     "since_2017_01": {
       "sample_tag": "since_2017_01",
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-06-10",
-        "latest_valuation_date": "2026-06-10",
+        "sample_end": "2026-06-23",
+        "latest_valuation_date": "2026-06-23",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -97,7 +97,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-10",
+        "data_as_of": "2026-06-23",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -561,8 +561,8 @@
           "nav": 2.537848
         },
         {
-          "date": "2026-06-10",
-          "nav": 2.647918
+          "date": "2026-06-23",
+          "nav": 2.912646
         }
       ],
       "snapshots": [
@@ -5742,7 +5742,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-10",
+        "preview_as_of": "2026-06-23",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -5769,34 +5769,34 @@
             "weight": 0.12
           },
           {
-            "ts_code": "688432.SH",
-            "name": "有研硅",
-            "weight": 0.091541
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.097518
           },
           {
-            "ts_code": "688337.SH",
-            "name": "普源精电",
-            "weight": 0.091318
+            "ts_code": "300661.SZ",
+            "name": "圣邦股份",
+            "weight": 0.087358
           },
           {
-            "ts_code": "688368.SH",
-            "name": "晶丰明源",
-            "weight": 0.086406
+            "ts_code": "688536.SH",
+            "name": "思瑞浦",
+            "weight": 0.084783
           },
           {
-            "ts_code": "688625.SH",
-            "name": "呈和科技",
-            "weight": 0.086406
+            "ts_code": "301200.SZ",
+            "name": "大族数控",
+            "weight": 0.08421
           },
           {
-            "ts_code": "688403.SH",
-            "name": "汇成股份",
-            "weight": 0.082164
+            "ts_code": "300373.SZ",
+            "name": "扬杰科技",
+            "weight": 0.083065
           },
           {
-            "ts_code": "688700.SH",
-            "name": "东威科技",
-            "weight": 0.082164
+            "ts_code": "688766.SH",
+            "name": "普冉股份",
+            "weight": 0.083065
           }
         ]
       }
@@ -5806,8 +5806,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-06-10",
-        "latest_valuation_date": "2026-06-10",
+        "sample_end": "2026-06-23",
+        "latest_valuation_date": "2026-06-23",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -5885,7 +5885,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-10",
+        "data_as_of": "2026-06-23",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -6205,8 +6205,8 @@
           "nav": 1.81336
         },
         {
-          "date": "2026-06-10",
-          "nav": 1.903512
+          "date": "2026-06-23",
+          "nav": 2.145974
         }
       ],
       "snapshots": [
@@ -9745,7 +9745,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-10",
+        "preview_as_of": "2026-06-23",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -9767,34 +9767,34 @@
             "weight": 0.12
           },
           {
-            "ts_code": "688432.SH",
-            "name": "有研硅",
-            "weight": 0.112666
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.12
           },
           {
-            "ts_code": "688337.SH",
-            "name": "普源精电",
-            "weight": 0.112392
+            "ts_code": "300661.SZ",
+            "name": "圣邦股份",
+            "weight": 0.107522
           },
           {
-            "ts_code": "688368.SH",
-            "name": "晶丰明源",
-            "weight": 0.106346
+            "ts_code": "688536.SH",
+            "name": "思瑞浦",
+            "weight": 0.104352
           },
           {
-            "ts_code": "688625.SH",
-            "name": "呈和科技",
-            "weight": 0.106346
+            "ts_code": "301200.SZ",
+            "name": "大族数控",
+            "weight": 0.103648
           },
           {
-            "ts_code": "688403.SH",
-            "name": "汇成股份",
-            "weight": 0.101125
+            "ts_code": "300373.SZ",
+            "name": "扬杰科技",
+            "weight": 0.102239
           },
           {
-            "ts_code": "688700.SH",
-            "name": "东威科技",
-            "weight": 0.101125
+            "ts_code": "688766.SH",
+            "name": "普冉股份",
+            "weight": 0.102239
           }
         ]
       }
@@ -9804,8 +9804,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-06-10",
-        "latest_valuation_date": "2026-06-10",
+        "sample_end": "2026-06-23",
+        "latest_valuation_date": "2026-06-23",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -9873,7 +9873,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-10",
+        "data_as_of": "2026-06-23",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -10049,8 +10049,8 @@
           "nav": 1.542961
         },
         {
-          "date": "2026-06-10",
-          "nav": 1.594113
+          "date": "2026-06-23",
+          "nav": 1.80894
         }
       ],
       "snapshots": [
@@ -11613,7 +11613,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-10",
+        "preview_as_of": "2026-06-23",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -11622,6 +11622,11 @@
           {
             "ts_code": "301308.SZ",
             "name": "江波龙",
+            "weight": 0.12
+          },
+          {
+            "ts_code": "688041.SH",
+            "name": "海光信息",
             "weight": 0.12
           },
           {
@@ -11635,34 +11640,34 @@
             "weight": 0.12
           },
           {
-            "ts_code": "688432.SH",
-            "name": "有研硅",
-            "weight": 0.112666
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.097518
           },
           {
-            "ts_code": "688337.SH",
-            "name": "普源精电",
-            "weight": 0.112392
+            "ts_code": "300661.SZ",
+            "name": "圣邦股份",
+            "weight": 0.087358
           },
           {
-            "ts_code": "688368.SH",
-            "name": "晶丰明源",
-            "weight": 0.106346
+            "ts_code": "688536.SH",
+            "name": "思瑞浦",
+            "weight": 0.084783
           },
           {
-            "ts_code": "688625.SH",
-            "name": "呈和科技",
-            "weight": 0.106346
+            "ts_code": "301200.SZ",
+            "name": "大族数控",
+            "weight": 0.08421
           },
           {
-            "ts_code": "688403.SH",
-            "name": "汇成股份",
-            "weight": 0.101125
+            "ts_code": "300373.SZ",
+            "name": "扬杰科技",
+            "weight": 0.083065
           },
           {
-            "ts_code": "688700.SH",
-            "name": "东威科技",
-            "weight": 0.101125
+            "ts_code": "688766.SH",
+            "name": "普冉股份",
+            "weight": 0.083065
           }
         ]
       }
@@ -11672,8 +11677,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-06-10",
-        "latest_valuation_date": "2026-06-10",
+        "sample_end": "2026-06-23",
+        "latest_valuation_date": "2026-06-23",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -11736,7 +11741,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-10",
+        "data_as_of": "2026-06-23",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -11816,8 +11821,8 @@
           "nav": 1.574928
         },
         {
-          "date": "2026-06-10",
-          "nav": 1.629984
+          "date": "2026-06-23",
+          "nav": 1.840705
         }
       ],
       "snapshots": [
@@ -12696,51 +12701,56 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-10",
+        "preview_as_of": "2026-06-23",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
-        "target_total_exposure": 0.2083,
+        "target_total_exposure": 1.0,
         "market_momentum": 0.2429,
         "holdings": [
           {
+            "ts_code": "688411.SH",
+            "name": "海博思创",
+            "weight": 0.12
+          },
+          {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.02604
+            "weight": 0.12
           },
           {
             "ts_code": "300502.SZ",
             "name": "新易盛",
-            "weight": 0.02604
+            "weight": 0.12
           },
           {
-            "ts_code": "688432.SH",
-            "name": "有研硅",
-            "weight": 0.02604
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.12
           },
           {
-            "ts_code": "688337.SH",
-            "name": "普源精电",
-            "weight": 0.02604
+            "ts_code": "300661.SZ",
+            "name": "圣邦股份",
+            "weight": 0.107522
           },
           {
-            "ts_code": "688368.SH",
-            "name": "晶丰明源",
-            "weight": 0.02604
+            "ts_code": "688536.SH",
+            "name": "思瑞浦",
+            "weight": 0.104352
           },
           {
-            "ts_code": "688625.SH",
-            "name": "呈和科技",
-            "weight": 0.02604
+            "ts_code": "301200.SZ",
+            "name": "大族数控",
+            "weight": 0.103648
           },
           {
-            "ts_code": "688403.SH",
-            "name": "汇成股份",
-            "weight": 0.02604
+            "ts_code": "300373.SZ",
+            "name": "扬杰科技",
+            "weight": 0.102239
           },
           {
-            "ts_code": "688700.SH",
-            "name": "东威科技",
-            "weight": 0.02604
+            "ts_code": "688766.SH",
+            "name": "普冉股份",
+            "weight": 0.102239
           }
         ]
       }
@@ -12750,8 +12760,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-06-10",
-        "latest_valuation_date": "2026-06-10",
+        "sample_end": "2026-06-23",
+        "latest_valuation_date": "2026-06-23",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -12814,7 +12824,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-10",
+        "data_as_of": "2026-06-23",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -12846,8 +12856,8 @@
           "nav": 1.233986
         },
         {
-          "date": "2026-06-10",
-          "nav": 1.300907
+          "date": "2026-06-23",
+          "nav": 1.469596
         }
       ],
       "snapshots": [
@@ -13109,7 +13119,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-10",
+        "preview_as_of": "2026-06-23",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 0.96,
@@ -13126,33 +13136,33 @@
             "weight": 0.12
           },
           {
-            "ts_code": "688432.SH",
-            "name": "有研硅",
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
             "weight": 0.12
           },
           {
-            "ts_code": "688337.SH",
-            "name": "普源精电",
+            "ts_code": "300661.SZ",
+            "name": "圣邦股份",
             "weight": 0.12
           },
           {
-            "ts_code": "688368.SH",
-            "name": "晶丰明源",
+            "ts_code": "688536.SH",
+            "name": "思瑞浦",
             "weight": 0.12
           },
           {
-            "ts_code": "688625.SH",
-            "name": "呈和科技",
+            "ts_code": "301200.SZ",
+            "name": "大族数控",
             "weight": 0.12
           },
           {
-            "ts_code": "688403.SH",
-            "name": "汇成股份",
+            "ts_code": "300373.SZ",
+            "name": "扬杰科技",
             "weight": 0.12
           },
           {
-            "ts_code": "688700.SH",
-            "name": "东威科技",
+            "ts_code": "688766.SH",
+            "name": "普冉股份",
             "weight": 0.12
           }
         ]
