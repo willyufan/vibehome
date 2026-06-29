@@ -72,7 +72,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-26",
+        "data_as_of": "2026-06-29",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -5221,8 +5221,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-06-26",
-        "latest_valuation_date": "2026-06-26",
+        "sample_end": "2026-06-29",
+        "latest_valuation_date": "2026-06-29",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -5280,7 +5280,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-26",
+        "data_as_of": "2026-06-29",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -5600,8 +5600,8 @@
           "nav": 2.245103
         },
         {
-          "date": "2026-06-26",
-          "nav": 2.199273
+          "date": "2026-06-29",
+          "nav": 2.178107
         }
       ],
       "snapshots": [
@@ -8785,7 +8785,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-26",
+        "preview_as_of": "2026-06-29",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -8804,32 +8804,32 @@
           {
             "ts_code": "688200.SH",
             "name": "华峰测控",
-            "weight": 0.096349
-          },
-          {
-            "ts_code": "300285.SZ",
-            "name": "国瓷材料",
-            "weight": 0.092481
-          },
-          {
-            "ts_code": "688127.SH",
-            "name": "蓝特光学",
-            "weight": 0.08817
+            "weight": 0.096175
           },
           {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.087176
+            "weight": 0.090889
+          },
+          {
+            "ts_code": "300285.SZ",
+            "name": "国瓷材料",
+            "weight": 0.089966
+          },
+          {
+            "ts_code": "688233.SH",
+            "name": "神工股份",
+            "weight": 0.087281
+          },
+          {
+            "ts_code": "300054.SZ",
+            "name": "鼎龙股份",
+            "weight": 0.085603
           },
           {
             "ts_code": "688120.SH",
             "name": "华海清科",
-            "weight": 0.086292
-          },
-          {
-            "ts_code": "688150.SH",
-            "name": "莱特光电",
-            "weight": 0.084965
+            "weight": 0.085519
           }
         ]
       }
@@ -8839,8 +8839,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-06-26",
-        "latest_valuation_date": "2026-06-26",
+        "sample_end": "2026-06-29",
+        "latest_valuation_date": "2026-06-29",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -8898,7 +8898,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-26",
+        "data_as_of": "2026-06-29",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -9074,8 +9074,8 @@
           "nav": 1.383908
         },
         {
-          "date": "2026-06-26",
-          "nav": 1.340675
+          "date": "2026-06-29",
+          "nav": 1.336336
         }
       ],
       "snapshots": [
@@ -10528,7 +10528,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-26",
+        "preview_as_of": "2026-06-29",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -10547,32 +10547,32 @@
           {
             "ts_code": "688200.SH",
             "name": "华峰测控",
-            "weight": 0.096349
-          },
-          {
-            "ts_code": "300285.SZ",
-            "name": "国瓷材料",
-            "weight": 0.092481
-          },
-          {
-            "ts_code": "688127.SH",
-            "name": "蓝特光学",
-            "weight": 0.08817
+            "weight": 0.096257
           },
           {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.087176
+            "weight": 0.090909
+          },
+          {
+            "ts_code": "300285.SZ",
+            "name": "国瓷材料",
+            "weight": 0.089975
+          },
+          {
+            "ts_code": "688233.SH",
+            "name": "神工股份",
+            "weight": 0.087258
+          },
+          {
+            "ts_code": "300054.SZ",
+            "name": "鼎龙股份",
+            "weight": 0.08556
           },
           {
             "ts_code": "688120.SH",
             "name": "华海清科",
-            "weight": 0.086292
-          },
-          {
-            "ts_code": "688150.SH",
-            "name": "莱特光电",
-            "weight": 0.084965
+            "weight": 0.085475
           }
         ]
       }
@@ -10582,8 +10582,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-06-26",
-        "latest_valuation_date": "2026-06-26",
+        "sample_end": "2026-06-29",
+        "latest_valuation_date": "2026-06-29",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -10636,7 +10636,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-26",
+        "data_as_of": "2026-06-29",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -10716,8 +10716,8 @@
           "nav": 1.94438
         },
         {
-          "date": "2026-06-26",
-          "nav": 2.032906
+          "date": "2026-06-29",
+          "nav": 1.983738
         }
       ],
       "snapshots": [
@@ -11436,7 +11436,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-26",
+        "preview_as_of": "2026-06-29",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -11450,32 +11450,32 @@
           {
             "ts_code": "688200.SH",
             "name": "华峰测控",
-            "weight": 0.122364
-          },
-          {
-            "ts_code": "300285.SZ",
-            "name": "国瓷材料",
-            "weight": 0.117451
-          },
-          {
-            "ts_code": "688127.SH",
-            "name": "蓝特光学",
-            "weight": 0.111976
+            "weight": 0.122247
           },
           {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.110713
+            "weight": 0.115454
+          },
+          {
+            "ts_code": "300285.SZ",
+            "name": "国瓷材料",
+            "weight": 0.114268
+          },
+          {
+            "ts_code": "688233.SH",
+            "name": "神工股份",
+            "weight": 0.110817
+          },
+          {
+            "ts_code": "300054.SZ",
+            "name": "鼎龙股份",
+            "weight": 0.108661
           },
           {
             "ts_code": "688120.SH",
             "name": "华海清科",
-            "weight": 0.10959
-          },
-          {
-            "ts_code": "688150.SH",
-            "name": "莱特光电",
-            "weight": 0.107906
+            "weight": 0.108553
           }
         ]
       }
@@ -11485,8 +11485,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-06-26",
-        "latest_valuation_date": "2026-06-26",
+        "sample_end": "2026-06-29",
+        "latest_valuation_date": "2026-06-29",
         "latest_formal_signal_date": "2026-05-29",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -11539,7 +11539,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-06-26",
+        "data_as_of": "2026-06-29",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-05-29",
         "basket_effective_date": "2026-05-29",
@@ -11571,8 +11571,8 @@
           "nav": 1.1313
         },
         {
-          "date": "2026-06-26",
-          "nav": 1.182807
+          "date": "2026-06-29",
+          "nav": 1.1542
         }
       ],
       "snapshots": [
@@ -11789,7 +11789,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-06-26",
+        "preview_as_of": "2026-06-29",
         "formal_signal_date": "2026-05-29",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -11803,32 +11803,32 @@
           {
             "ts_code": "688200.SH",
             "name": "华峰测控",
-            "weight": 0.122364
-          },
-          {
-            "ts_code": "300285.SZ",
-            "name": "国瓷材料",
-            "weight": 0.117451
-          },
-          {
-            "ts_code": "688127.SH",
-            "name": "蓝特光学",
-            "weight": 0.111976
+            "weight": 0.122247
           },
           {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.110713
+            "weight": 0.115454
+          },
+          {
+            "ts_code": "300285.SZ",
+            "name": "国瓷材料",
+            "weight": 0.114268
+          },
+          {
+            "ts_code": "688233.SH",
+            "name": "神工股份",
+            "weight": 0.110817
+          },
+          {
+            "ts_code": "300054.SZ",
+            "name": "鼎龙股份",
+            "weight": 0.108661
           },
           {
             "ts_code": "688120.SH",
             "name": "华海清科",
-            "weight": 0.10959
-          },
-          {
-            "ts_code": "688150.SH",
-            "name": "莱特光电",
-            "weight": 0.107906
+            "weight": 0.108553
           }
         ]
       }
