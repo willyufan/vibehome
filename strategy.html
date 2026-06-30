@@ -964,9 +964,12 @@ function buildLeaderboard(leaderboards) {
           ? `<span style="color:var(--accent)">${(e.metrics.weighted_max_drawdown*100).toFixed(1)}%</span>` : '—';
         const shortName = e.strategy_base_name.length > 50
           ? e.strategy_base_name.slice(0, 50) + '…' : e.strategy_base_name;
+        const nameCell = e.strategy_base_id
+          ? `<a href="#" onclick="event.preventDefault();goToDetail('${e.strategy_base_id}')" title="${e.strategy_base_name}" style="color:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer">${winnerMark}${shortName}</a>`
+          : `${winnerMark}<span title="${e.strategy_base_name}">${shortName}</span>`;
         return `<tr>
           <td style="color:var(--muted);font-weight:600;text-align:center">#${e.rank}</td>
-          <td>${winnerMark}<span title="${e.strategy_base_name}">${shortName}</span></td>
+          <td>${nameCell}</td>
           <td style="text-align:right">${cagr}</td>
           <td style="text-align:right">${sharpe}</td>
           <td style="text-align:right">${dd}</td>
