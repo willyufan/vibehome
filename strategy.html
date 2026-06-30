@@ -318,8 +318,8 @@ const CHART_COLORS = ['#c8392b','#1a7a4a','#2563eb','#b06000','#7c3aed','#0891b2
 function buildWindowChart(canvasId, strategies) {
   const ctx = document.getElementById(canvasId);
   if (!ctx) return;
-  const tags   = ['since_2017_01','since_2020_01','since_2023_01','since_2025_01'];
-  const labels = tags.map(t => ({ since_2017_01:'2017', since_2020_01:'2020', since_2023_01:'2023', since_2025_01:'2025' })[t]);
+  const tags   = ['since_2017_01','since_2020_01','since_2023_01','since_2025_01','since_2026_01'];
+  const labels = tags.map(t => ({ since_2017_01:'2017', since_2020_01:'2020', since_2023_01:'2023', since_2025_01:'2025', since_2026_01:'2026' })[t]);
   const datasets = strategies
     .filter(s => s.window_metrics && s.window_metrics.length > 0)
     .map((s, i) => ({
