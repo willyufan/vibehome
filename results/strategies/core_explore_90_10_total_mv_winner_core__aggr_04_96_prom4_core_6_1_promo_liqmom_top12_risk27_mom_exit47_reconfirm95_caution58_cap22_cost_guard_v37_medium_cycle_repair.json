@@ -72,7 +72,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-08",
+        "data_as_of": "2026-07-09",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -4791,8 +4791,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-07-08",
-        "latest_valuation_date": "2026-07-08",
+        "sample_end": "2026-07-09",
+        "latest_valuation_date": "2026-07-09",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -4850,7 +4850,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-08",
+        "data_as_of": "2026-07-09",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -5174,8 +5174,8 @@
           "nav": 2.219989
         },
         {
-          "date": "2026-07-08",
-          "nav": 2.17461
+          "date": "2026-07-09",
+          "nav": 2.192741
         }
       ],
       "snapshots": [
@@ -8000,7 +8000,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-08",
+        "preview_as_of": "2026-07-09",
         "formal_signal_date": "2026-06-30",
         "risk_state": "risk_on",
         "target_total_exposure": 0.136,
@@ -8012,34 +8012,34 @@
             "weight": 0.02992
           },
           {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.018379
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.019183
           },
           {
-            "ts_code": "600350.SH",
-            "name": "山东高速",
-            "weight": 0.017913
+            "ts_code": "688432.SH",
+            "name": "有研硅",
+            "weight": 0.018924
           },
           {
-            "ts_code": "688605.SH",
-            "name": "先锋精科",
-            "weight": 0.017913
+            "ts_code": "688392.SH",
+            "name": "骄成超声",
+            "weight": 0.017341
           },
           {
-            "ts_code": "301165.SZ",
-            "name": "锐捷网络",
-            "weight": 0.017622
+            "ts_code": "688120.SH",
+            "name": "华海清科",
+            "weight": 0.017276
           },
           {
-            "ts_code": "688347.SH",
-            "name": "华虹公司",
-            "weight": 0.017272
+            "ts_code": "688123.SH",
+            "name": "聚辰股份",
+            "weight": 0.016856
           },
           {
-            "ts_code": "688629.SH",
-            "name": "华丰科技",
-            "weight": 0.016981
+            "ts_code": "688019.SH",
+            "name": "安集科技",
+            "weight": 0.0165
           }
         ]
       }
@@ -8049,8 +8049,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-07-08",
-        "latest_valuation_date": "2026-07-08",
+        "sample_end": "2026-07-09",
+        "latest_valuation_date": "2026-07-09",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -8108,7 +8108,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-08",
+        "data_as_of": "2026-07-09",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -8288,8 +8288,8 @@
           "nav": 1.344841
         },
         {
-          "date": "2026-07-08",
-          "nav": 1.227405
+          "date": "2026-07-09",
+          "nav": 1.3063
         }
       ],
       "snapshots": [
@@ -9633,7 +9633,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-08",
+        "preview_as_of": "2026-07-09",
         "formal_signal_date": "2026-06-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -9650,34 +9650,34 @@
             "weight": 0.206471
           },
           {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.099368
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.103714
           },
           {
-            "ts_code": "600350.SH",
-            "name": "山东高速",
-            "weight": 0.096848
+            "ts_code": "688432.SH",
+            "name": "有研硅",
+            "weight": 0.102316
           },
           {
-            "ts_code": "688605.SH",
-            "name": "先锋精科",
-            "weight": 0.096848
+            "ts_code": "688392.SH",
+            "name": "骄成超声",
+            "weight": 0.093753
           },
           {
-            "ts_code": "301165.SZ",
-            "name": "锐捷网络",
-            "weight": 0.095273
+            "ts_code": "688120.SH",
+            "name": "华海清科",
+            "weight": 0.093404
           },
           {
-            "ts_code": "688347.SH",
-            "name": "华虹公司",
-            "weight": 0.093384
+            "ts_code": "688123.SH",
+            "name": "聚辰股份",
+            "weight": 0.091132
           },
           {
-            "ts_code": "688629.SH",
-            "name": "华丰科技",
-            "weight": 0.091809
+            "ts_code": "688019.SH",
+            "name": "安集科技",
+            "weight": 0.08921
           }
         ]
       }
@@ -9687,8 +9687,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-07-08",
-        "latest_valuation_date": "2026-07-08",
+        "sample_end": "2026-07-09",
+        "latest_valuation_date": "2026-07-09",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -9741,7 +9741,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-08",
+        "data_as_of": "2026-07-09",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -9825,8 +9825,8 @@
           "nav": 1.92761
         },
         {
-          "date": "2026-07-08",
-          "nav": 1.653764
+          "date": "2026-07-09",
+          "nav": 1.764081
         }
       ],
       "snapshots": [
@@ -10586,7 +10586,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-08",
+        "preview_as_of": "2026-07-09",
         "formal_signal_date": "2026-06-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -10598,34 +10598,34 @@
             "weight": 0.22
           },
           {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.13514
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.141051
           },
           {
-            "ts_code": "600350.SH",
-            "name": "山东高速",
-            "weight": 0.131713
+            "ts_code": "688432.SH",
+            "name": "有研硅",
+            "weight": 0.13915
           },
           {
-            "ts_code": "688605.SH",
-            "name": "先锋精科",
-            "weight": 0.131713
+            "ts_code": "688392.SH",
+            "name": "骄成超声",
+            "weight": 0.127505
           },
           {
-            "ts_code": "301165.SZ",
-            "name": "锐捷网络",
-            "weight": 0.129572
+            "ts_code": "688120.SH",
+            "name": "华海清科",
+            "weight": 0.127029
           },
           {
-            "ts_code": "688347.SH",
-            "name": "华虹公司",
-            "weight": 0.127002
+            "ts_code": "688123.SH",
+            "name": "聚辰股份",
+            "weight": 0.12394
           },
           {
-            "ts_code": "688629.SH",
-            "name": "华丰科技",
-            "weight": 0.12486
+            "ts_code": "688019.SH",
+            "name": "安集科技",
+            "weight": 0.121325
           }
         ]
       }
@@ -10635,8 +10635,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-07-08",
-        "latest_valuation_date": "2026-07-08",
+        "sample_end": "2026-07-09",
+        "latest_valuation_date": "2026-07-09",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -10689,7 +10689,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-08",
+        "data_as_of": "2026-07-09",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -10725,8 +10725,8 @@
           "nav": 1.215473
         },
         {
-          "date": "2026-07-08",
-          "nav": 1.042797
+          "date": "2026-07-09",
+          "nav": 1.112358
         }
       ],
       "snapshots": [
@@ -10984,7 +10984,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-08",
+        "preview_as_of": "2026-07-09",
         "formal_signal_date": "2026-06-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
@@ -10996,34 +10996,34 @@
             "weight": 0.22
           },
           {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.13514
+            "ts_code": "688200.SH",
+            "name": "华峰测控",
+            "weight": 0.141051
           },
           {
-            "ts_code": "600350.SH",
-            "name": "山东高速",
-            "weight": 0.131713
+            "ts_code": "688432.SH",
+            "name": "有研硅",
+            "weight": 0.13915
           },
           {
-            "ts_code": "688605.SH",
-            "name": "先锋精科",
-            "weight": 0.131713
+            "ts_code": "688392.SH",
+            "name": "骄成超声",
+            "weight": 0.127505
           },
           {
-            "ts_code": "301165.SZ",
-            "name": "锐捷网络",
-            "weight": 0.129572
+            "ts_code": "688120.SH",
+            "name": "华海清科",
+            "weight": 0.127029
           },
           {
-            "ts_code": "688347.SH",
-            "name": "华虹公司",
-            "weight": 0.127002
+            "ts_code": "688123.SH",
+            "name": "聚辰股份",
+            "weight": 0.12394
           },
           {
-            "ts_code": "688629.SH",
-            "name": "华丰科技",
-            "weight": 0.12486
+            "ts_code": "688019.SH",
+            "name": "安集科技",
+            "weight": 0.121325
           }
         ]
       }
