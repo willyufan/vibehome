@@ -3,10 +3,10 @@
   "display_name": "沪港通Path3 单周高集中突破",
   "market_scope": "hkconnect",
   "path": "path3",
-  "winner_type": "leaderboard candidate",
+  "winner_type": "2025-window winner",
   "experimental": false,
   "tracked_only": false,
-  "frequency": "",
+  "frequency": "weekly",
   "sample_views": {
     "since_2017_01": {
       "sample_tag": "since_2017_01",
@@ -57,7 +57,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-09",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
@@ -18363,7 +18363,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-09",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
@@ -30909,7 +30909,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-09",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
@@ -37585,7 +37585,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-09",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
@@ -40431,7 +40431,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-09",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "weekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
