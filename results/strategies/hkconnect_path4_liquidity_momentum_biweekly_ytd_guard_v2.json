@@ -3,7 +3,7 @@
   "display_name": "沪港通Path4 双周流动性动量(年内守门v2)",
   "market_scope": "hkconnect",
   "path": "path4",
-  "winner_type": "2025-window winner",
+  "winner_type": "leaderboard candidate",
   "experimental": true,
   "tracked_only": true,
   "frequency": "biweekly",
@@ -112,7 +112,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-16",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-06-18",
         "basket_effective_date": "2026-06-18",
@@ -23148,7 +23148,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-16",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
@@ -31988,7 +31988,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.060708
             },
             {
@@ -32347,7 +32347,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.060534
             },
             {
@@ -32428,7 +32428,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.043902
             },
             {
@@ -32519,7 +32519,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.043598
             },
             {
@@ -32787,7 +32787,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.046743
             },
             {
@@ -32873,7 +32873,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.046671
             },
             {
@@ -39044,7 +39044,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-16",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
@@ -40419,7 +40419,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.060708
             },
             {
@@ -40778,7 +40778,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.060534
             },
             {
@@ -40859,7 +40859,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.043902
             },
             {
@@ -40950,7 +40950,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.043598
             },
             {
@@ -41218,7 +41218,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.046743
             },
             {
@@ -41304,7 +41304,7 @@
             },
             {
               "ts_code": "09999.HK",
-              "name": "网易-S",
+              "name": "网易",
               "weight": 0.046671
             },
             {
@@ -47475,7 +47475,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-16",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
@@ -51161,7 +51161,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-16",
+        "data_as_of": "2026-07-17",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-03",
         "basket_effective_date": "2026-07-03",
