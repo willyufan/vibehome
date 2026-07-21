@@ -3,7 +3,7 @@
   "display_name": "核心90_探索10_总市值底座_胜出者核心__进攻4/96 晋升4只(中周期成长核心, 量价前12%, 动量三档24%, 出场46%, 恢复98, 谨慎56%, 单票18%, 成本防守v79中周期修复)",
   "market_scope": "a_share",
   "path": "path2",
-  "winner_type": "2017-window winner",
+  "winner_type": "leaderboard candidate",
   "experimental": false,
   "tracked_only": false,
   "frequency": "",
@@ -13,8 +13,8 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-07-08",
-        "latest_valuation_date": "2026-07-08",
+        "sample_end": "2026-07-21",
+        "latest_valuation_date": "2026-07-21",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -72,7 +72,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-17",
+        "data_as_of": "2026-07-21",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -540,8 +540,8 @@
           "nav": 1.950127
         },
         {
-          "date": "2026-07-08",
-          "nav": 1.913184
+          "date": "2026-07-21",
+          "nav": 1.882164
         }
       ],
       "snapshots": [
@@ -4247,46 +4247,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-08",
+        "preview_as_of": "2026-07-21",
         "formal_signal_date": "2026-06-30",
         "risk_state": "risk_on",
         "target_total_exposure": 0.136,
         "market_momentum": 0.2218,
         "holdings": [
           {
-            "ts_code": "688256.SH",
-            "name": "寒武纪",
+            "ts_code": "688981.SH",
+            "name": "中芯国际",
             "weight": 0.02448
           },
           {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.019322
+            "ts_code": "688578.SH",
+            "name": "艾力斯",
+            "weight": 0.020012
           },
           {
-            "ts_code": "600350.SH",
-            "name": "山东高速",
-            "weight": 0.018832
+            "ts_code": "688758.SH",
+            "name": "赛分科技",
+            "weight": 0.01876
           },
           {
-            "ts_code": "688605.SH",
-            "name": "先锋精科",
-            "weight": 0.018832
+            "ts_code": "601000.SH",
+            "name": "唐山港",
+            "weight": 0.018699
           },
           {
-            "ts_code": "301165.SZ",
-            "name": "锐捷网络",
-            "weight": 0.018525
+            "ts_code": "688293.SH",
+            "name": "奥浦迈",
+            "weight": 0.018699
           },
           {
-            "ts_code": "688347.SH",
-            "name": "华虹公司",
-            "weight": 0.018158
+            "ts_code": "600566.SH",
+            "name": "济川药业",
+            "weight": 0.018454
           },
           {
-            "ts_code": "688629.SH",
-            "name": "华丰科技",
-            "weight": 0.017852
+            "ts_code": "000598.SZ",
+            "name": "兴蓉环境",
+            "weight": 0.016897
           }
         ]
       }
@@ -4296,8 +4296,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-07-17",
-        "latest_valuation_date": "2026-07-17",
+        "sample_end": "2026-07-21",
+        "latest_valuation_date": "2026-07-21",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -4355,7 +4355,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-17",
+        "data_as_of": "2026-07-21",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -4679,8 +4679,8 @@
           "nav": 1.491161
         },
         {
-          "date": "2026-07-17",
-          "nav": 1.426213
+          "date": "2026-07-21",
+          "nav": 1.439193
         }
       ],
       "snapshots": [
@@ -7070,46 +7070,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-17",
+        "preview_as_of": "2026-07-21",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "caution",
-        "target_total_exposure": 0.0602,
+        "risk_state": "risk_on",
+        "target_total_exposure": 0.136,
         "market_momentum": 0.2218,
         "holdings": [
           {
-            "ts_code": "601939.SH",
-            "name": "建设银行",
-            "weight": 0.010829
+            "ts_code": "688981.SH",
+            "name": "中芯国际",
+            "weight": 0.02448
+          },
+          {
+            "ts_code": "688578.SH",
+            "name": "艾力斯",
+            "weight": 0.020012
           },
           {
             "ts_code": "688758.SH",
             "name": "赛分科技",
-            "weight": 0.009053
-          },
-          {
-            "ts_code": "001872.SZ",
-            "name": "招商港口",
-            "weight": 0.008645
-          },
-          {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.008387
+            "weight": 0.01876
           },
           {
             "ts_code": "601000.SH",
             "name": "唐山港",
-            "weight": 0.008129
+            "weight": 0.018699
+          },
+          {
+            "ts_code": "688293.SH",
+            "name": "奥浦迈",
+            "weight": 0.018699
+          },
+          {
+            "ts_code": "600566.SH",
+            "name": "济川药业",
+            "weight": 0.018454
           },
           {
             "ts_code": "000598.SZ",
             "name": "兴蓉环境",
-            "weight": 0.007591
-          },
-          {
-            "ts_code": "002396.SZ",
-            "name": "星网锐捷",
-            "weight": 0.007527
+            "weight": 0.016897
           }
         ]
       }
@@ -7119,8 +7119,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-07-17",
-        "latest_valuation_date": "2026-07-17",
+        "sample_end": "2026-07-21",
+        "latest_valuation_date": "2026-07-21",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -7173,7 +7173,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-17",
+        "data_as_of": "2026-07-21",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -7353,8 +7353,8 @@
           "nav": 1.752565
         },
         {
-          "date": "2026-07-17",
-          "nav": 1.211397
+          "date": "2026-07-21",
+          "nav": 1.31933
         }
       ],
       "snapshots": [
@@ -8613,46 +8613,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-17",
+        "preview_as_of": "2026-07-21",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "caution",
-        "target_total_exposure": 0.544,
+        "risk_state": "risk_on",
+        "target_total_exposure": 1.0,
         "market_momentum": 0.2218,
         "holdings": [
           {
-            "ts_code": "601939.SH",
-            "name": "建设银行",
-            "weight": 0.09792
+            "ts_code": "688981.SH",
+            "name": "中芯国际",
+            "weight": 0.18
+          },
+          {
+            "ts_code": "688578.SH",
+            "name": "艾力斯",
+            "weight": 0.147146
           },
           {
             "ts_code": "688758.SH",
             "name": "赛分科技",
-            "weight": 0.081861
-          },
-          {
-            "ts_code": "001872.SZ",
-            "name": "招商港口",
-            "weight": 0.078168
-          },
-          {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.075837
+            "weight": 0.137939
           },
           {
             "ts_code": "601000.SH",
             "name": "唐山港",
-            "weight": 0.073505
+            "weight": 0.13749
+          },
+          {
+            "ts_code": "688293.SH",
+            "name": "奥浦迈",
+            "weight": 0.13749
+          },
+          {
+            "ts_code": "600566.SH",
+            "name": "济川药业",
+            "weight": 0.135694
           },
           {
             "ts_code": "000598.SZ",
             "name": "兴蓉环境",
-            "weight": 0.068646
-          },
-          {
-            "ts_code": "002396.SZ",
-            "name": "星网锐捷",
-            "weight": 0.068063
+            "weight": 0.124241
           }
         ]
       }
@@ -8662,8 +8662,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-07-17",
-        "latest_valuation_date": "2026-07-17",
+        "sample_end": "2026-07-21",
+        "latest_valuation_date": "2026-07-21",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -8716,7 +8716,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-17",
+        "data_as_of": "2026-07-21",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -8800,8 +8800,8 @@
           "nav": 1.939506
         },
         {
-          "date": "2026-07-17",
-          "nav": 1.340613
+          "date": "2026-07-21",
+          "nav": 1.460059
         }
       ],
       "snapshots": [
@@ -9566,46 +9566,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-17",
+        "preview_as_of": "2026-07-21",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "caution",
-        "target_total_exposure": 0.544,
+        "risk_state": "risk_on",
+        "target_total_exposure": 1.0,
         "market_momentum": 0.2218,
         "holdings": [
           {
-            "ts_code": "601939.SH",
-            "name": "建设银行",
-            "weight": 0.09792
+            "ts_code": "688981.SH",
+            "name": "中芯国际",
+            "weight": 0.18
+          },
+          {
+            "ts_code": "688578.SH",
+            "name": "艾力斯",
+            "weight": 0.147146
           },
           {
             "ts_code": "688758.SH",
             "name": "赛分科技",
-            "weight": 0.081861
-          },
-          {
-            "ts_code": "001872.SZ",
-            "name": "招商港口",
-            "weight": 0.078168
-          },
-          {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.075837
+            "weight": 0.137939
           },
           {
             "ts_code": "601000.SH",
             "name": "唐山港",
-            "weight": 0.073505
+            "weight": 0.13749
+          },
+          {
+            "ts_code": "688293.SH",
+            "name": "奥浦迈",
+            "weight": 0.13749
+          },
+          {
+            "ts_code": "600566.SH",
+            "name": "济川药业",
+            "weight": 0.135694
           },
           {
             "ts_code": "000598.SZ",
             "name": "兴蓉环境",
-            "weight": 0.068646
-          },
-          {
-            "ts_code": "002396.SZ",
-            "name": "星网锐捷",
-            "weight": 0.068063
+            "weight": 0.124241
           }
         ]
       }
@@ -9615,8 +9615,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-07-17",
-        "latest_valuation_date": "2026-07-17",
+        "sample_end": "2026-07-21",
+        "latest_valuation_date": "2026-07-21",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -9669,7 +9669,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-17",
+        "data_as_of": "2026-07-21",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -9705,8 +9705,8 @@
           "nav": 1.223411
         },
         {
-          "date": "2026-07-17",
-          "nav": 0.845639
+          "date": "2026-07-21",
+          "nav": 0.920983
         }
       ],
       "snapshots": [
@@ -9969,46 +9969,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-17",
+        "preview_as_of": "2026-07-21",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "caution",
-        "target_total_exposure": 0.544,
+        "risk_state": "risk_on",
+        "target_total_exposure": 1.0,
         "market_momentum": 0.2218,
         "holdings": [
           {
-            "ts_code": "601939.SH",
-            "name": "建设银行",
-            "weight": 0.09792
+            "ts_code": "688981.SH",
+            "name": "中芯国际",
+            "weight": 0.18
+          },
+          {
+            "ts_code": "688578.SH",
+            "name": "艾力斯",
+            "weight": 0.147146
           },
           {
             "ts_code": "688758.SH",
             "name": "赛分科技",
-            "weight": 0.081861
-          },
-          {
-            "ts_code": "001872.SZ",
-            "name": "招商港口",
-            "weight": 0.078168
-          },
-          {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.075837
+            "weight": 0.137939
           },
           {
             "ts_code": "601000.SH",
             "name": "唐山港",
-            "weight": 0.073505
+            "weight": 0.13749
+          },
+          {
+            "ts_code": "688293.SH",
+            "name": "奥浦迈",
+            "weight": 0.13749
+          },
+          {
+            "ts_code": "600566.SH",
+            "name": "济川药业",
+            "weight": 0.135694
           },
           {
             "ts_code": "000598.SZ",
             "name": "兴蓉环境",
-            "weight": 0.068646
-          },
-          {
-            "ts_code": "002396.SZ",
-            "name": "星网锐捷",
-            "weight": 0.068063
+            "weight": 0.124241
           }
         ]
       }
