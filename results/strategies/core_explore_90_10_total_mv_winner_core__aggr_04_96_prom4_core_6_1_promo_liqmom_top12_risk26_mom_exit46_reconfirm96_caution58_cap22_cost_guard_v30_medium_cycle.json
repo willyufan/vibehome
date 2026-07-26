@@ -13,8 +13,8 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-07-17",
-        "latest_valuation_date": "2026-07-17",
+        "sample_end": "2026-07-24",
+        "latest_valuation_date": "2026-07-24",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -72,7 +72,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-21",
+        "data_as_of": "2026-07-24",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -540,8 +540,8 @@
           "nav": 3.346012
         },
         {
-          "date": "2026-07-17",
-          "nav": 3.197929
+          "date": "2026-07-24",
+          "nav": 3.206537
         }
       ],
       "snapshots": [
@@ -4712,7 +4712,7 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-17",
+        "preview_as_of": "2026-07-24",
         "formal_signal_date": "2026-06-30",
         "risk_state": "caution",
         "target_total_exposure": 0.0629,
@@ -4724,34 +4724,34 @@
             "weight": 0.013834
           },
           {
-            "ts_code": "688758.SH",
-            "name": "赛分科技",
-            "weight": 0.009119
+            "ts_code": "603983.SH",
+            "name": "丸美生物",
+            "weight": 0.00869
           },
           {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.008583
+            "ts_code": "300832.SZ",
+            "name": "新产业",
+            "weight": 0.008659
           },
           {
-            "ts_code": "601000.SH",
-            "name": "唐山港",
-            "weight": 0.008316
+            "ts_code": "600919.SH",
+            "name": "江苏银行",
+            "weight": 0.008567
           },
           {
-            "ts_code": "000598.SZ",
-            "name": "兴蓉环境",
-            "weight": 0.007825
+            "ts_code": "601919.SH",
+            "name": "中远海控",
+            "weight": 0.007863
           },
           {
-            "ts_code": "002396.SZ",
-            "name": "星网锐捷",
-            "weight": 0.007602
+            "ts_code": "601665.SH",
+            "name": "齐鲁银行",
+            "weight": 0.00771
           },
           {
-            "ts_code": "600886.SH",
-            "name": "国投电力",
-            "weight": 0.007602
+            "ts_code": "688702.SH",
+            "name": "盛科通信-U",
+            "weight": 0.007557
           }
         ]
       }
@@ -4761,8 +4761,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-07-21",
-        "latest_valuation_date": "2026-07-21",
+        "sample_end": "2026-07-24",
+        "latest_valuation_date": "2026-07-24",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -4820,7 +4820,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-21",
+        "data_as_of": "2026-07-24",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -5144,8 +5144,8 @@
           "nav": 2.220503
         },
         {
-          "date": "2026-07-21",
-          "nav": 2.144214
+          "date": "2026-07-24",
+          "nav": 2.127943
         }
       ],
       "snapshots": [
@@ -7960,46 +7960,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-21",
+        "preview_as_of": "2026-07-24",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "risk_on",
-        "target_total_exposure": 0.136,
+        "risk_state": "caution",
+        "target_total_exposure": 0.0629,
         "market_momentum": 0.2218,
         "holdings": [
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.02992
+            "weight": 0.013834
           },
           {
-            "ts_code": "688578.SH",
-            "name": "艾力斯",
-            "weight": 0.019036
+            "ts_code": "603983.SH",
+            "name": "丸美生物",
+            "weight": 0.00869
           },
           {
-            "ts_code": "688758.SH",
-            "name": "赛分科技",
-            "weight": 0.017845
+            "ts_code": "300832.SZ",
+            "name": "新产业",
+            "weight": 0.008659
           },
           {
-            "ts_code": "601000.SH",
-            "name": "唐山港",
-            "weight": 0.017787
+            "ts_code": "600919.SH",
+            "name": "江苏银行",
+            "weight": 0.008567
           },
           {
-            "ts_code": "688293.SH",
-            "name": "奥浦迈",
-            "weight": 0.017787
+            "ts_code": "601919.SH",
+            "name": "中远海控",
+            "weight": 0.007863
           },
           {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.017554
+            "ts_code": "601665.SH",
+            "name": "齐鲁银行",
+            "weight": 0.00771
           },
           {
-            "ts_code": "000598.SZ",
-            "name": "兴蓉环境",
-            "weight": 0.016073
+            "ts_code": "688702.SH",
+            "name": "盛科通信-U",
+            "weight": 0.007557
           }
         ]
       }
@@ -8009,8 +8009,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-07-21",
-        "latest_valuation_date": "2026-07-21",
+        "sample_end": "2026-07-24",
+        "latest_valuation_date": "2026-07-24",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -8068,7 +8068,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-21",
+        "data_as_of": "2026-07-24",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -8248,8 +8248,8 @@
           "nav": 1.346373
         },
         {
-          "date": "2026-07-21",
-          "nav": 1.129114
+          "date": "2026-07-24",
+          "nav": 1.047181
         }
       ],
       "snapshots": [
@@ -9583,51 +9583,51 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-21",
+        "preview_as_of": "2026-07-24",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "risk_on",
-        "target_total_exposure": 1.0,
+        "risk_state": "caution",
+        "target_total_exposure": 0.564,
         "market_momentum": 0.2218,
         "holdings": [
           {
             "ts_code": "688041.SH",
             "name": "海光信息",
-            "weight": 0.22
+            "weight": 0.12408
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.206471
+            "weight": 0.12408
           },
           {
-            "ts_code": "688578.SH",
-            "name": "艾力斯",
-            "weight": 0.102918
+            "ts_code": "603983.SH",
+            "name": "丸美生物",
+            "weight": 0.05596
           },
           {
-            "ts_code": "688758.SH",
-            "name": "赛分科技",
-            "weight": 0.096478
+            "ts_code": "300832.SZ",
+            "name": "新产业",
+            "weight": 0.055763
           },
           {
-            "ts_code": "601000.SH",
-            "name": "唐山港",
-            "weight": 0.096164
+            "ts_code": "600919.SH",
+            "name": "江苏银行",
+            "weight": 0.055171
           },
           {
-            "ts_code": "688293.SH",
-            "name": "奥浦迈",
-            "weight": 0.096164
+            "ts_code": "601919.SH",
+            "name": "中远海控",
+            "weight": 0.050635
           },
           {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.094908
+            "ts_code": "601665.SH",
+            "name": "齐鲁银行",
+            "weight": 0.049649
           },
           {
-            "ts_code": "000598.SZ",
-            "name": "兴蓉环境",
-            "weight": 0.086897
+            "ts_code": "688702.SH",
+            "name": "盛科通信-U",
+            "weight": 0.048663
           }
         ]
       }
@@ -9637,8 +9637,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-07-21",
-        "latest_valuation_date": "2026-07-21",
+        "sample_end": "2026-07-24",
+        "latest_valuation_date": "2026-07-24",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -9691,7 +9691,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-21",
+        "data_as_of": "2026-07-24",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -9775,8 +9775,8 @@
           "nav": 1.92761
         },
         {
-          "date": "2026-07-21",
-          "nav": 1.464372
+          "date": "2026-07-24",
+          "nav": 1.365759
         }
       ],
       "snapshots": [
@@ -10536,46 +10536,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-21",
+        "preview_as_of": "2026-07-24",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "risk_on",
-        "target_total_exposure": 1.0,
+        "risk_state": "caution",
+        "target_total_exposure": 0.564,
         "market_momentum": 0.2218,
         "holdings": [
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.22
+            "weight": 0.12408
           },
           {
-            "ts_code": "688578.SH",
-            "name": "艾力斯",
-            "weight": 0.139969
+            "ts_code": "603983.SH",
+            "name": "丸美生物",
+            "weight": 0.077944
           },
           {
-            "ts_code": "688758.SH",
-            "name": "赛分科技",
-            "weight": 0.13121
+            "ts_code": "300832.SZ",
+            "name": "新产业",
+            "weight": 0.077669
           },
           {
-            "ts_code": "601000.SH",
-            "name": "唐山港",
-            "weight": 0.130783
+            "ts_code": "600919.SH",
+            "name": "江苏银行",
+            "weight": 0.076845
           },
           {
-            "ts_code": "688293.SH",
-            "name": "奥浦迈",
-            "weight": 0.130783
+            "ts_code": "601919.SH",
+            "name": "中远海控",
+            "weight": 0.070527
           },
           {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.129074
+            "ts_code": "601665.SH",
+            "name": "齐鲁银行",
+            "weight": 0.069154
           },
           {
-            "ts_code": "000598.SZ",
-            "name": "兴蓉环境",
-            "weight": 0.11818
+            "ts_code": "688702.SH",
+            "name": "盛科通信-U",
+            "weight": 0.06778
           }
         ]
       }
@@ -10585,8 +10585,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-07-21",
-        "latest_valuation_date": "2026-07-21",
+        "sample_end": "2026-07-24",
+        "latest_valuation_date": "2026-07-24",
         "latest_formal_signal_date": "2026-06-30",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -10639,7 +10639,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-21",
+        "data_as_of": "2026-07-24",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-06-30",
         "basket_effective_date": "2026-06-30",
@@ -10675,8 +10675,8 @@
           "nav": 1.215473
         },
         {
-          "date": "2026-07-21",
-          "nav": 0.923374
+          "date": "2026-07-24",
+          "nav": 0.861192
         }
       ],
       "snapshots": [
@@ -10934,46 +10934,46 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-07-21",
+        "preview_as_of": "2026-07-24",
         "formal_signal_date": "2026-06-30",
-        "risk_state": "risk_on",
-        "target_total_exposure": 1.0,
+        "risk_state": "caution",
+        "target_total_exposure": 0.564,
         "market_momentum": 0.2218,
         "holdings": [
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.22
+            "weight": 0.12408
           },
           {
-            "ts_code": "688578.SH",
-            "name": "艾力斯",
-            "weight": 0.139969
+            "ts_code": "603983.SH",
+            "name": "丸美生物",
+            "weight": 0.077944
           },
           {
-            "ts_code": "688758.SH",
-            "name": "赛分科技",
-            "weight": 0.13121
+            "ts_code": "300832.SZ",
+            "name": "新产业",
+            "weight": 0.077669
           },
           {
-            "ts_code": "601000.SH",
-            "name": "唐山港",
-            "weight": 0.130783
+            "ts_code": "600919.SH",
+            "name": "江苏银行",
+            "weight": 0.076845
           },
           {
-            "ts_code": "688293.SH",
-            "name": "奥浦迈",
-            "weight": 0.130783
+            "ts_code": "601919.SH",
+            "name": "中远海控",
+            "weight": 0.070527
           },
           {
-            "ts_code": "600566.SH",
-            "name": "济川药业",
-            "weight": 0.129074
+            "ts_code": "601665.SH",
+            "name": "齐鲁银行",
+            "weight": 0.069154
           },
           {
-            "ts_code": "000598.SZ",
-            "name": "兴蓉环境",
-            "weight": 0.11818
+            "ts_code": "688702.SH",
+            "name": "盛科通信-U",
+            "weight": 0.06778
           }
         ]
       }
