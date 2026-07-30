@@ -3,18 +3,18 @@
   "display_name": "沪港通Path2 双周主题突破(成本确认v25修复)",
   "market_scope": "hkconnect",
   "path": "path2",
-  "winner_type": "leaderboard candidate",
+  "winner_type": "2017-window winner",
   "experimental": false,
   "tracked_only": false,
-  "frequency": "",
+  "frequency": "biweekly",
   "sample_views": {
     "since_2017_01": {
       "sample_tag": "since_2017_01",
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-09",
-        "sample_end": "2026-07-29",
-        "latest_valuation_date": "2026-07-29",
+        "sample_end": "2026-07-30",
+        "latest_valuation_date": "2026-07-30",
         "latest_formal_signal_date": "2026-07-24",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -33,51 +33,51 @@
         {
           "ts_code": "00005.HK",
           "name": "汇丰控股",
-          "weight": 0.126767
+          "weight": 0.126084
         },
         {
           "ts_code": "02388.HK",
           "name": "中银香港",
-          "weight": 0.126135
+          "weight": 0.125969
         },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.122732
+          "weight": 0.123557
         },
         {
           "ts_code": "01398.HK",
           "name": "工商银行",
-          "weight": 0.119455
+          "weight": 0.1215
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.116236
+          "weight": 0.117635
         },
         {
           "ts_code": "06160.HK",
           "name": "百济神州",
-          "weight": 0.110904
+          "weight": 0.108776
         },
         {
           "ts_code": "00002.HK",
           "name": "中电控股",
-          "weight": 0.095746
-        },
-        {
-          "ts_code": "01070.HK",
-          "name": "TCL电子",
-          "weight": 0.091197
+          "weight": 0.09559
         },
         {
           "ts_code": "03328.HK",
           "name": "交通银行",
-          "weight": 0.090827
+          "weight": 0.091642
+        },
+        {
+          "ts_code": "01070.HK",
+          "name": "TCL电子",
+          "weight": 0.089248
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-29",
+        "data_as_of": "2026-07-30",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-17",
         "basket_effective_date": "2026-07-17",
@@ -1081,8 +1081,8 @@
           "nav": 6.036881
         },
         {
-          "date": "2026-07-29",
-          "nav": 6.124777
+          "date": "2026-07-30",
+          "nav": 6.150504
         }
       ],
       "snapshots": [
@@ -14700,53 +14700,53 @@
           ]
         },
         {
-          "date": "2026-07-29",
+          "date": "2026-07-30",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "00005.HK",
               "name": "汇丰控股",
-              "weight": 0.126767
+              "weight": 0.126084
             },
             {
               "ts_code": "02388.HK",
               "name": "中银香港",
-              "weight": 0.126135
+              "weight": 0.125969
             },
             {
               "ts_code": "03988.HK",
               "name": "中国银行",
-              "weight": 0.122732
+              "weight": 0.123557
             },
             {
               "ts_code": "01398.HK",
               "name": "工商银行",
-              "weight": 0.119455
+              "weight": 0.1215
             },
             {
               "ts_code": "00939.HK",
               "name": "建设银行",
-              "weight": 0.116236
+              "weight": 0.117635
             },
             {
               "ts_code": "06160.HK",
               "name": "百济神州",
-              "weight": 0.110904
+              "weight": 0.108776
             },
             {
               "ts_code": "00002.HK",
               "name": "中电控股",
-              "weight": 0.095746
-            },
-            {
-              "ts_code": "01070.HK",
-              "name": "TCL电子",
-              "weight": 0.091197
+              "weight": 0.09559
             },
             {
               "ts_code": "03328.HK",
               "name": "交通银行",
-              "weight": 0.090827
+              "weight": 0.091642
+            },
+            {
+              "ts_code": "01070.HK",
+              "name": "TCL电子",
+              "weight": 0.089248
             }
           ]
         }
@@ -14759,8 +14759,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-06",
-        "sample_end": "2026-07-29",
-        "latest_valuation_date": "2026-07-29",
+        "sample_end": "2026-07-30",
+        "latest_valuation_date": "2026-07-30",
         "latest_formal_signal_date": "2026-07-24",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -14779,51 +14779,51 @@
         {
           "ts_code": "00005.HK",
           "name": "汇丰控股",
-          "weight": 0.126767
+          "weight": 0.126084
         },
         {
           "ts_code": "02388.HK",
           "name": "中银香港",
-          "weight": 0.126135
+          "weight": 0.125969
         },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.122732
+          "weight": 0.123557
         },
         {
           "ts_code": "01398.HK",
           "name": "工商银行",
-          "weight": 0.119455
+          "weight": 0.1215
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.116236
+          "weight": 0.117635
         },
         {
           "ts_code": "06160.HK",
           "name": "百济神州",
-          "weight": 0.110904
+          "weight": 0.108776
         },
         {
           "ts_code": "00002.HK",
           "name": "中电控股",
-          "weight": 0.095746
-        },
-        {
-          "ts_code": "01070.HK",
-          "name": "TCL电子",
-          "weight": 0.091197
+          "weight": 0.09559
         },
         {
           "ts_code": "03328.HK",
           "name": "交通银行",
-          "weight": 0.090827
+          "weight": 0.091642
+        },
+        {
+          "ts_code": "01070.HK",
+          "name": "TCL电子",
+          "weight": 0.089248
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-29",
+        "data_as_of": "2026-07-30",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-17",
         "basket_effective_date": "2026-07-17",
@@ -15515,8 +15515,8 @@
           "nav": 3.68382
         },
         {
-          "date": "2026-07-29",
-          "nav": 3.737455
+          "date": "2026-07-30",
+          "nav": 3.753154
         }
       ],
       "snapshots": [
@@ -24946,53 +24946,53 @@
           ]
         },
         {
-          "date": "2026-07-29",
+          "date": "2026-07-30",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "00005.HK",
               "name": "汇丰控股",
-              "weight": 0.126767
+              "weight": 0.126084
             },
             {
               "ts_code": "02388.HK",
               "name": "中银香港",
-              "weight": 0.126135
+              "weight": 0.125969
             },
             {
               "ts_code": "03988.HK",
               "name": "中国银行",
-              "weight": 0.122732
+              "weight": 0.123557
             },
             {
               "ts_code": "01398.HK",
               "name": "工商银行",
-              "weight": 0.119455
+              "weight": 0.1215
             },
             {
               "ts_code": "00939.HK",
               "name": "建设银行",
-              "weight": 0.116236
+              "weight": 0.117635
             },
             {
               "ts_code": "06160.HK",
               "name": "百济神州",
-              "weight": 0.110904
+              "weight": 0.108776
             },
             {
               "ts_code": "00002.HK",
               "name": "中电控股",
-              "weight": 0.095746
-            },
-            {
-              "ts_code": "01070.HK",
-              "name": "TCL电子",
-              "weight": 0.091197
+              "weight": 0.09559
             },
             {
               "ts_code": "03328.HK",
               "name": "交通银行",
-              "weight": 0.090827
+              "weight": 0.091642
+            },
+            {
+              "ts_code": "01070.HK",
+              "name": "TCL电子",
+              "weight": 0.089248
             }
           ]
         }
@@ -25005,8 +25005,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-16",
-        "sample_end": "2026-07-29",
-        "latest_valuation_date": "2026-07-29",
+        "sample_end": "2026-07-30",
+        "latest_valuation_date": "2026-07-30",
         "latest_formal_signal_date": "2026-07-24",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -25025,51 +25025,51 @@
         {
           "ts_code": "00005.HK",
           "name": "汇丰控股",
-          "weight": 0.126767
+          "weight": 0.126084
         },
         {
           "ts_code": "02388.HK",
           "name": "中银香港",
-          "weight": 0.126135
+          "weight": 0.125969
         },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.122732
+          "weight": 0.123557
         },
         {
           "ts_code": "01398.HK",
           "name": "工商银行",
-          "weight": 0.119455
+          "weight": 0.1215
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.116236
+          "weight": 0.117635
         },
         {
           "ts_code": "06160.HK",
           "name": "百济神州",
-          "weight": 0.110904
+          "weight": 0.108776
         },
         {
           "ts_code": "00002.HK",
           "name": "中电控股",
-          "weight": 0.095746
-        },
-        {
-          "ts_code": "01070.HK",
-          "name": "TCL电子",
-          "weight": 0.091197
+          "weight": 0.09559
         },
         {
           "ts_code": "03328.HK",
           "name": "交通银行",
-          "weight": 0.090827
+          "weight": 0.091642
+        },
+        {
+          "ts_code": "01070.HK",
+          "name": "TCL电子",
+          "weight": 0.089248
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-29",
+        "data_as_of": "2026-07-30",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-17",
         "basket_effective_date": "2026-07-17",
@@ -25445,8 +25445,8 @@
           "nav": 1.709085
         },
         {
-          "date": "2026-07-29",
-          "nav": 1.733969
+          "date": "2026-07-30",
+          "nav": 1.741253
         }
       ],
       "snapshots": [
@@ -30507,53 +30507,53 @@
           ]
         },
         {
-          "date": "2026-07-29",
+          "date": "2026-07-30",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "00005.HK",
               "name": "汇丰控股",
-              "weight": 0.126767
+              "weight": 0.126084
             },
             {
               "ts_code": "02388.HK",
               "name": "中银香港",
-              "weight": 0.126135
+              "weight": 0.125969
             },
             {
               "ts_code": "03988.HK",
               "name": "中国银行",
-              "weight": 0.122732
+              "weight": 0.123557
             },
             {
               "ts_code": "01398.HK",
               "name": "工商银行",
-              "weight": 0.119455
+              "weight": 0.1215
             },
             {
               "ts_code": "00939.HK",
               "name": "建设银行",
-              "weight": 0.116236
+              "weight": 0.117635
             },
             {
               "ts_code": "06160.HK",
               "name": "百济神州",
-              "weight": 0.110904
+              "weight": 0.108776
             },
             {
               "ts_code": "00002.HK",
               "name": "中电控股",
-              "weight": 0.095746
-            },
-            {
-              "ts_code": "01070.HK",
-              "name": "TCL电子",
-              "weight": 0.091197
+              "weight": 0.09559
             },
             {
               "ts_code": "03328.HK",
               "name": "交通银行",
-              "weight": 0.090827
+              "weight": 0.091642
+            },
+            {
+              "ts_code": "01070.HK",
+              "name": "TCL电子",
+              "weight": 0.089248
             }
           ]
         }
@@ -30566,8 +30566,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-13",
-        "sample_end": "2026-07-29",
-        "latest_valuation_date": "2026-07-29",
+        "sample_end": "2026-07-30",
+        "latest_valuation_date": "2026-07-30",
         "latest_formal_signal_date": "2026-07-24",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -30586,51 +30586,51 @@
         {
           "ts_code": "00005.HK",
           "name": "汇丰控股",
-          "weight": 0.126767
+          "weight": 0.126084
         },
         {
           "ts_code": "02388.HK",
           "name": "中银香港",
-          "weight": 0.126135
+          "weight": 0.125969
         },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.122732
+          "weight": 0.123557
         },
         {
           "ts_code": "01398.HK",
           "name": "工商银行",
-          "weight": 0.119455
+          "weight": 0.1215
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.116236
+          "weight": 0.117635
         },
         {
           "ts_code": "06160.HK",
           "name": "百济神州",
-          "weight": 0.110904
+          "weight": 0.108776
         },
         {
           "ts_code": "00002.HK",
           "name": "中电控股",
-          "weight": 0.095746
-        },
-        {
-          "ts_code": "01070.HK",
-          "name": "TCL电子",
-          "weight": 0.091197
+          "weight": 0.09559
         },
         {
           "ts_code": "03328.HK",
           "name": "交通银行",
-          "weight": 0.090827
+          "weight": 0.091642
+        },
+        {
+          "ts_code": "01070.HK",
+          "name": "TCL电子",
+          "weight": 0.089248
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-29",
+        "data_as_of": "2026-07-30",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-17",
         "basket_effective_date": "2026-07-17",
@@ -30802,8 +30802,8 @@
           "nav": 1.337168
         },
         {
-          "date": "2026-07-29",
-          "nav": 1.356637
+          "date": "2026-07-30",
+          "nav": 1.362335
         }
       ],
       "snapshots": [
@@ -32903,53 +32903,53 @@
           ]
         },
         {
-          "date": "2026-07-29",
+          "date": "2026-07-30",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "00005.HK",
               "name": "汇丰控股",
-              "weight": 0.126767
+              "weight": 0.126084
             },
             {
               "ts_code": "02388.HK",
               "name": "中银香港",
-              "weight": 0.126135
+              "weight": 0.125969
             },
             {
               "ts_code": "03988.HK",
               "name": "中国银行",
-              "weight": 0.122732
+              "weight": 0.123557
             },
             {
               "ts_code": "01398.HK",
               "name": "工商银行",
-              "weight": 0.119455
+              "weight": 0.1215
             },
             {
               "ts_code": "00939.HK",
               "name": "建设银行",
-              "weight": 0.116236
+              "weight": 0.117635
             },
             {
               "ts_code": "06160.HK",
               "name": "百济神州",
-              "weight": 0.110904
+              "weight": 0.108776
             },
             {
               "ts_code": "00002.HK",
               "name": "中电控股",
-              "weight": 0.095746
-            },
-            {
-              "ts_code": "01070.HK",
-              "name": "TCL电子",
-              "weight": 0.091197
+              "weight": 0.09559
             },
             {
               "ts_code": "03328.HK",
               "name": "交通银行",
-              "weight": 0.090827
+              "weight": 0.091642
+            },
+            {
+              "ts_code": "01070.HK",
+              "name": "TCL电子",
+              "weight": 0.089248
             }
           ]
         }
@@ -32962,8 +32962,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-12",
-        "sample_end": "2026-07-29",
-        "latest_valuation_date": "2026-07-29",
+        "sample_end": "2026-07-30",
+        "latest_valuation_date": "2026-07-30",
         "latest_formal_signal_date": "2026-07-24",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起（观察窗）",
@@ -32982,51 +32982,51 @@
         {
           "ts_code": "00005.HK",
           "name": "汇丰控股",
-          "weight": 0.126767
+          "weight": 0.126084
         },
         {
           "ts_code": "02388.HK",
           "name": "中银香港",
-          "weight": 0.126135
+          "weight": 0.125969
         },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.122732
+          "weight": 0.123557
         },
         {
           "ts_code": "01398.HK",
           "name": "工商银行",
-          "weight": 0.119455
+          "weight": 0.1215
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.116236
+          "weight": 0.117635
         },
         {
           "ts_code": "06160.HK",
           "name": "百济神州",
-          "weight": 0.110904
+          "weight": 0.108776
         },
         {
           "ts_code": "00002.HK",
           "name": "中电控股",
-          "weight": 0.095746
-        },
-        {
-          "ts_code": "01070.HK",
-          "name": "TCL电子",
-          "weight": 0.091197
+          "weight": 0.09559
         },
         {
           "ts_code": "03328.HK",
           "name": "交通银行",
-          "weight": 0.090827
+          "weight": 0.091642
+        },
+        {
+          "ts_code": "01070.HK",
+          "name": "TCL电子",
+          "weight": 0.089248
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-07-29",
+        "data_as_of": "2026-07-30",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-07-17",
         "basket_effective_date": "2026-07-17",
@@ -33094,8 +33094,8 @@
           "nav": 0.921552
         },
         {
-          "date": "2026-07-29",
-          "nav": 0.93497
+          "date": "2026-07-30",
+          "nav": 0.938897
         }
       ],
       "snapshots": [
@@ -33819,53 +33819,53 @@
           ]
         },
         {
-          "date": "2026-07-29",
+          "date": "2026-07-30",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "00005.HK",
               "name": "汇丰控股",
-              "weight": 0.126767
+              "weight": 0.126084
             },
             {
               "ts_code": "02388.HK",
               "name": "中银香港",
-              "weight": 0.126135
+              "weight": 0.125969
             },
             {
               "ts_code": "03988.HK",
               "name": "中国银行",
-              "weight": 0.122732
+              "weight": 0.123557
             },
             {
               "ts_code": "01398.HK",
               "name": "工商银行",
-              "weight": 0.119455
+              "weight": 0.1215
             },
             {
               "ts_code": "00939.HK",
               "name": "建设银行",
-              "weight": 0.116236
+              "weight": 0.117635
             },
             {
               "ts_code": "06160.HK",
               "name": "百济神州",
-              "weight": 0.110904
+              "weight": 0.108776
             },
             {
               "ts_code": "00002.HK",
               "name": "中电控股",
-              "weight": 0.095746
-            },
-            {
-              "ts_code": "01070.HK",
-              "name": "TCL电子",
-              "weight": 0.091197
+              "weight": 0.09559
             },
             {
               "ts_code": "03328.HK",
               "name": "交通银行",
-              "weight": 0.090827
+              "weight": 0.091642
+            },
+            {
+              "ts_code": "01070.HK",
+              "name": "TCL电子",
+              "weight": 0.089248
             }
           ]
         }
