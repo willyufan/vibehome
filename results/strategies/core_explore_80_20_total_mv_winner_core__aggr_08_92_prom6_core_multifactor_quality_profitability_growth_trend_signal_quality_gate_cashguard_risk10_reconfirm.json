@@ -6,15 +6,15 @@
   "winner_type": "leaderboard candidate",
   "experimental": false,
   "tracked_only": false,
-  "frequency": "",
+  "frequency": "monthly",
   "sample_views": {
     "since_2017_01": {
       "sample_tag": "since_2017_01",
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-08-06",
-        "latest_valuation_date": "2026-08-06",
+        "sample_end": "2026-08-07",
+        "latest_valuation_date": "2026-08-07",
         "latest_formal_signal_date": "2026-07-31",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -122,7 +122,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-06",
+        "data_as_of": "2026-08-07",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-07-31",
         "basket_effective_date": "2026-07-31",
@@ -594,8 +594,8 @@
           "nav": 2.023382
         },
         {
-          "date": "2026-08-06",
-          "nav": 2.129724
+          "date": "2026-08-07",
+          "nav": 2.190838
         }
       ],
       "snapshots": [
@@ -7637,76 +7637,86 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-08-06",
+        "preview_as_of": "2026-08-07",
         "formal_signal_date": "2026-07-31",
         "risk_state": "caution",
         "target_total_exposure": 0.5,
         "market_momentum": 0.0203,
         "holdings": [
           {
-            "ts_code": "300628.SZ",
-            "name": "亿联网络",
-            "weight": 0.089278
+            "ts_code": "688002.SH",
+            "name": "睿创微纳",
+            "weight": 0.078507
           },
           {
             "ts_code": "000408.SZ",
             "name": "藏格矿业",
-            "weight": 0.079662
+            "weight": 0.076821
           },
           {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.06786
+            "ts_code": "300628.SZ",
+            "name": "亿联网络",
+            "weight": 0.073027
           },
           {
             "ts_code": "600276.SH",
             "name": "恒瑞医药",
-            "weight": 0.0648
-          },
-          {
-            "ts_code": "601958.SH",
-            "name": "金钼股份",
-            "weight": 0.0648
+            "weight": 0.071341
           },
           {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.064363
+            "weight": 0.062068
+          },
+          {
+            "ts_code": "601958.SH",
+            "name": "金钼股份",
+            "weight": 0.059539
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.022245
+            "weight": 0.020418
           },
           {
             "ts_code": "603259.SH",
             "name": "药明康德",
-            "weight": 0.015212
+            "weight": 0.016217
           },
           {
-            "ts_code": "601156.SH",
-            "name": "东航物流",
-            "weight": 0.007066
+            "ts_code": "688105.SH",
+            "name": "诺唯赞",
+            "weight": 0.006305
+          },
+          {
+            "ts_code": "688621.SH",
+            "name": "阳光诺和",
+            "weight": 0.006305
+          },
+          {
+            "ts_code": "603979.SH",
+            "name": "金诚信",
+            "weight": 0.006046
+          },
+          {
+            "ts_code": "688235.SH",
+            "name": "百济神州-U",
+            "weight": 0.006019
+          },
+          {
+            "ts_code": "688131.SH",
+            "name": "皓元医药",
+            "weight": 0.005905
+          },
+          {
+            "ts_code": "600521.SH",
+            "name": "华海药业",
+            "weight": 0.005788
           },
           {
             "ts_code": "600988.SH",
             "name": "赤峰黄金",
-            "weight": 0.006872
-          },
-          {
-            "ts_code": "600801.SH",
-            "name": "华新建材",
-            "weight": 0.006239
-          },
-          {
-            "ts_code": "688318.SH",
-            "name": "财富趋势",
-            "weight": 0.005996
-          },
-          {
-            "ts_code": "002064.SZ",
-            "name": "华峰化学",
-            "weight": 0.005607
+            "weight": 0.005694
           }
         ]
       }
@@ -7716,8 +7726,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-08-06",
-        "latest_valuation_date": "2026-08-06",
+        "sample_end": "2026-08-07",
+        "latest_valuation_date": "2026-08-07",
         "latest_formal_signal_date": "2026-07-31",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -7830,7 +7840,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-06",
+        "data_as_of": "2026-08-07",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-07-31",
         "basket_effective_date": "2026-07-31",
@@ -8158,8 +8168,8 @@
           "nav": 1.474592
         },
         {
-          "date": "2026-08-06",
-          "nav": 1.535391
+          "date": "2026-08-07",
+          "nav": 1.574675
         }
       ],
       "snapshots": [
@@ -13440,76 +13450,86 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-08-06",
+        "preview_as_of": "2026-08-07",
         "formal_signal_date": "2026-07-31",
         "risk_state": "caution",
         "target_total_exposure": 0.5,
         "market_momentum": 0.0203,
         "holdings": [
           {
+            "ts_code": "688002.SH",
+            "name": "睿创微纳",
+            "weight": 0.081073
+          },
+          {
             "ts_code": "300628.SZ",
             "name": "亿联网络",
-            "weight": 0.092036
+            "weight": 0.075569
           },
           {
             "ts_code": "000408.SZ",
             "name": "藏格矿业",
-            "weight": 0.073605
-          },
-          {
-            "ts_code": "300054.SZ",
-            "name": "鼎龙股份",
-            "weight": 0.067934
+            "weight": 0.074651
           },
           {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.066989
+            "weight": 0.065019
           },
           {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.066044
+            "ts_code": "300054.SZ",
+            "name": "鼎龙股份",
+            "weight": 0.062725
           },
           {
             "ts_code": "603893.SH",
             "name": "瑞芯微",
-            "weight": 0.064154
+            "weight": 0.062267
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.022245
+            "weight": 0.020418
           },
           {
             "ts_code": "603259.SH",
             "name": "药明康德",
-            "weight": 0.015212
+            "weight": 0.016217
           },
           {
-            "ts_code": "601156.SH",
-            "name": "东航物流",
-            "weight": 0.007066
+            "ts_code": "688105.SH",
+            "name": "诺唯赞",
+            "weight": 0.006305
+          },
+          {
+            "ts_code": "688621.SH",
+            "name": "阳光诺和",
+            "weight": 0.006305
+          },
+          {
+            "ts_code": "603979.SH",
+            "name": "金诚信",
+            "weight": 0.006046
+          },
+          {
+            "ts_code": "688235.SH",
+            "name": "百济神州-U",
+            "weight": 0.006019
+          },
+          {
+            "ts_code": "688131.SH",
+            "name": "皓元医药",
+            "weight": 0.005905
+          },
+          {
+            "ts_code": "600521.SH",
+            "name": "华海药业",
+            "weight": 0.005788
           },
           {
             "ts_code": "600988.SH",
             "name": "赤峰黄金",
-            "weight": 0.006872
-          },
-          {
-            "ts_code": "600801.SH",
-            "name": "华新建材",
-            "weight": 0.006239
-          },
-          {
-            "ts_code": "688318.SH",
-            "name": "财富趋势",
-            "weight": 0.005996
-          },
-          {
-            "ts_code": "002064.SZ",
-            "name": "华峰化学",
-            "weight": 0.005607
+            "weight": 0.005694
           }
         ]
       }
@@ -13519,8 +13539,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-08-06",
-        "latest_valuation_date": "2026-08-06",
+        "sample_end": "2026-08-07",
+        "latest_valuation_date": "2026-08-07",
         "latest_formal_signal_date": "2026-07-31",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -13633,7 +13653,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-06",
+        "data_as_of": "2026-08-07",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-07-31",
         "basket_effective_date": "2026-07-31",
@@ -13817,8 +13837,8 @@
           "nav": 1.609606
         },
         {
-          "date": "2026-08-06",
-          "nav": 1.714966
+          "date": "2026-08-07",
+          "nav": 1.770182
         }
       ],
       "snapshots": [
@@ -16613,76 +16633,86 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-08-06",
+        "preview_as_of": "2026-08-07",
         "formal_signal_date": "2026-07-31",
         "risk_state": "caution",
         "target_total_exposure": 0.5,
         "market_momentum": 0.0203,
         "holdings": [
           {
-            "ts_code": "300502.SZ",
-            "name": "新易盛",
-            "weight": 0.08308
-          },
-          {
-            "ts_code": "688432.SH",
-            "name": "有研硅",
-            "weight": 0.078527
-          },
-          {
             "ts_code": "688002.SH",
             "name": "睿创微纳",
-            "weight": 0.077389
+            "weight": 0.086777
+          },
+          {
+            "ts_code": "300502.SZ",
+            "name": "新易盛",
+            "weight": 0.073994
           },
           {
             "ts_code": "601958.SH",
             "name": "金钼股份",
-            "weight": 0.067716
+            "weight": 0.071536
+          },
+          {
+            "ts_code": "688432.SH",
+            "name": "有研硅",
+            "weight": 0.070061
           },
           {
             "ts_code": "688150.SH",
             "name": "莱特光电",
-            "weight": 0.062594
+            "weight": 0.059736
           },
           {
             "ts_code": "688702.SH",
             "name": "盛科通信-U",
-            "weight": 0.061456
+            "weight": 0.058753
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.022255
+            "weight": 0.020172
           },
           {
             "ts_code": "603259.SH",
             "name": "药明康德",
-            "weight": 0.015202
+            "weight": 0.016424
           },
           {
-            "ts_code": "601156.SH",
-            "name": "东航物流",
-            "weight": 0.007066
+            "ts_code": "688235.SH",
+            "name": "百济神州-U",
+            "weight": 0.006544
+          },
+          {
+            "ts_code": "688621.SH",
+            "name": "阳光诺和",
+            "weight": 0.006411
+          },
+          {
+            "ts_code": "603979.SH",
+            "name": "金诚信",
+            "weight": 0.006143
+          },
+          {
+            "ts_code": "688131.SH",
+            "name": "皓元医药",
+            "weight": 0.00607
+          },
+          {
+            "ts_code": "600521.SH",
+            "name": "华海药业",
+            "weight": 0.005948
           },
           {
             "ts_code": "600988.SH",
             "name": "赤峰黄金",
-            "weight": 0.006872
+            "weight": 0.005777
           },
           {
-            "ts_code": "600801.SH",
-            "name": "华新建材",
-            "weight": 0.006239
-          },
-          {
-            "ts_code": "688318.SH",
-            "name": "财富趋势",
-            "weight": 0.005996
-          },
-          {
-            "ts_code": "002064.SZ",
-            "name": "华峰化学",
-            "weight": 0.005607
+            "ts_code": "600663.SH",
+            "name": "陆家嘴",
+            "weight": 0.005655
           }
         ]
       }
@@ -16692,8 +16722,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-08-06",
-        "latest_valuation_date": "2026-08-06",
+        "sample_end": "2026-08-07",
+        "latest_valuation_date": "2026-08-07",
         "latest_formal_signal_date": "2026-07-31",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -16806,7 +16836,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-06",
+        "data_as_of": "2026-08-07",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-07-31",
         "basket_effective_date": "2026-07-31",
@@ -16894,8 +16924,8 @@
           "nav": 1.537534
         },
         {
-          "date": "2026-08-06",
-          "nav": 1.634424
+          "date": "2026-08-07",
+          "nav": 1.679683
         }
       ],
       "snapshots": [
@@ -18606,76 +18636,86 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-08-06",
+        "preview_as_of": "2026-08-07",
         "formal_signal_date": "2026-07-31",
         "risk_state": "caution",
         "target_total_exposure": 0.5,
         "market_momentum": 0.0203,
         "holdings": [
           {
+            "ts_code": "688002.SH",
+            "name": "睿创微纳",
+            "weight": 0.085712
+          },
+          {
             "ts_code": "688498.SH",
             "name": "源杰科技",
-            "weight": 0.0872
+            "weight": 0.083935
           },
           {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.075491
-          },
-          {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.07241
+            "weight": 0.06854
           },
           {
             "ts_code": "300285.SZ",
             "name": "国瓷材料",
-            "weight": 0.069329
+            "weight": 0.062618
           },
           {
             "ts_code": "688150.SH",
             "name": "莱特光电",
-            "weight": 0.06748
+            "weight": 0.060842
           },
           {
-            "ts_code": "688702.SH",
-            "name": "盛科通信-U",
-            "weight": 0.058852
+            "ts_code": "688025.SH",
+            "name": "杰普特",
+            "weight": 0.059658
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.022038
+            "weight": 0.020205
           },
           {
             "ts_code": "603259.SH",
             "name": "药明康德",
-            "weight": 0.01542
+            "weight": 0.01643
           },
           {
-            "ts_code": "601156.SH",
-            "name": "东航物流",
-            "weight": 0.007066
+            "ts_code": "688105.SH",
+            "name": "诺唯赞",
+            "weight": 0.006305
+          },
+          {
+            "ts_code": "688621.SH",
+            "name": "阳光诺和",
+            "weight": 0.006305
+          },
+          {
+            "ts_code": "603979.SH",
+            "name": "金诚信",
+            "weight": 0.006046
+          },
+          {
+            "ts_code": "688235.SH",
+            "name": "百济神州-U",
+            "weight": 0.006019
+          },
+          {
+            "ts_code": "688131.SH",
+            "name": "皓元医药",
+            "weight": 0.005905
+          },
+          {
+            "ts_code": "600521.SH",
+            "name": "华海药业",
+            "weight": 0.005788
           },
           {
             "ts_code": "600988.SH",
             "name": "赤峰黄金",
-            "weight": 0.006872
-          },
-          {
-            "ts_code": "600801.SH",
-            "name": "华新建材",
-            "weight": 0.006239
-          },
-          {
-            "ts_code": "688318.SH",
-            "name": "财富趋势",
-            "weight": 0.005996
-          },
-          {
-            "ts_code": "002064.SZ",
-            "name": "华峰化学",
-            "weight": 0.005607
+            "weight": 0.005694
           }
         ]
       }
@@ -18685,8 +18725,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-08-06",
-        "latest_valuation_date": "2026-08-06",
+        "sample_end": "2026-08-07",
+        "latest_valuation_date": "2026-08-07",
         "latest_formal_signal_date": "2026-07-31",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -18799,7 +18839,7 @@
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-06",
+        "data_as_of": "2026-08-07",
         "schedule_kind": "monthly",
         "suggestion_effective_date": "2026-07-31",
         "basket_effective_date": "2026-07-31",
@@ -18839,8 +18879,8 @@
           "nav": 0.946527
         },
         {
-          "date": "2026-08-06",
-          "nav": 0.993256
+          "date": "2026-08-07",
+          "nav": 1.022563
         }
       ],
       "snapshots": [
@@ -19474,81 +19514,86 @@
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-08-06",
+        "preview_as_of": "2026-08-07",
         "formal_signal_date": "2026-07-31",
         "risk_state": "caution",
         "target_total_exposure": 0.5,
         "market_momentum": 0.0203,
         "holdings": [
           {
+            "ts_code": "688002.SH",
+            "name": "睿创微纳",
+            "weight": 0.090457
+          },
+          {
             "ts_code": "688432.SH",
             "name": "有研硅",
-            "weight": 0.077669
+            "weight": 0.07133
           },
           {
             "ts_code": "300054.SZ",
             "name": "鼎龙股份",
-            "weight": 0.07491
-          },
-          {
-            "ts_code": "688002.SH",
-            "name": "睿创微纳",
-            "weight": 0.074358
+            "weight": 0.068673
           },
           {
             "ts_code": "300285.SZ",
             "name": "国瓷材料",
-            "weight": 0.072151
+            "weight": 0.066016
           },
           {
             "ts_code": "688150.SH",
             "name": "莱特光电",
-            "weight": 0.068288
+            "weight": 0.062297
           },
           {
-            "ts_code": "688025.SH",
-            "name": "杰普特",
-            "weight": 0.057803
+            "ts_code": "688146.SH",
+            "name": "中船特气",
+            "weight": 0.061235
           },
           {
             "ts_code": "300308.SZ",
             "name": "中际旭创",
-            "weight": 0.021957
+            "weight": 0.020355
           },
           {
             "ts_code": "603259.SH",
             "name": "药明康德",
-            "weight": 0.015015
+            "weight": 0.016168
+          },
+          {
+            "ts_code": "688235.SH",
+            "name": "百济神州-U",
+            "weight": 0.007539
+          },
+          {
+            "ts_code": "688621.SH",
+            "name": "阳光诺和",
+            "weight": 0.006535
+          },
+          {
+            "ts_code": "688131.SH",
+            "name": "皓元医药",
+            "weight": 0.006173
+          },
+          {
+            "ts_code": "600521.SH",
+            "name": "华海药业",
+            "weight": 0.006044
+          },
+          {
+            "ts_code": "600988.SH",
+            "name": "赤峰黄金",
+            "weight": 0.005967
+          },
+          {
+            "ts_code": "600663.SH",
+            "name": "陆家嘴",
+            "weight": 0.005735
           },
           {
             "ts_code": "601156.SH",
             "name": "东航物流",
-            "weight": 0.007364
-          },
-          {
-            "ts_code": "600801.SH",
-            "name": "华新建材",
-            "weight": 0.006822
-          },
-          {
-            "ts_code": "688318.SH",
-            "name": "财富趋势",
-            "weight": 0.006388
-          },
-          {
-            "ts_code": "002064.SZ",
-            "name": "华峰化学",
-            "weight": 0.006116
-          },
-          {
-            "ts_code": "601869.SH",
-            "name": "长飞光纤",
-            "weight": 0.005639
-          },
-          {
-            "ts_code": "688612.SH",
-            "name": "威迈斯",
-            "weight": 0.00552
+            "weight": 0.005477
           }
         ]
       }
