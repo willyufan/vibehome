@@ -13,8 +13,8 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-08-28",
-        "latest_valuation_date": "2026-08-28",
+        "sample_end": "2026-08-31",
+        "latest_valuation_date": "2026-08-31",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -33,96 +33,96 @@
         {
           "ts_code": "688169.SH",
           "name": "石头科技",
-          "weight": 0.05346
+          "weight": 0.052898
         },
         {
           "ts_code": "688699.SH",
           "name": "明微电子",
-          "weight": 0.048427
+          "weight": 0.049712
         },
         {
           "ts_code": "688019.SH",
           "name": "安集科技",
-          "weight": 0.046937
+          "weight": 0.046042
         },
         {
           "ts_code": "600988.SH",
           "name": "赤峰黄金",
-          "weight": 0.026328
+          "weight": 0.02506
         },
         {
           "ts_code": "300285.SZ",
           "name": "国瓷材料",
-          "weight": 0.02461
-        },
-        {
-          "ts_code": "601872.SH",
-          "name": "招商轮船",
-          "weight": 0.02447
+          "weight": 0.024947
         },
         {
           "ts_code": "001872.SZ",
           "name": "招商港口",
-          "weight": 0.023023
+          "weight": 0.024216
+        },
+        {
+          "ts_code": "601872.SH",
+          "name": "招商轮船",
+          "weight": 0.024129
         },
         {
           "ts_code": "688432.SH",
           "name": "有研硅",
-          "weight": 0.02288
-        },
-        {
-          "ts_code": "300142.SZ",
-          "name": "沃森生物",
-          "weight": 0.022695
-        },
-        {
-          "ts_code": "603259.SH",
-          "name": "药明康德",
-          "weight": 0.021996
+          "weight": 0.022839
         },
         {
           "ts_code": "688200.SH",
           "name": "华峰测控",
-          "weight": 0.021939
-        },
-        {
-          "ts_code": "603565.SH",
-          "name": "中谷物流",
-          "weight": 0.021887
+          "weight": 0.022296
         },
         {
           "ts_code": "688146.SH",
           "name": "中船特气",
-          "weight": 0.021152
+          "weight": 0.022032
+        },
+        {
+          "ts_code": "603259.SH",
+          "name": "药明康德",
+          "weight": 0.021591
+        },
+        {
+          "ts_code": "300142.SZ",
+          "name": "沃森生物",
+          "weight": 0.021559
+        },
+        {
+          "ts_code": "603565.SH",
+          "name": "中谷物流",
+          "weight": 0.021282
         },
         {
           "ts_code": "601919.SH",
           "name": "中远海控",
-          "weight": 0.020694
+          "weight": 0.020803
         },
         {
           "ts_code": "688046.SH",
           "name": "药康生物",
-          "weight": 0.01982
+          "weight": 0.019424
         },
         {
           "ts_code": "603156.SH",
           "name": "养元饮品",
-          "weight": 0.017935
-        },
-        {
-          "ts_code": "002142.SZ",
-          "name": "宁波银行",
-          "weight": 0.015625
+          "weight": 0.018213
         },
         {
           "ts_code": "688433.SH",
           "name": "华曙高科",
-          "weight": 0.014494
+          "weight": 0.016589
+        },
+        {
+          "ts_code": "002142.SZ",
+          "name": "宁波银行",
+          "weight": 0.015717
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-28",
+        "data_as_of": "2026-08-31",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -1122,8 +1122,8 @@
           "nav": 1.634288
         },
         {
-          "date": "2026-08-28",
-          "nav": 1.592595
+          "date": "2026-08-31",
+          "nav": 1.595513
         }
       ],
       "snapshots": [
@@ -18005,103 +18005,103 @@
           ]
         },
         {
-          "date": "2026-08-28",
+          "date": "2026-08-31",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
               "name": "现金",
-              "weight": 0.531626
+              "weight": 0.530654
             },
             {
               "ts_code": "688169.SH",
               "name": "石头科技",
-              "weight": 0.05346
+              "weight": 0.052898
             },
             {
               "ts_code": "688699.SH",
               "name": "明微电子",
-              "weight": 0.048427
+              "weight": 0.049712
             },
             {
               "ts_code": "688019.SH",
               "name": "安集科技",
-              "weight": 0.046937
+              "weight": 0.046042
             },
             {
               "ts_code": "600988.SH",
               "name": "赤峰黄金",
-              "weight": 0.026328
+              "weight": 0.02506
             },
             {
               "ts_code": "300285.SZ",
               "name": "国瓷材料",
-              "weight": 0.02461
-            },
-            {
-              "ts_code": "601872.SH",
-              "name": "招商轮船",
-              "weight": 0.02447
+              "weight": 0.024947
             },
             {
               "ts_code": "001872.SZ",
               "name": "招商港口",
-              "weight": 0.023023
+              "weight": 0.024216
+            },
+            {
+              "ts_code": "601872.SH",
+              "name": "招商轮船",
+              "weight": 0.024129
             },
             {
               "ts_code": "688432.SH",
               "name": "有研硅",
-              "weight": 0.02288
-            },
-            {
-              "ts_code": "300142.SZ",
-              "name": "沃森生物",
-              "weight": 0.022695
-            },
-            {
-              "ts_code": "603259.SH",
-              "name": "药明康德",
-              "weight": 0.021996
+              "weight": 0.022839
             },
             {
               "ts_code": "688200.SH",
               "name": "华峰测控",
-              "weight": 0.021939
-            },
-            {
-              "ts_code": "603565.SH",
-              "name": "中谷物流",
-              "weight": 0.021887
+              "weight": 0.022296
             },
             {
               "ts_code": "688146.SH",
               "name": "中船特气",
-              "weight": 0.021152
+              "weight": 0.022032
+            },
+            {
+              "ts_code": "603259.SH",
+              "name": "药明康德",
+              "weight": 0.021591
+            },
+            {
+              "ts_code": "300142.SZ",
+              "name": "沃森生物",
+              "weight": 0.021559
+            },
+            {
+              "ts_code": "603565.SH",
+              "name": "中谷物流",
+              "weight": 0.021282
             },
             {
               "ts_code": "601919.SH",
               "name": "中远海控",
-              "weight": 0.020694
+              "weight": 0.020803
             },
             {
               "ts_code": "688046.SH",
               "name": "药康生物",
-              "weight": 0.01982
+              "weight": 0.019424
             },
             {
               "ts_code": "603156.SH",
               "name": "养元饮品",
-              "weight": 0.017935
-            },
-            {
-              "ts_code": "002142.SZ",
-              "name": "宁波银行",
-              "weight": 0.015625
+              "weight": 0.018213
             },
             {
               "ts_code": "688433.SH",
               "name": "华曙高科",
-              "weight": 0.014494
+              "weight": 0.016589
+            },
+            {
+              "ts_code": "002142.SZ",
+              "name": "宁波银行",
+              "weight": 0.015717
             }
           ]
         }
@@ -18114,8 +18114,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-08-28",
-        "latest_valuation_date": "2026-08-28",
+        "sample_end": "2026-08-31",
+        "latest_valuation_date": "2026-08-31",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -18134,96 +18134,96 @@
         {
           "ts_code": "688169.SH",
           "name": "石头科技",
-          "weight": 0.053648
+          "weight": 0.053178
         },
         {
           "ts_code": "688019.SH",
           "name": "安集科技",
-          "weight": 0.047102
+          "weight": 0.046286
         },
         {
           "ts_code": "600988.SH",
           "name": "赤峰黄金",
-          "weight": 0.028837
+          "weight": 0.027496
         },
         {
           "ts_code": "300285.SZ",
           "name": "国瓷材料",
-          "weight": 0.026955
-        },
-        {
-          "ts_code": "601872.SH",
-          "name": "招商轮船",
-          "weight": 0.026802
+          "weight": 0.027372
         },
         {
           "ts_code": "001872.SZ",
           "name": "招商港口",
-          "weight": 0.025217
+          "weight": 0.02657
+        },
+        {
+          "ts_code": "601872.SH",
+          "name": "招商轮船",
+          "weight": 0.026476
         },
         {
           "ts_code": "688432.SH",
           "name": "有研硅",
-          "weight": 0.02506
-        },
-        {
-          "ts_code": "300142.SZ",
-          "name": "沃森生物",
-          "weight": 0.024858
-        },
-        {
-          "ts_code": "603259.SH",
-          "name": "药明康德",
-          "weight": 0.024092
+          "weight": 0.025059
         },
         {
           "ts_code": "688200.SH",
           "name": "华峰测控",
-          "weight": 0.02403
-        },
-        {
-          "ts_code": "603565.SH",
-          "name": "中谷物流",
-          "weight": 0.023973
+          "weight": 0.024464
         },
         {
           "ts_code": "688146.SH",
           "name": "中船特气",
-          "weight": 0.023167
+          "weight": 0.024174
+        },
+        {
+          "ts_code": "603259.SH",
+          "name": "药明康德",
+          "weight": 0.02369
+        },
+        {
+          "ts_code": "300142.SZ",
+          "name": "沃森生物",
+          "weight": 0.023655
+        },
+        {
+          "ts_code": "603565.SH",
+          "name": "中谷物流",
+          "weight": 0.023352
         },
         {
           "ts_code": "601919.SH",
           "name": "中远海控",
-          "weight": 0.022665
+          "weight": 0.022825
         },
         {
           "ts_code": "688046.SH",
           "name": "药康生物",
-          "weight": 0.021708
+          "weight": 0.021313
         },
         {
           "ts_code": "603156.SH",
           "name": "养元饮品",
-          "weight": 0.019644
-        },
-        {
-          "ts_code": "002142.SZ",
-          "name": "宁波银行",
-          "weight": 0.017077
+          "weight": 0.019984
         },
         {
           "ts_code": "688433.SH",
           "name": "华曙高科",
-          "weight": 0.015837
+          "weight": 0.018157
+        },
+        {
+          "ts_code": "002142.SZ",
+          "name": "宁波银行",
+          "weight": 0.017207
         },
         {
           "ts_code": "000975.SZ",
           "name": "山金国际",
-          "weight": 0.015836
+          "weight": 0.015279
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-28",
+        "data_as_of": "2026-08-31",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -18915,8 +18915,8 @@
           "nav": 1.347239
         },
         {
-          "date": "2026-08-28",
-          "nav": 1.306049
+          "date": "2026-08-31",
+          "nav": 1.30612
         }
       ],
       "snapshots": [
@@ -29626,103 +29626,103 @@
           ]
         },
         {
-          "date": "2026-08-28",
+          "date": "2026-08-31",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
               "name": "现金",
-              "weight": 0.533493
+              "weight": 0.533464
             },
             {
               "ts_code": "688169.SH",
               "name": "石头科技",
-              "weight": 0.053648
+              "weight": 0.053178
             },
             {
               "ts_code": "688019.SH",
               "name": "安集科技",
-              "weight": 0.047102
+              "weight": 0.046286
             },
             {
               "ts_code": "600988.SH",
               "name": "赤峰黄金",
-              "weight": 0.028837
+              "weight": 0.027496
             },
             {
               "ts_code": "300285.SZ",
               "name": "国瓷材料",
-              "weight": 0.026955
-            },
-            {
-              "ts_code": "601872.SH",
-              "name": "招商轮船",
-              "weight": 0.026802
+              "weight": 0.027372
             },
             {
               "ts_code": "001872.SZ",
               "name": "招商港口",
-              "weight": 0.025217
+              "weight": 0.02657
+            },
+            {
+              "ts_code": "601872.SH",
+              "name": "招商轮船",
+              "weight": 0.026476
             },
             {
               "ts_code": "688432.SH",
               "name": "有研硅",
-              "weight": 0.02506
-            },
-            {
-              "ts_code": "300142.SZ",
-              "name": "沃森生物",
-              "weight": 0.024858
-            },
-            {
-              "ts_code": "603259.SH",
-              "name": "药明康德",
-              "weight": 0.024092
+              "weight": 0.025059
             },
             {
               "ts_code": "688200.SH",
               "name": "华峰测控",
-              "weight": 0.02403
-            },
-            {
-              "ts_code": "603565.SH",
-              "name": "中谷物流",
-              "weight": 0.023973
+              "weight": 0.024464
             },
             {
               "ts_code": "688146.SH",
               "name": "中船特气",
-              "weight": 0.023167
+              "weight": 0.024174
+            },
+            {
+              "ts_code": "603259.SH",
+              "name": "药明康德",
+              "weight": 0.02369
+            },
+            {
+              "ts_code": "300142.SZ",
+              "name": "沃森生物",
+              "weight": 0.023655
+            },
+            {
+              "ts_code": "603565.SH",
+              "name": "中谷物流",
+              "weight": 0.023352
             },
             {
               "ts_code": "601919.SH",
               "name": "中远海控",
-              "weight": 0.022665
+              "weight": 0.022825
             },
             {
               "ts_code": "688046.SH",
               "name": "药康生物",
-              "weight": 0.021708
+              "weight": 0.021313
             },
             {
               "ts_code": "603156.SH",
               "name": "养元饮品",
-              "weight": 0.019644
-            },
-            {
-              "ts_code": "002142.SZ",
-              "name": "宁波银行",
-              "weight": 0.017077
+              "weight": 0.019984
             },
             {
               "ts_code": "688433.SH",
               "name": "华曙高科",
-              "weight": 0.015837
+              "weight": 0.018157
+            },
+            {
+              "ts_code": "002142.SZ",
+              "name": "宁波银行",
+              "weight": 0.017207
             },
             {
               "ts_code": "000975.SZ",
               "name": "山金国际",
-              "weight": 0.015836
+              "weight": 0.015279
             }
           ]
         }
@@ -29735,8 +29735,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-08-28",
-        "latest_valuation_date": "2026-08-28",
+        "sample_end": "2026-08-31",
+        "latest_valuation_date": "2026-08-31",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -29755,46 +29755,46 @@
         {
           "ts_code": "688200.SH",
           "name": "华峰测控",
-          "weight": 0.016217
+          "weight": 0.016513
         },
         {
           "ts_code": "600988.SH",
           "name": "赤峰黄金",
-          "weight": 0.010896
+          "weight": 0.010391
         },
         {
           "ts_code": "300285.SZ",
           "name": "国瓷材料",
-          "weight": 0.010155
+          "weight": 0.010314
         },
         {
           "ts_code": "601872.SH",
           "name": "招商轮船",
-          "weight": 0.010101
+          "weight": 0.00998
         },
         {
           "ts_code": "688432.SH",
           "name": "有研硅",
-          "weight": 0.009461
-        },
-        {
-          "ts_code": "603259.SH",
-          "name": "药明康德",
-          "weight": 0.009119
+          "weight": 0.009462
         },
         {
           "ts_code": "688146.SH",
           "name": "中船特气",
-          "weight": 0.008736
+          "weight": 0.009117
+        },
+        {
+          "ts_code": "603259.SH",
+          "name": "药明康德",
+          "weight": 0.008969
         },
         {
           "ts_code": "688046.SH",
           "name": "药康生物",
-          "weight": 0.008189
+          "weight": 0.008041
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-28",
+        "data_as_of": "2026-08-31",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -30178,8 +30178,8 @@
           "nav": 1.055485
         },
         {
-          "date": "2026-08-28",
-          "nav": 1.040369
+          "date": "2026-08-31",
+          "nav": 1.040268
         }
       ],
       "snapshots": [
@@ -35472,53 +35472,53 @@
           ]
         },
         {
-          "date": "2026-08-28",
+          "date": "2026-08-31",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
               "name": "现金",
-              "weight": 0.917124
+              "weight": 0.917214
             },
             {
               "ts_code": "688200.SH",
               "name": "华峰测控",
-              "weight": 0.016217
+              "weight": 0.016513
             },
             {
               "ts_code": "600988.SH",
               "name": "赤峰黄金",
-              "weight": 0.010896
+              "weight": 0.010391
             },
             {
               "ts_code": "300285.SZ",
               "name": "国瓷材料",
-              "weight": 0.010155
+              "weight": 0.010314
             },
             {
               "ts_code": "601872.SH",
               "name": "招商轮船",
-              "weight": 0.010101
+              "weight": 0.00998
             },
             {
               "ts_code": "688432.SH",
               "name": "有研硅",
-              "weight": 0.009461
-            },
-            {
-              "ts_code": "603259.SH",
-              "name": "药明康德",
-              "weight": 0.009119
+              "weight": 0.009462
             },
             {
               "ts_code": "688146.SH",
               "name": "中船特气",
-              "weight": 0.008736
+              "weight": 0.009117
+            },
+            {
+              "ts_code": "603259.SH",
+              "name": "药明康德",
+              "weight": 0.008969
             },
             {
               "ts_code": "688046.SH",
               "name": "药康生物",
-              "weight": 0.008189
+              "weight": 0.008041
             }
           ]
         }
@@ -35531,8 +35531,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-08-28",
-        "latest_valuation_date": "2026-08-28",
+        "sample_end": "2026-08-31",
+        "latest_valuation_date": "2026-08-31",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -35551,96 +35551,96 @@
         {
           "ts_code": "688432.SH",
           "name": "有研硅",
-          "weight": 0.044434
+          "weight": 0.044473
         },
         {
           "ts_code": "600988.SH",
           "name": "赤峰黄金",
-          "weight": 0.032371
+          "weight": 0.030894
         },
         {
           "ts_code": "300285.SZ",
           "name": "国瓷材料",
-          "weight": 0.030168
-        },
-        {
-          "ts_code": "601872.SH",
-          "name": "招商轮船",
-          "weight": 0.030008
+          "weight": 0.030663
         },
         {
           "ts_code": "001872.SZ",
           "name": "招商港口",
-          "weight": 0.028356
+          "weight": 0.029906
         },
         {
-          "ts_code": "300142.SZ",
-          "name": "沃森生物",
-          "weight": 0.027844
-        },
-        {
-          "ts_code": "603259.SH",
-          "name": "药明康德",
-          "weight": 0.027092
+          "ts_code": "601872.SH",
+          "name": "招商轮船",
+          "weight": 0.02967
         },
         {
           "ts_code": "688200.SH",
           "name": "华峰测控",
-          "weight": 0.026999
-        },
-        {
-          "ts_code": "603565.SH",
-          "name": "中谷物流",
-          "weight": 0.026872
+          "weight": 0.027512
         },
         {
           "ts_code": "688146.SH",
           "name": "中船特气",
-          "weight": 0.025954
+          "weight": 0.027107
+        },
+        {
+          "ts_code": "603259.SH",
+          "name": "药明康德",
+          "weight": 0.026664
+        },
+        {
+          "ts_code": "300142.SZ",
+          "name": "沃森生物",
+          "weight": 0.026522
+        },
+        {
+          "ts_code": "603565.SH",
+          "name": "中谷物流",
+          "weight": 0.0262
         },
         {
           "ts_code": "601919.SH",
           "name": "中远海控",
-          "weight": 0.025425
+          "weight": 0.025628
         },
         {
           "ts_code": "688046.SH",
           "name": "药康生物",
-          "weight": 0.024329
+          "weight": 0.023908
         },
         {
           "ts_code": "603156.SH",
           "name": "养元饮品",
-          "weight": 0.022021
-        },
-        {
-          "ts_code": "002142.SZ",
-          "name": "宁波银行",
-          "weight": 0.019075
-        },
-        {
-          "ts_code": "601998.SH",
-          "name": "中信银行",
-          "weight": 0.017996
-        },
-        {
-          "ts_code": "000975.SZ",
-          "name": "山金国际",
-          "weight": 0.017955
+          "weight": 0.022422
         },
         {
           "ts_code": "688433.SH",
           "name": "华曙高科",
-          "weight": 0.017682
+          "weight": 0.020292
+        },
+        {
+          "ts_code": "002142.SZ",
+          "name": "宁波银行",
+          "weight": 0.019239
+        },
+        {
+          "ts_code": "601998.SH",
+          "name": "中信银行",
+          "weight": 0.01828
+        },
+        {
+          "ts_code": "000975.SZ",
+          "name": "山金国际",
+          "weight": 0.017339
         },
         {
           "ts_code": "688356.SH",
           "name": "键凯科技",
-          "weight": 0.016027
+          "weight": 0.013417
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-28",
+        "data_as_of": "2026-08-31",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -35824,8 +35824,8 @@
           "nav": 1.326527
         },
         {
-          "date": "2026-08-28",
-          "nav": 1.266982
+          "date": "2026-08-31",
+          "nav": 1.265877
         }
       ],
       "snapshots": [
@@ -40033,103 +40033,103 @@
           ]
         },
         {
-          "date": "2026-08-28",
+          "date": "2026-08-31",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
               "name": "现金",
-              "weight": 0.539394
+              "weight": 0.539865
             },
             {
               "ts_code": "688432.SH",
               "name": "有研硅",
-              "weight": 0.044434
+              "weight": 0.044473
             },
             {
               "ts_code": "600988.SH",
               "name": "赤峰黄金",
-              "weight": 0.032371
+              "weight": 0.030894
             },
             {
               "ts_code": "300285.SZ",
               "name": "国瓷材料",
-              "weight": 0.030168
-            },
-            {
-              "ts_code": "601872.SH",
-              "name": "招商轮船",
-              "weight": 0.030008
+              "weight": 0.030663
             },
             {
               "ts_code": "001872.SZ",
               "name": "招商港口",
-              "weight": 0.028356
+              "weight": 0.029906
             },
             {
-              "ts_code": "300142.SZ",
-              "name": "沃森生物",
-              "weight": 0.027844
-            },
-            {
-              "ts_code": "603259.SH",
-              "name": "药明康德",
-              "weight": 0.027092
+              "ts_code": "601872.SH",
+              "name": "招商轮船",
+              "weight": 0.02967
             },
             {
               "ts_code": "688200.SH",
               "name": "华峰测控",
-              "weight": 0.026999
-            },
-            {
-              "ts_code": "603565.SH",
-              "name": "中谷物流",
-              "weight": 0.026872
+              "weight": 0.027512
             },
             {
               "ts_code": "688146.SH",
               "name": "中船特气",
-              "weight": 0.025954
+              "weight": 0.027107
+            },
+            {
+              "ts_code": "603259.SH",
+              "name": "药明康德",
+              "weight": 0.026664
+            },
+            {
+              "ts_code": "300142.SZ",
+              "name": "沃森生物",
+              "weight": 0.026522
+            },
+            {
+              "ts_code": "603565.SH",
+              "name": "中谷物流",
+              "weight": 0.0262
             },
             {
               "ts_code": "601919.SH",
               "name": "中远海控",
-              "weight": 0.025425
+              "weight": 0.025628
             },
             {
               "ts_code": "688046.SH",
               "name": "药康生物",
-              "weight": 0.024329
+              "weight": 0.023908
             },
             {
               "ts_code": "603156.SH",
               "name": "养元饮品",
-              "weight": 0.022021
-            },
-            {
-              "ts_code": "002142.SZ",
-              "name": "宁波银行",
-              "weight": 0.019075
-            },
-            {
-              "ts_code": "601998.SH",
-              "name": "中信银行",
-              "weight": 0.017996
-            },
-            {
-              "ts_code": "000975.SZ",
-              "name": "山金国际",
-              "weight": 0.017955
+              "weight": 0.022422
             },
             {
               "ts_code": "688433.SH",
               "name": "华曙高科",
-              "weight": 0.017682
+              "weight": 0.020292
+            },
+            {
+              "ts_code": "002142.SZ",
+              "name": "宁波银行",
+              "weight": 0.019239
+            },
+            {
+              "ts_code": "601998.SH",
+              "name": "中信银行",
+              "weight": 0.01828
+            },
+            {
+              "ts_code": "000975.SZ",
+              "name": "山金国际",
+              "weight": 0.017339
             },
             {
               "ts_code": "688356.SH",
               "name": "键凯科技",
-              "weight": 0.016027
+              "weight": 0.013417
             }
           ]
         }
@@ -40142,8 +40142,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-08-28",
-        "latest_valuation_date": "2026-08-28",
+        "sample_end": "2026-08-31",
+        "latest_valuation_date": "2026-08-31",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -40162,96 +40162,96 @@
         {
           "ts_code": "688432.SH",
           "name": "有研硅",
-          "weight": 0.044434
+          "weight": 0.044473
         },
         {
           "ts_code": "600988.SH",
           "name": "赤峰黄金",
-          "weight": 0.032371
+          "weight": 0.030894
         },
         {
           "ts_code": "300285.SZ",
           "name": "国瓷材料",
-          "weight": 0.030168
-        },
-        {
-          "ts_code": "601872.SH",
-          "name": "招商轮船",
-          "weight": 0.030008
+          "weight": 0.030663
         },
         {
           "ts_code": "001872.SZ",
           "name": "招商港口",
-          "weight": 0.028356
+          "weight": 0.029906
         },
         {
-          "ts_code": "300142.SZ",
-          "name": "沃森生物",
-          "weight": 0.027844
-        },
-        {
-          "ts_code": "603259.SH",
-          "name": "药明康德",
-          "weight": 0.027092
+          "ts_code": "601872.SH",
+          "name": "招商轮船",
+          "weight": 0.02967
         },
         {
           "ts_code": "688200.SH",
           "name": "华峰测控",
-          "weight": 0.026999
-        },
-        {
-          "ts_code": "603565.SH",
-          "name": "中谷物流",
-          "weight": 0.026872
+          "weight": 0.027512
         },
         {
           "ts_code": "688146.SH",
           "name": "中船特气",
-          "weight": 0.025954
+          "weight": 0.027107
+        },
+        {
+          "ts_code": "603259.SH",
+          "name": "药明康德",
+          "weight": 0.026664
+        },
+        {
+          "ts_code": "300142.SZ",
+          "name": "沃森生物",
+          "weight": 0.026522
+        },
+        {
+          "ts_code": "603565.SH",
+          "name": "中谷物流",
+          "weight": 0.0262
         },
         {
           "ts_code": "601919.SH",
           "name": "中远海控",
-          "weight": 0.025425
+          "weight": 0.025628
         },
         {
           "ts_code": "688046.SH",
           "name": "药康生物",
-          "weight": 0.024329
+          "weight": 0.023908
         },
         {
           "ts_code": "603156.SH",
           "name": "养元饮品",
-          "weight": 0.022021
-        },
-        {
-          "ts_code": "002142.SZ",
-          "name": "宁波银行",
-          "weight": 0.019075
-        },
-        {
-          "ts_code": "601998.SH",
-          "name": "中信银行",
-          "weight": 0.017996
-        },
-        {
-          "ts_code": "000975.SZ",
-          "name": "山金国际",
-          "weight": 0.017955
+          "weight": 0.022422
         },
         {
           "ts_code": "688433.SH",
           "name": "华曙高科",
-          "weight": 0.017682
+          "weight": 0.020292
+        },
+        {
+          "ts_code": "002142.SZ",
+          "name": "宁波银行",
+          "weight": 0.019239
+        },
+        {
+          "ts_code": "601998.SH",
+          "name": "中信银行",
+          "weight": 0.01828
+        },
+        {
+          "ts_code": "000975.SZ",
+          "name": "山金国际",
+          "weight": 0.017339
         },
         {
           "ts_code": "688356.SH",
           "name": "键凯科技",
-          "weight": 0.016027
+          "weight": 0.013417
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-08-28",
+        "data_as_of": "2026-08-31",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -40327,8 +40327,8 @@
           "nav": 1.028103
         },
         {
-          "date": "2026-08-28",
-          "nav": 0.981954
+          "date": "2026-08-31",
+          "nav": 0.981097
         }
       ],
       "snapshots": [
@@ -41894,103 +41894,103 @@
           ]
         },
         {
-          "date": "2026-08-28",
+          "date": "2026-08-31",
           "event_type": "holding_snapshot",
           "holdings": [
             {
               "ts_code": "CASH",
               "name": "现金",
-              "weight": 0.539394
+              "weight": 0.539865
             },
             {
               "ts_code": "688432.SH",
               "name": "有研硅",
-              "weight": 0.044434
+              "weight": 0.044473
             },
             {
               "ts_code": "600988.SH",
               "name": "赤峰黄金",
-              "weight": 0.032371
+              "weight": 0.030894
             },
             {
               "ts_code": "300285.SZ",
               "name": "国瓷材料",
-              "weight": 0.030168
-            },
-            {
-              "ts_code": "601872.SH",
-              "name": "招商轮船",
-              "weight": 0.030008
+              "weight": 0.030663
             },
             {
               "ts_code": "001872.SZ",
               "name": "招商港口",
-              "weight": 0.028356
+              "weight": 0.029906
             },
             {
-              "ts_code": "300142.SZ",
-              "name": "沃森生物",
-              "weight": 0.027844
-            },
-            {
-              "ts_code": "603259.SH",
-              "name": "药明康德",
-              "weight": 0.027092
+              "ts_code": "601872.SH",
+              "name": "招商轮船",
+              "weight": 0.02967
             },
             {
               "ts_code": "688200.SH",
               "name": "华峰测控",
-              "weight": 0.026999
-            },
-            {
-              "ts_code": "603565.SH",
-              "name": "中谷物流",
-              "weight": 0.026872
+              "weight": 0.027512
             },
             {
               "ts_code": "688146.SH",
               "name": "中船特气",
-              "weight": 0.025954
+              "weight": 0.027107
+            },
+            {
+              "ts_code": "603259.SH",
+              "name": "药明康德",
+              "weight": 0.026664
+            },
+            {
+              "ts_code": "300142.SZ",
+              "name": "沃森生物",
+              "weight": 0.026522
+            },
+            {
+              "ts_code": "603565.SH",
+              "name": "中谷物流",
+              "weight": 0.0262
             },
             {
               "ts_code": "601919.SH",
               "name": "中远海控",
-              "weight": 0.025425
+              "weight": 0.025628
             },
             {
               "ts_code": "688046.SH",
               "name": "药康生物",
-              "weight": 0.024329
+              "weight": 0.023908
             },
             {
               "ts_code": "603156.SH",
               "name": "养元饮品",
-              "weight": 0.022021
-            },
-            {
-              "ts_code": "002142.SZ",
-              "name": "宁波银行",
-              "weight": 0.019075
-            },
-            {
-              "ts_code": "601998.SH",
-              "name": "中信银行",
-              "weight": 0.017996
-            },
-            {
-              "ts_code": "000975.SZ",
-              "name": "山金国际",
-              "weight": 0.017955
+              "weight": 0.022422
             },
             {
               "ts_code": "688433.SH",
               "name": "华曙高科",
-              "weight": 0.017682
+              "weight": 0.020292
+            },
+            {
+              "ts_code": "002142.SZ",
+              "name": "宁波银行",
+              "weight": 0.019239
+            },
+            {
+              "ts_code": "601998.SH",
+              "name": "中信银行",
+              "weight": 0.01828
+            },
+            {
+              "ts_code": "000975.SZ",
+              "name": "山金国际",
+              "weight": 0.017339
             },
             {
               "ts_code": "688356.SH",
               "name": "键凯科技",
-              "weight": 0.016027
+              "weight": 0.013417
             }
           ]
         }
