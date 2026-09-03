@@ -13,8 +13,8 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-09-02",
-        "latest_valuation_date": "2026-09-02",
+        "sample_end": "2026-09-03",
+        "latest_valuation_date": "2026-09-03",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
@@ -31,7 +31,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-02",
+        "data_as_of": "2026-09-03",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -1031,7 +1031,7 @@
           "nav": 2.149629
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "nav": 2.119738
         }
       ],
@@ -14249,7 +14249,7 @@
           ]
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "event_type": "holding_snapshot",
           "holdings": [
             {
@@ -14268,8 +14268,8 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-09-02",
-        "latest_valuation_date": "2026-09-02",
+        "sample_end": "2026-09-03",
+        "latest_valuation_date": "2026-09-03",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
@@ -14286,7 +14286,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-02",
+        "data_as_of": "2026-09-03",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -14978,7 +14978,7 @@
           "nav": 1.463192
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "nav": 1.440489
         }
       ],
@@ -23374,7 +23374,7 @@
           ]
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "event_type": "holding_snapshot",
           "holdings": [
             {
@@ -23393,8 +23393,8 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-09-02",
-        "latest_valuation_date": "2026-09-02",
+        "sample_end": "2026-09-03",
+        "latest_valuation_date": "2026-09-03",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
@@ -23411,7 +23411,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-02",
+        "data_as_of": "2026-09-03",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -23795,7 +23795,7 @@
           "nav": 1.027054
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "nav": 1.015037
         }
       ],
@@ -28619,7 +28619,7 @@
           ]
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "event_type": "holding_snapshot",
           "holdings": [
             {
@@ -28638,8 +28638,8 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-09-02",
-        "latest_valuation_date": "2026-09-02",
+        "sample_end": "2026-09-03",
+        "latest_valuation_date": "2026-09-03",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
@@ -28656,7 +28656,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-02",
+        "data_as_of": "2026-09-03",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -28840,7 +28840,7 @@
           "nav": 1.711402
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "nav": 1.691379
         }
       ],
@@ -32789,7 +32789,7 @@
           ]
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "event_type": "holding_snapshot",
           "holdings": [
             {
@@ -32808,8 +32808,8 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-09-02",
-        "latest_valuation_date": "2026-09-02",
+        "sample_end": "2026-09-03",
+        "latest_valuation_date": "2026-09-03",
         "latest_formal_signal_date": "2026-08-21",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
@@ -32826,7 +32826,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-02",
+        "data_as_of": "2026-09-03",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-08-21",
         "basket_effective_date": "2026-08-21",
@@ -32902,7 +32902,7 @@
           "nav": 0.700636
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "nav": 0.682937
         }
       ],
@@ -34274,7 +34274,7 @@
           ]
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-09-03",
           "event_type": "holding_snapshot",
           "holdings": [
             {
