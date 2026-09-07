@@ -13,9 +13,9 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-01-01",
-        "sample_end": "2026-09-04",
-        "latest_valuation_date": "2026-09-04",
-        "latest_formal_signal_date": "2026-08-21",
+        "sample_end": "2026-09-07",
+        "latest_valuation_date": "2026-09-07",
+        "latest_formal_signal_date": "2026-09-04",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
         "sample_short_label": "2017-01",
@@ -31,7 +31,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-04",
+        "data_as_of": "2026-09-07",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-09-04",
         "basket_effective_date": "2026-09-04",
@@ -1032,6 +1032,10 @@
         },
         {
           "date": "2026-09-04",
+          "nav": 2.112195
+        },
+        {
+          "date": "2026-09-07",
           "nav": 2.112195
         }
       ],
@@ -14158,6 +14162,17 @@
               "weight": 1.0
             }
           ]
+        },
+        {
+          "date": "2026-09-07",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 1.0
+            }
+          ]
         }
       ],
       "split_view": {},
@@ -14168,9 +14183,9 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-01-01",
-        "sample_end": "2026-09-04",
-        "latest_valuation_date": "2026-09-04",
-        "latest_formal_signal_date": "2026-08-21",
+        "sample_end": "2026-09-07",
+        "latest_valuation_date": "2026-09-07",
+        "latest_formal_signal_date": "2026-09-04",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
         "sample_short_label": "2020-01",
@@ -14186,7 +14201,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-04",
+        "data_as_of": "2026-09-07",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-09-04",
         "basket_effective_date": "2026-09-04",
@@ -14879,6 +14894,10 @@
         },
         {
           "date": "2026-09-04",
+          "nav": 1.435838
+        },
+        {
+          "date": "2026-09-07",
           "nav": 1.435838
         }
       ],
@@ -23193,6 +23212,17 @@
               "weight": 1.0
             }
           ]
+        },
+        {
+          "date": "2026-09-07",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 1.0
+            }
+          ]
         }
       ],
       "split_view": {},
@@ -23203,9 +23233,9 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-01-01",
-        "sample_end": "2026-09-04",
-        "latest_valuation_date": "2026-09-04",
-        "latest_formal_signal_date": "2026-08-21",
+        "sample_end": "2026-09-07",
+        "latest_valuation_date": "2026-09-07",
+        "latest_formal_signal_date": "2026-09-04",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
         "sample_short_label": "2023-01",
@@ -23221,7 +23251,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-04",
+        "data_as_of": "2026-09-07",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-09-04",
         "basket_effective_date": "2026-09-04",
@@ -23606,6 +23636,10 @@
         },
         {
           "date": "2026-09-04",
+          "nav": 1.028601
+        },
+        {
+          "date": "2026-09-07",
           "nav": 1.028601
         }
       ],
@@ -28353,6 +28387,17 @@
               "weight": 1.0
             }
           ]
+        },
+        {
+          "date": "2026-09-07",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 1.0
+            }
+          ]
         }
       ],
       "split_view": {},
@@ -28363,9 +28408,9 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-01-01",
-        "sample_end": "2026-09-04",
-        "latest_valuation_date": "2026-09-04",
-        "latest_formal_signal_date": "2026-08-21",
+        "sample_end": "2026-09-07",
+        "latest_valuation_date": "2026-09-07",
+        "latest_formal_signal_date": "2026-09-04",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
         "sample_short_label": "2025-01",
@@ -28381,7 +28426,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-04",
+        "data_as_of": "2026-09-07",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-09-04",
         "basket_effective_date": "2026-09-04",
@@ -28566,6 +28611,10 @@
         },
         {
           "date": "2026-09-04",
+          "nav": 1.715931
+        },
+        {
+          "date": "2026-09-07",
           "nav": 1.715931
         }
       ],
@@ -32448,6 +32497,17 @@
               "weight": 1.0
             }
           ]
+        },
+        {
+          "date": "2026-09-07",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 1.0
+            }
+          ]
         }
       ],
       "split_view": {},
@@ -32458,9 +32518,9 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-01-01",
-        "sample_end": "2026-09-04",
-        "latest_valuation_date": "2026-09-04",
-        "latest_formal_signal_date": "2026-08-21",
+        "sample_end": "2026-09-07",
+        "latest_valuation_date": "2026-09-07",
+        "latest_formal_signal_date": "2026-09-04",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起",
         "sample_short_label": "2026-01",
@@ -32476,7 +32536,7 @@
       "target_total_exposure": 0.0,
       "latest_weights": [],
       "formal_schedule": {
-        "data_as_of": "2026-09-04",
+        "data_as_of": "2026-09-07",
         "schedule_kind": "biweekly",
         "suggestion_effective_date": "2026-09-04",
         "basket_effective_date": "2026-09-04",
@@ -32553,6 +32613,10 @@
         },
         {
           "date": "2026-09-04",
+          "nav": 0.682937
+        },
+        {
+          "date": "2026-09-07",
           "nav": 0.682937
         }
       ],
@@ -33925,6 +33989,17 @@
         },
         {
           "date": "2026-09-04",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "date": "2026-09-07",
           "event_type": "holding_snapshot",
           "holdings": [
             {
