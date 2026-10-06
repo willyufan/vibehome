@@ -13,9 +13,9 @@
       "sample_tag_label": "2017窗口",
       "summary_meta": {
         "sample_start": "2017-02-01",
-        "sample_end": "2026-09-11",
-        "latest_valuation_date": "2026-09-11",
-        "latest_formal_signal_date": "2026-08-31",
+        "sample_end": "2026-10-06",
+        "latest_valuation_date": "2026-10-06",
+        "latest_formal_signal_date": "2026-09-30",
         "is_provisional_period_end": true,
         "sample_label": "2017-01 起",
         "sample_short_label": "2017-01",
@@ -28,90 +28,90 @@
         "rebalance_frequency": "monthly"
       },
       "risk_state": "caution",
-      "target_total_exposure": 0.9983,
+      "target_total_exposure": 0.9989,
       "latest_weights": [
-        {
-          "ts_code": "02388.HK",
-          "name": "中银香港",
-          "weight": 0.085442
-        },
-        {
-          "ts_code": "00005.HK",
-          "name": "汇丰控股",
-          "weight": 0.081516
-        },
-        {
-          "ts_code": "00001.HK",
-          "name": "长和",
-          "weight": 0.076394
-        },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.075165
-        },
-        {
-          "ts_code": "00669.HK",
-          "name": "创科实业",
-          "weight": 0.073174
+          "weight": 0.07876
         },
         {
           "ts_code": "02888.HK",
           "name": "渣打集团",
-          "weight": 0.071268
+          "weight": 0.076611
         },
         {
-          "ts_code": "00002.HK",
-          "name": "中电控股",
-          "weight": 0.07036
+          "ts_code": "02388.HK",
+          "name": "中银香港",
+          "weight": 0.0761
         },
         {
-          "ts_code": "01398.HK",
-          "name": "工商银行",
-          "weight": 0.069057
+          "ts_code": "00001.HK",
+          "name": "长和",
+          "weight": 0.075516
+        },
+        {
+          "ts_code": "01288.HK",
+          "name": "农业银行",
+          "weight": 0.073359
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.068825
+          "weight": 0.072221
         },
         {
-          "ts_code": "00016.HK",
-          "name": "新鸿基地产",
-          "weight": 0.068766
+          "ts_code": "01398.HK",
+          "name": "工商银行",
+          "weight": 0.071399
+        },
+        {
+          "ts_code": "00005.HK",
+          "name": "汇丰控股",
+          "weight": 0.071121
+        },
+        {
+          "ts_code": "00857.HK",
+          "name": "中国石油股份",
+          "weight": 0.069892
+        },
+        {
+          "ts_code": "03328.HK",
+          "name": "交通银行",
+          "weight": 0.069244
+        },
+        {
+          "ts_code": "03968.HK",
+          "name": "招商银行",
+          "weight": 0.067363
         },
         {
           "ts_code": "01088.HK",
           "name": "中国神华",
-          "weight": 0.068654
+          "weight": 0.066687
+        },
+        {
+          "ts_code": "00019.HK",
+          "name": "太古股份公司A",
+          "weight": 0.065533
         },
         {
           "ts_code": "03750.HK",
           "name": "宁德时代",
-          "weight": 0.06524
-        },
-        {
-          "ts_code": "02359.HK",
-          "name": "药明康德",
-          "weight": 0.064255
-        },
-        {
-          "ts_code": "00300.HK",
-          "name": "美的集团",
-          "weight": 0.060147
+          "weight": 0.065084
         },
         {
           "ts_code": "CASH",
           "name": "现金",
-          "weight": 0.001736
+          "weight": 0.00111
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-09-11",
+        "data_as_of": "2026-10-06",
         "schedule_kind": "monthly",
-        "suggestion_effective_date": "2026-08-31",
-        "basket_effective_date": "2026-08-31",
-        "exposure_effective_date": "2026-08-31"
+        "suggestion_effective_date": "2026-09-30",
+        "basket_effective_date": "2026-09-30",
+        "exposure_effective_date": "2026-09-30"
       },
       "equity_curve_points": [
         {
@@ -579,8 +579,12 @@
           "nav": 6.124036
         },
         {
-          "date": "2026-09-11",
-          "nav": 6.071627
+          "date": "2026-09-30",
+          "nav": 6.032689
+        },
+        {
+          "date": "2026-10-06",
+          "nav": 5.930329
         }
       ],
       "snapshots": [
@@ -1587,7 +1591,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.066018
             },
             {
@@ -1678,7 +1682,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.061908
             },
             {
@@ -3617,7 +3621,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.03593
             },
             {
@@ -4002,7 +4006,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.067267
             },
             {
@@ -4073,7 +4077,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.072271
             },
             {
@@ -4149,7 +4153,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.068785
             },
             {
@@ -4245,7 +4249,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.064345
             },
             {
@@ -4321,7 +4325,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.066358
             },
             {
@@ -4706,7 +4710,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.067952
             },
             {
@@ -4817,7 +4821,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.060107
             },
             {
@@ -4868,7 +4872,7 @@
             },
             {
               "ts_code": "09888.HK",
-              "name": "百度集团-SW",
+              "name": "百度集团-W",
               "weight": 0.069136
             },
             {
@@ -4878,7 +4882,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.066788
             },
             {
@@ -4929,7 +4933,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.076937
             },
             {
@@ -5202,7 +5206,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.063581
             },
             {
@@ -5233,7 +5237,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.080105
             },
             {
@@ -5354,7 +5358,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.065096
             },
             {
@@ -9728,7 +9732,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.058904
             }
           ]
@@ -9759,7 +9763,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.073174
             },
             {
@@ -9813,85 +9817,166 @@
               "weight": 0.001736
             }
           ]
+        },
+        {
+          "date": "2026-09-30",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "03988.HK",
+              "name": "中国银行",
+              "weight": 0.07876
+            },
+            {
+              "ts_code": "02888.HK",
+              "name": "渣打集团",
+              "weight": 0.076611
+            },
+            {
+              "ts_code": "02388.HK",
+              "name": "中银香港",
+              "weight": 0.0761
+            },
+            {
+              "ts_code": "00001.HK",
+              "name": "长和",
+              "weight": 0.075516
+            },
+            {
+              "ts_code": "01288.HK",
+              "name": "农业银行",
+              "weight": 0.073359
+            },
+            {
+              "ts_code": "00939.HK",
+              "name": "建设银行",
+              "weight": 0.072221
+            },
+            {
+              "ts_code": "01398.HK",
+              "name": "工商银行",
+              "weight": 0.071399
+            },
+            {
+              "ts_code": "00005.HK",
+              "name": "汇丰控股",
+              "weight": 0.071121
+            },
+            {
+              "ts_code": "00857.HK",
+              "name": "中国石油股份",
+              "weight": 0.069892
+            },
+            {
+              "ts_code": "03328.HK",
+              "name": "交通银行",
+              "weight": 0.069244
+            },
+            {
+              "ts_code": "03968.HK",
+              "name": "招商银行",
+              "weight": 0.067363
+            },
+            {
+              "ts_code": "01088.HK",
+              "name": "中国神华",
+              "weight": 0.066687
+            },
+            {
+              "ts_code": "00019.HK",
+              "name": "太古股份公司A",
+              "weight": 0.065533
+            },
+            {
+              "ts_code": "03750.HK",
+              "name": "宁德时代",
+              "weight": 0.065084
+            },
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 0.00111
+            }
+          ]
         }
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-09-11",
-        "formal_signal_date": "2026-08-31",
+        "preview_as_of": "2026-10-06",
+        "formal_signal_date": "2026-09-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
-        "market_momentum": 3.8681,
+        "market_momentum": 3.5507,
         "holdings": [
-          {
-            "ts_code": "03988.HK",
-            "name": "中国银行",
-            "weight": 0.079837
-          },
-          {
-            "ts_code": "00939.HK",
-            "name": "建设银行",
-            "weight": 0.078848
-          },
-          {
-            "ts_code": "02888.HK",
-            "name": "渣打集团",
-            "weight": 0.077199
-          },
           {
             "ts_code": "00005.HK",
             "name": "汇丰控股",
-            "weight": 0.076045
+            "weight": 0.079457
+          },
+          {
+            "ts_code": "03988.HK",
+            "name": "中国银行",
+            "weight": 0.077448
           },
           {
             "ts_code": "01398.HK",
             "name": "工商银行",
-            "weight": 0.073242
-          },
-          {
-            "ts_code": "02388.HK",
-            "name": "中银香港",
-            "weight": 0.072088
-          },
-          {
-            "ts_code": "03328.HK",
-            "name": "交通银行",
-            "weight": 0.071346
-          },
-          {
-            "ts_code": "01088.HK",
-            "name": "中国神华",
-            "weight": 0.070522
-          },
-          {
-            "ts_code": "00001.HK",
-            "name": "长和",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00998.HK",
-            "name": "中信银行",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00857.HK",
-            "name": "中国石油股份",
-            "weight": 0.068296
+            "weight": 0.076443
           },
           {
             "ts_code": "02359.HK",
             "name": "药明康德",
-            "weight": 0.065905
+            "weight": 0.074434
+          },
+          {
+            "ts_code": "00939.HK",
+            "name": "建设银行",
+            "weight": 0.074308
+          },
+          {
+            "ts_code": "02388.HK",
+            "name": "中银香港",
+            "weight": 0.073303
+          },
+          {
+            "ts_code": "02888.HK",
+            "name": "渣打集团",
+            "weight": 0.072801
+          },
+          {
+            "ts_code": "00001.HK",
+            "name": "长和",
+            "weight": 0.071168
+          },
+          {
+            "ts_code": "03328.HK",
+            "name": "交通银行",
+            "weight": 0.069913
+          },
+          {
+            "ts_code": "02269.HK",
+            "name": "药明生物",
+            "weight": 0.068908
           },
           {
             "ts_code": "01288.HK",
             "name": "农业银行",
-            "weight": 0.064916
+            "weight": 0.068782
           },
           {
-            "ts_code": "01038.HK",
-            "name": "长江基建集团",
-            "weight": 0.064834
+            "ts_code": "00836.HK",
+            "name": "华润电力",
+            "weight": 0.065015
+          },
+          {
+            "ts_code": "03968.HK",
+            "name": "招商银行",
+            "weight": 0.064764
+          },
+          {
+            "ts_code": "00019.HK",
+            "name": "太古股份公司A",
+            "weight": 0.063257
           }
         ]
       }
@@ -9901,9 +9986,9 @@
       "sample_tag_label": "2020窗口",
       "summary_meta": {
         "sample_start": "2020-02-03",
-        "sample_end": "2026-09-11",
-        "latest_valuation_date": "2026-09-11",
-        "latest_formal_signal_date": "2026-08-31",
+        "sample_end": "2026-10-06",
+        "latest_valuation_date": "2026-10-06",
+        "latest_formal_signal_date": "2026-09-30",
         "is_provisional_period_end": true,
         "sample_label": "2020-01 起",
         "sample_short_label": "2020-01",
@@ -9916,90 +10001,90 @@
         "rebalance_frequency": "monthly"
       },
       "risk_state": "caution",
-      "target_total_exposure": 0.9983,
+      "target_total_exposure": 0.9989,
       "latest_weights": [
-        {
-          "ts_code": "02388.HK",
-          "name": "中银香港",
-          "weight": 0.085442
-        },
-        {
-          "ts_code": "00005.HK",
-          "name": "汇丰控股",
-          "weight": 0.081516
-        },
-        {
-          "ts_code": "00001.HK",
-          "name": "长和",
-          "weight": 0.076394
-        },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.075165
-        },
-        {
-          "ts_code": "00669.HK",
-          "name": "创科实业",
-          "weight": 0.073174
+          "weight": 0.07876
         },
         {
           "ts_code": "02888.HK",
           "name": "渣打集团",
-          "weight": 0.071268
+          "weight": 0.076611
         },
         {
-          "ts_code": "00002.HK",
-          "name": "中电控股",
-          "weight": 0.07036
+          "ts_code": "02388.HK",
+          "name": "中银香港",
+          "weight": 0.0761
         },
         {
-          "ts_code": "01398.HK",
-          "name": "工商银行",
-          "weight": 0.069057
+          "ts_code": "00001.HK",
+          "name": "长和",
+          "weight": 0.075516
+        },
+        {
+          "ts_code": "01288.HK",
+          "name": "农业银行",
+          "weight": 0.073359
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.068825
+          "weight": 0.072221
         },
         {
-          "ts_code": "00016.HK",
-          "name": "新鸿基地产",
-          "weight": 0.068766
+          "ts_code": "01398.HK",
+          "name": "工商银行",
+          "weight": 0.071399
+        },
+        {
+          "ts_code": "00005.HK",
+          "name": "汇丰控股",
+          "weight": 0.071121
+        },
+        {
+          "ts_code": "00857.HK",
+          "name": "中国石油股份",
+          "weight": 0.069892
+        },
+        {
+          "ts_code": "03328.HK",
+          "name": "交通银行",
+          "weight": 0.069244
+        },
+        {
+          "ts_code": "03968.HK",
+          "name": "招商银行",
+          "weight": 0.067363
         },
         {
           "ts_code": "01088.HK",
           "name": "中国神华",
-          "weight": 0.068654
+          "weight": 0.066687
+        },
+        {
+          "ts_code": "00019.HK",
+          "name": "太古股份公司A",
+          "weight": 0.065533
         },
         {
           "ts_code": "03750.HK",
           "name": "宁德时代",
-          "weight": 0.06524
-        },
-        {
-          "ts_code": "02359.HK",
-          "name": "药明康德",
-          "weight": 0.064255
-        },
-        {
-          "ts_code": "00300.HK",
-          "name": "美的集团",
-          "weight": 0.060147
+          "weight": 0.065084
         },
         {
           "ts_code": "CASH",
           "name": "现金",
-          "weight": 0.001736
+          "weight": 0.00111
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-09-11",
+        "data_as_of": "2026-10-06",
         "schedule_kind": "monthly",
-        "suggestion_effective_date": "2026-08-31",
-        "basket_effective_date": "2026-08-31",
-        "exposure_effective_date": "2026-08-31"
+        "suggestion_effective_date": "2026-09-30",
+        "basket_effective_date": "2026-09-30",
+        "exposure_effective_date": "2026-09-30"
       },
       "equity_curve_points": [
         {
@@ -10323,8 +10408,12 @@
           "nav": 4.423271
         },
         {
-          "date": "2026-09-11",
-          "nav": 4.385416
+          "date": "2026-09-30",
+          "nav": 4.357293
+        },
+        {
+          "date": "2026-10-06",
+          "nav": 4.28336
         }
       ],
       "snapshots": [
@@ -10435,7 +10524,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.037679
             },
             {
@@ -10835,7 +10924,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.067267
             },
             {
@@ -10906,7 +10995,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.072271
             },
             {
@@ -10982,7 +11071,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.068784
             },
             {
@@ -11078,7 +11167,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.064345
             },
             {
@@ -11154,7 +11243,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.066358
             },
             {
@@ -11539,7 +11628,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.067952
             },
             {
@@ -11650,7 +11739,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.060107
             },
             {
@@ -11701,7 +11790,7 @@
             },
             {
               "ts_code": "09888.HK",
-              "name": "百度集团-SW",
+              "name": "百度集团-W",
               "weight": 0.069136
             },
             {
@@ -11711,7 +11800,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.066788
             },
             {
@@ -11762,7 +11851,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.076937
             },
             {
@@ -12035,7 +12124,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.063581
             },
             {
@@ -12066,7 +12155,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.080105
             },
             {
@@ -12187,7 +12276,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.065096
             },
             {
@@ -16561,7 +16650,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.058904
             }
           ]
@@ -16592,7 +16681,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.073174
             },
             {
@@ -16646,85 +16735,166 @@
               "weight": 0.001736
             }
           ]
+        },
+        {
+          "date": "2026-09-30",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "03988.HK",
+              "name": "中国银行",
+              "weight": 0.07876
+            },
+            {
+              "ts_code": "02888.HK",
+              "name": "渣打集团",
+              "weight": 0.076611
+            },
+            {
+              "ts_code": "02388.HK",
+              "name": "中银香港",
+              "weight": 0.0761
+            },
+            {
+              "ts_code": "00001.HK",
+              "name": "长和",
+              "weight": 0.075516
+            },
+            {
+              "ts_code": "01288.HK",
+              "name": "农业银行",
+              "weight": 0.073359
+            },
+            {
+              "ts_code": "00939.HK",
+              "name": "建设银行",
+              "weight": 0.072221
+            },
+            {
+              "ts_code": "01398.HK",
+              "name": "工商银行",
+              "weight": 0.071399
+            },
+            {
+              "ts_code": "00005.HK",
+              "name": "汇丰控股",
+              "weight": 0.071121
+            },
+            {
+              "ts_code": "00857.HK",
+              "name": "中国石油股份",
+              "weight": 0.069892
+            },
+            {
+              "ts_code": "03328.HK",
+              "name": "交通银行",
+              "weight": 0.069244
+            },
+            {
+              "ts_code": "03968.HK",
+              "name": "招商银行",
+              "weight": 0.067363
+            },
+            {
+              "ts_code": "01088.HK",
+              "name": "中国神华",
+              "weight": 0.066687
+            },
+            {
+              "ts_code": "00019.HK",
+              "name": "太古股份公司A",
+              "weight": 0.065533
+            },
+            {
+              "ts_code": "03750.HK",
+              "name": "宁德时代",
+              "weight": 0.065084
+            },
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 0.00111
+            }
+          ]
         }
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-09-11",
-        "formal_signal_date": "2026-08-31",
+        "preview_as_of": "2026-10-06",
+        "formal_signal_date": "2026-09-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
-        "market_momentum": 3.8681,
+        "market_momentum": 3.5507,
         "holdings": [
-          {
-            "ts_code": "03988.HK",
-            "name": "中国银行",
-            "weight": 0.079837
-          },
-          {
-            "ts_code": "00939.HK",
-            "name": "建设银行",
-            "weight": 0.078848
-          },
-          {
-            "ts_code": "02888.HK",
-            "name": "渣打集团",
-            "weight": 0.077199
-          },
           {
             "ts_code": "00005.HK",
             "name": "汇丰控股",
-            "weight": 0.076045
+            "weight": 0.079457
+          },
+          {
+            "ts_code": "03988.HK",
+            "name": "中国银行",
+            "weight": 0.077448
           },
           {
             "ts_code": "01398.HK",
             "name": "工商银行",
-            "weight": 0.073242
-          },
-          {
-            "ts_code": "02388.HK",
-            "name": "中银香港",
-            "weight": 0.072088
-          },
-          {
-            "ts_code": "03328.HK",
-            "name": "交通银行",
-            "weight": 0.071346
-          },
-          {
-            "ts_code": "01088.HK",
-            "name": "中国神华",
-            "weight": 0.070522
-          },
-          {
-            "ts_code": "00001.HK",
-            "name": "长和",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00998.HK",
-            "name": "中信银行",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00857.HK",
-            "name": "中国石油股份",
-            "weight": 0.068296
+            "weight": 0.076443
           },
           {
             "ts_code": "02359.HK",
             "name": "药明康德",
-            "weight": 0.065905
+            "weight": 0.074434
+          },
+          {
+            "ts_code": "00939.HK",
+            "name": "建设银行",
+            "weight": 0.074308
+          },
+          {
+            "ts_code": "02388.HK",
+            "name": "中银香港",
+            "weight": 0.073303
+          },
+          {
+            "ts_code": "02888.HK",
+            "name": "渣打集团",
+            "weight": 0.072801
+          },
+          {
+            "ts_code": "00001.HK",
+            "name": "长和",
+            "weight": 0.071168
+          },
+          {
+            "ts_code": "03328.HK",
+            "name": "交通银行",
+            "weight": 0.069913
+          },
+          {
+            "ts_code": "02269.HK",
+            "name": "药明生物",
+            "weight": 0.068908
           },
           {
             "ts_code": "01288.HK",
             "name": "农业银行",
-            "weight": 0.064916
+            "weight": 0.068782
           },
           {
-            "ts_code": "01038.HK",
-            "name": "长江基建集团",
-            "weight": 0.064834
+            "ts_code": "00836.HK",
+            "name": "华润电力",
+            "weight": 0.065015
+          },
+          {
+            "ts_code": "03968.HK",
+            "name": "招商银行",
+            "weight": 0.064764
+          },
+          {
+            "ts_code": "00019.HK",
+            "name": "太古股份公司A",
+            "weight": 0.063257
           }
         ]
       }
@@ -16734,9 +16904,9 @@
       "sample_tag_label": "2023窗口",
       "summary_meta": {
         "sample_start": "2023-02-01",
-        "sample_end": "2026-09-11",
-        "latest_valuation_date": "2026-09-11",
-        "latest_formal_signal_date": "2026-08-31",
+        "sample_end": "2026-10-06",
+        "latest_valuation_date": "2026-10-06",
+        "latest_formal_signal_date": "2026-09-30",
         "is_provisional_period_end": true,
         "sample_label": "2023-01 起",
         "sample_short_label": "2023-01",
@@ -16749,90 +16919,90 @@
         "rebalance_frequency": "monthly"
       },
       "risk_state": "caution",
-      "target_total_exposure": 0.9983,
+      "target_total_exposure": 0.9989,
       "latest_weights": [
-        {
-          "ts_code": "02388.HK",
-          "name": "中银香港",
-          "weight": 0.085442
-        },
-        {
-          "ts_code": "00005.HK",
-          "name": "汇丰控股",
-          "weight": 0.081516
-        },
-        {
-          "ts_code": "00001.HK",
-          "name": "长和",
-          "weight": 0.076394
-        },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.075165
-        },
-        {
-          "ts_code": "00669.HK",
-          "name": "创科实业",
-          "weight": 0.073174
+          "weight": 0.07876
         },
         {
           "ts_code": "02888.HK",
           "name": "渣打集团",
-          "weight": 0.071268
+          "weight": 0.076611
         },
         {
-          "ts_code": "00002.HK",
-          "name": "中电控股",
-          "weight": 0.07036
+          "ts_code": "02388.HK",
+          "name": "中银香港",
+          "weight": 0.0761
         },
         {
-          "ts_code": "01398.HK",
-          "name": "工商银行",
-          "weight": 0.069057
+          "ts_code": "00001.HK",
+          "name": "长和",
+          "weight": 0.075516
+        },
+        {
+          "ts_code": "01288.HK",
+          "name": "农业银行",
+          "weight": 0.073359
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.068825
+          "weight": 0.072221
         },
         {
-          "ts_code": "00016.HK",
-          "name": "新鸿基地产",
-          "weight": 0.068766
+          "ts_code": "01398.HK",
+          "name": "工商银行",
+          "weight": 0.071399
+        },
+        {
+          "ts_code": "00005.HK",
+          "name": "汇丰控股",
+          "weight": 0.071121
+        },
+        {
+          "ts_code": "00857.HK",
+          "name": "中国石油股份",
+          "weight": 0.069892
+        },
+        {
+          "ts_code": "03328.HK",
+          "name": "交通银行",
+          "weight": 0.069244
+        },
+        {
+          "ts_code": "03968.HK",
+          "name": "招商银行",
+          "weight": 0.067363
         },
         {
           "ts_code": "01088.HK",
           "name": "中国神华",
-          "weight": 0.068654
+          "weight": 0.066687
+        },
+        {
+          "ts_code": "00019.HK",
+          "name": "太古股份公司A",
+          "weight": 0.065533
         },
         {
           "ts_code": "03750.HK",
           "name": "宁德时代",
-          "weight": 0.06524
-        },
-        {
-          "ts_code": "02359.HK",
-          "name": "药明康德",
-          "weight": 0.064255
-        },
-        {
-          "ts_code": "00300.HK",
-          "name": "美的集团",
-          "weight": 0.060147
+          "weight": 0.065084
         },
         {
           "ts_code": "CASH",
           "name": "现金",
-          "weight": 0.001736
+          "weight": 0.00111
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-09-11",
+        "data_as_of": "2026-10-06",
         "schedule_kind": "monthly",
-        "suggestion_effective_date": "2026-08-31",
-        "basket_effective_date": "2026-08-31",
-        "exposure_effective_date": "2026-08-31"
+        "suggestion_effective_date": "2026-09-30",
+        "basket_effective_date": "2026-09-30",
+        "exposure_effective_date": "2026-09-30"
       },
       "equity_curve_points": [
         {
@@ -17012,8 +17182,12 @@
           "nav": 2.371555
         },
         {
-          "date": "2026-09-11",
-          "nav": 2.351259
+          "date": "2026-09-30",
+          "nav": 2.33618
+        },
+        {
+          "date": "2026-10-06",
+          "nav": 2.296541
         }
       ],
       "snapshots": [
@@ -20384,7 +20558,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.058904
             }
           ]
@@ -20415,7 +20589,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.073174
             },
             {
@@ -20469,85 +20643,166 @@
               "weight": 0.001736
             }
           ]
+        },
+        {
+          "date": "2026-09-30",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "03988.HK",
+              "name": "中国银行",
+              "weight": 0.07876
+            },
+            {
+              "ts_code": "02888.HK",
+              "name": "渣打集团",
+              "weight": 0.076611
+            },
+            {
+              "ts_code": "02388.HK",
+              "name": "中银香港",
+              "weight": 0.0761
+            },
+            {
+              "ts_code": "00001.HK",
+              "name": "长和",
+              "weight": 0.075516
+            },
+            {
+              "ts_code": "01288.HK",
+              "name": "农业银行",
+              "weight": 0.073359
+            },
+            {
+              "ts_code": "00939.HK",
+              "name": "建设银行",
+              "weight": 0.072221
+            },
+            {
+              "ts_code": "01398.HK",
+              "name": "工商银行",
+              "weight": 0.071399
+            },
+            {
+              "ts_code": "00005.HK",
+              "name": "汇丰控股",
+              "weight": 0.071121
+            },
+            {
+              "ts_code": "00857.HK",
+              "name": "中国石油股份",
+              "weight": 0.069892
+            },
+            {
+              "ts_code": "03328.HK",
+              "name": "交通银行",
+              "weight": 0.069244
+            },
+            {
+              "ts_code": "03968.HK",
+              "name": "招商银行",
+              "weight": 0.067363
+            },
+            {
+              "ts_code": "01088.HK",
+              "name": "中国神华",
+              "weight": 0.066687
+            },
+            {
+              "ts_code": "00019.HK",
+              "name": "太古股份公司A",
+              "weight": 0.065533
+            },
+            {
+              "ts_code": "03750.HK",
+              "name": "宁德时代",
+              "weight": 0.065084
+            },
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 0.00111
+            }
+          ]
         }
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-09-11",
-        "formal_signal_date": "2026-08-31",
+        "preview_as_of": "2026-10-06",
+        "formal_signal_date": "2026-09-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
-        "market_momentum": 3.8681,
+        "market_momentum": 3.5507,
         "holdings": [
-          {
-            "ts_code": "03988.HK",
-            "name": "中国银行",
-            "weight": 0.079837
-          },
-          {
-            "ts_code": "00939.HK",
-            "name": "建设银行",
-            "weight": 0.078848
-          },
-          {
-            "ts_code": "02888.HK",
-            "name": "渣打集团",
-            "weight": 0.077199
-          },
           {
             "ts_code": "00005.HK",
             "name": "汇丰控股",
-            "weight": 0.076045
+            "weight": 0.079457
+          },
+          {
+            "ts_code": "03988.HK",
+            "name": "中国银行",
+            "weight": 0.077448
           },
           {
             "ts_code": "01398.HK",
             "name": "工商银行",
-            "weight": 0.073242
-          },
-          {
-            "ts_code": "02388.HK",
-            "name": "中银香港",
-            "weight": 0.072088
-          },
-          {
-            "ts_code": "03328.HK",
-            "name": "交通银行",
-            "weight": 0.071346
-          },
-          {
-            "ts_code": "01088.HK",
-            "name": "中国神华",
-            "weight": 0.070522
-          },
-          {
-            "ts_code": "00001.HK",
-            "name": "长和",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00998.HK",
-            "name": "中信银行",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00857.HK",
-            "name": "中国石油股份",
-            "weight": 0.068296
+            "weight": 0.076443
           },
           {
             "ts_code": "02359.HK",
             "name": "药明康德",
-            "weight": 0.065905
+            "weight": 0.074434
+          },
+          {
+            "ts_code": "00939.HK",
+            "name": "建设银行",
+            "weight": 0.074308
+          },
+          {
+            "ts_code": "02388.HK",
+            "name": "中银香港",
+            "weight": 0.073303
+          },
+          {
+            "ts_code": "02888.HK",
+            "name": "渣打集团",
+            "weight": 0.072801
+          },
+          {
+            "ts_code": "00001.HK",
+            "name": "长和",
+            "weight": 0.071168
+          },
+          {
+            "ts_code": "03328.HK",
+            "name": "交通银行",
+            "weight": 0.069913
+          },
+          {
+            "ts_code": "02269.HK",
+            "name": "药明生物",
+            "weight": 0.068908
           },
           {
             "ts_code": "01288.HK",
             "name": "农业银行",
-            "weight": 0.064916
+            "weight": 0.068782
           },
           {
-            "ts_code": "01038.HK",
-            "name": "长江基建集团",
-            "weight": 0.064834
+            "ts_code": "00836.HK",
+            "name": "华润电力",
+            "weight": 0.065015
+          },
+          {
+            "ts_code": "03968.HK",
+            "name": "招商银行",
+            "weight": 0.064764
+          },
+          {
+            "ts_code": "00019.HK",
+            "name": "太古股份公司A",
+            "weight": 0.063257
           }
         ]
       }
@@ -20557,9 +20812,9 @@
       "sample_tag_label": "2025窗口",
       "summary_meta": {
         "sample_start": "2025-02-03",
-        "sample_end": "2026-09-11",
-        "latest_valuation_date": "2026-09-11",
-        "latest_formal_signal_date": "2026-08-31",
+        "sample_end": "2026-10-06",
+        "latest_valuation_date": "2026-10-06",
+        "latest_formal_signal_date": "2026-09-30",
         "is_provisional_period_end": true,
         "sample_label": "2025-01 起",
         "sample_short_label": "2025-01",
@@ -20572,90 +20827,90 @@
         "rebalance_frequency": "monthly"
       },
       "risk_state": "caution",
-      "target_total_exposure": 0.9983,
+      "target_total_exposure": 0.9989,
       "latest_weights": [
-        {
-          "ts_code": "02388.HK",
-          "name": "中银香港",
-          "weight": 0.085442
-        },
-        {
-          "ts_code": "00005.HK",
-          "name": "汇丰控股",
-          "weight": 0.081516
-        },
-        {
-          "ts_code": "00001.HK",
-          "name": "长和",
-          "weight": 0.076394
-        },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.075165
-        },
-        {
-          "ts_code": "00669.HK",
-          "name": "创科实业",
-          "weight": 0.073174
+          "weight": 0.07876
         },
         {
           "ts_code": "02888.HK",
           "name": "渣打集团",
-          "weight": 0.071268
+          "weight": 0.076611
         },
         {
-          "ts_code": "00002.HK",
-          "name": "中电控股",
-          "weight": 0.07036
+          "ts_code": "02388.HK",
+          "name": "中银香港",
+          "weight": 0.0761
         },
         {
-          "ts_code": "01398.HK",
-          "name": "工商银行",
-          "weight": 0.069057
+          "ts_code": "00001.HK",
+          "name": "长和",
+          "weight": 0.075516
+        },
+        {
+          "ts_code": "01288.HK",
+          "name": "农业银行",
+          "weight": 0.073359
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.068825
+          "weight": 0.072221
         },
         {
-          "ts_code": "00016.HK",
-          "name": "新鸿基地产",
-          "weight": 0.068766
+          "ts_code": "01398.HK",
+          "name": "工商银行",
+          "weight": 0.071399
+        },
+        {
+          "ts_code": "00005.HK",
+          "name": "汇丰控股",
+          "weight": 0.071121
+        },
+        {
+          "ts_code": "00857.HK",
+          "name": "中国石油股份",
+          "weight": 0.069892
+        },
+        {
+          "ts_code": "03328.HK",
+          "name": "交通银行",
+          "weight": 0.069244
+        },
+        {
+          "ts_code": "03968.HK",
+          "name": "招商银行",
+          "weight": 0.067363
         },
         {
           "ts_code": "01088.HK",
           "name": "中国神华",
-          "weight": 0.068654
+          "weight": 0.066687
+        },
+        {
+          "ts_code": "00019.HK",
+          "name": "太古股份公司A",
+          "weight": 0.065533
         },
         {
           "ts_code": "03750.HK",
           "name": "宁德时代",
-          "weight": 0.06524
-        },
-        {
-          "ts_code": "02359.HK",
-          "name": "药明康德",
-          "weight": 0.064255
-        },
-        {
-          "ts_code": "00300.HK",
-          "name": "美的集团",
-          "weight": 0.060147
+          "weight": 0.065084
         },
         {
           "ts_code": "CASH",
           "name": "现金",
-          "weight": 0.001736
+          "weight": 0.00111
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-09-11",
+        "data_as_of": "2026-10-06",
         "schedule_kind": "monthly",
-        "suggestion_effective_date": "2026-08-31",
-        "basket_effective_date": "2026-08-31",
-        "exposure_effective_date": "2026-08-31"
+        "suggestion_effective_date": "2026-09-30",
+        "basket_effective_date": "2026-09-30",
+        "exposure_effective_date": "2026-09-30"
       },
       "equity_curve_points": [
         {
@@ -20739,8 +20994,12 @@
           "nav": 1.4507
         },
         {
-          "date": "2026-09-11",
-          "nav": 1.438285
+          "date": "2026-09-30",
+          "nav": 1.429062
+        },
+        {
+          "date": "2026-10-06",
+          "nav": 1.404814
         }
       ],
       "snapshots": [
@@ -22182,7 +22441,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.058904
             }
           ]
@@ -22213,7 +22472,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.073174
             },
             {
@@ -22267,85 +22526,166 @@
               "weight": 0.001736
             }
           ]
+        },
+        {
+          "date": "2026-09-30",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "03988.HK",
+              "name": "中国银行",
+              "weight": 0.07876
+            },
+            {
+              "ts_code": "02888.HK",
+              "name": "渣打集团",
+              "weight": 0.076611
+            },
+            {
+              "ts_code": "02388.HK",
+              "name": "中银香港",
+              "weight": 0.0761
+            },
+            {
+              "ts_code": "00001.HK",
+              "name": "长和",
+              "weight": 0.075516
+            },
+            {
+              "ts_code": "01288.HK",
+              "name": "农业银行",
+              "weight": 0.073359
+            },
+            {
+              "ts_code": "00939.HK",
+              "name": "建设银行",
+              "weight": 0.072221
+            },
+            {
+              "ts_code": "01398.HK",
+              "name": "工商银行",
+              "weight": 0.071399
+            },
+            {
+              "ts_code": "00005.HK",
+              "name": "汇丰控股",
+              "weight": 0.071121
+            },
+            {
+              "ts_code": "00857.HK",
+              "name": "中国石油股份",
+              "weight": 0.069892
+            },
+            {
+              "ts_code": "03328.HK",
+              "name": "交通银行",
+              "weight": 0.069244
+            },
+            {
+              "ts_code": "03968.HK",
+              "name": "招商银行",
+              "weight": 0.067363
+            },
+            {
+              "ts_code": "01088.HK",
+              "name": "中国神华",
+              "weight": 0.066687
+            },
+            {
+              "ts_code": "00019.HK",
+              "name": "太古股份公司A",
+              "weight": 0.065533
+            },
+            {
+              "ts_code": "03750.HK",
+              "name": "宁德时代",
+              "weight": 0.065084
+            },
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 0.00111
+            }
+          ]
         }
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-09-11",
-        "formal_signal_date": "2026-08-31",
+        "preview_as_of": "2026-10-06",
+        "formal_signal_date": "2026-09-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
-        "market_momentum": 3.8681,
+        "market_momentum": 3.5507,
         "holdings": [
-          {
-            "ts_code": "03988.HK",
-            "name": "中国银行",
-            "weight": 0.079837
-          },
-          {
-            "ts_code": "00939.HK",
-            "name": "建设银行",
-            "weight": 0.078848
-          },
-          {
-            "ts_code": "02888.HK",
-            "name": "渣打集团",
-            "weight": 0.077199
-          },
           {
             "ts_code": "00005.HK",
             "name": "汇丰控股",
-            "weight": 0.076045
+            "weight": 0.079457
+          },
+          {
+            "ts_code": "03988.HK",
+            "name": "中国银行",
+            "weight": 0.077448
           },
           {
             "ts_code": "01398.HK",
             "name": "工商银行",
-            "weight": 0.073242
-          },
-          {
-            "ts_code": "02388.HK",
-            "name": "中银香港",
-            "weight": 0.072088
-          },
-          {
-            "ts_code": "03328.HK",
-            "name": "交通银行",
-            "weight": 0.071346
-          },
-          {
-            "ts_code": "01088.HK",
-            "name": "中国神华",
-            "weight": 0.070522
-          },
-          {
-            "ts_code": "00001.HK",
-            "name": "长和",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00998.HK",
-            "name": "中信银行",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00857.HK",
-            "name": "中国石油股份",
-            "weight": 0.068296
+            "weight": 0.076443
           },
           {
             "ts_code": "02359.HK",
             "name": "药明康德",
-            "weight": 0.065905
+            "weight": 0.074434
+          },
+          {
+            "ts_code": "00939.HK",
+            "name": "建设银行",
+            "weight": 0.074308
+          },
+          {
+            "ts_code": "02388.HK",
+            "name": "中银香港",
+            "weight": 0.073303
+          },
+          {
+            "ts_code": "02888.HK",
+            "name": "渣打集团",
+            "weight": 0.072801
+          },
+          {
+            "ts_code": "00001.HK",
+            "name": "长和",
+            "weight": 0.071168
+          },
+          {
+            "ts_code": "03328.HK",
+            "name": "交通银行",
+            "weight": 0.069913
+          },
+          {
+            "ts_code": "02269.HK",
+            "name": "药明生物",
+            "weight": 0.068908
           },
           {
             "ts_code": "01288.HK",
             "name": "农业银行",
-            "weight": 0.064916
+            "weight": 0.068782
           },
           {
-            "ts_code": "01038.HK",
-            "name": "长江基建集团",
-            "weight": 0.064834
+            "ts_code": "00836.HK",
+            "name": "华润电力",
+            "weight": 0.065015
+          },
+          {
+            "ts_code": "03968.HK",
+            "name": "招商银行",
+            "weight": 0.064764
+          },
+          {
+            "ts_code": "00019.HK",
+            "name": "太古股份公司A",
+            "weight": 0.063257
           }
         ]
       }
@@ -22355,9 +22695,9 @@
       "sample_tag_label": "2026观察窗",
       "summary_meta": {
         "sample_start": "2026-02-02",
-        "sample_end": "2026-09-11",
-        "latest_valuation_date": "2026-09-11",
-        "latest_formal_signal_date": "2026-08-31",
+        "sample_end": "2026-10-06",
+        "latest_valuation_date": "2026-10-06",
+        "latest_formal_signal_date": "2026-09-30",
         "is_provisional_period_end": true,
         "sample_label": "2026-01 起（观察窗）",
         "sample_short_label": "2026-01",
@@ -22370,90 +22710,90 @@
         "rebalance_frequency": "monthly"
       },
       "risk_state": "caution",
-      "target_total_exposure": 0.9984,
+      "target_total_exposure": 0.9989,
       "latest_weights": [
-        {
-          "ts_code": "02388.HK",
-          "name": "中银香港",
-          "weight": 0.085467
-        },
-        {
-          "ts_code": "00005.HK",
-          "name": "汇丰控股",
-          "weight": 0.081558
-        },
-        {
-          "ts_code": "00001.HK",
-          "name": "长和",
-          "weight": 0.076434
-        },
         {
           "ts_code": "03988.HK",
           "name": "中国银行",
-          "weight": 0.075165
-        },
-        {
-          "ts_code": "00669.HK",
-          "name": "创科实业",
-          "weight": 0.073174
+          "weight": 0.07876
         },
         {
           "ts_code": "02888.HK",
           "name": "渣打集团",
-          "weight": 0.071268
+          "weight": 0.076611
         },
         {
-          "ts_code": "00002.HK",
-          "name": "中电控股",
-          "weight": 0.07036
+          "ts_code": "02388.HK",
+          "name": "中银香港",
+          "weight": 0.076101
         },
         {
-          "ts_code": "01398.HK",
-          "name": "工商银行",
-          "weight": 0.069057
+          "ts_code": "00001.HK",
+          "name": "长和",
+          "weight": 0.075555
+        },
+        {
+          "ts_code": "01288.HK",
+          "name": "农业银行",
+          "weight": 0.073359
         },
         {
           "ts_code": "00939.HK",
           "name": "建设银行",
-          "weight": 0.068825
+          "weight": 0.072221
         },
         {
-          "ts_code": "00016.HK",
-          "name": "新鸿基地产",
-          "weight": 0.068764
+          "ts_code": "01398.HK",
+          "name": "工商银行",
+          "weight": 0.071399
+        },
+        {
+          "ts_code": "00005.HK",
+          "name": "汇丰控股",
+          "weight": 0.071121
+        },
+        {
+          "ts_code": "00857.HK",
+          "name": "中国石油股份",
+          "weight": 0.069892
+        },
+        {
+          "ts_code": "03328.HK",
+          "name": "交通银行",
+          "weight": 0.069244
+        },
+        {
+          "ts_code": "03968.HK",
+          "name": "招商银行",
+          "weight": 0.067362
         },
         {
           "ts_code": "01088.HK",
           "name": "中国神华",
-          "weight": 0.068654
+          "weight": 0.066687
+        },
+        {
+          "ts_code": "00019.HK",
+          "name": "太古股份公司A",
+          "weight": 0.065533
         },
         {
           "ts_code": "03750.HK",
           "name": "宁德时代",
-          "weight": 0.065239
-        },
-        {
-          "ts_code": "02359.HK",
-          "name": "药明康德",
-          "weight": 0.064255
-        },
-        {
-          "ts_code": "00300.HK",
-          "name": "美的集团",
-          "weight": 0.060147
+          "weight": 0.065084
         },
         {
           "ts_code": "CASH",
           "name": "现金",
-          "weight": 0.001633
+          "weight": 0.001073
         }
       ],
       "formal_schedule": {
-        "data_as_of": "2026-09-11",
+        "data_as_of": "2026-10-06",
         "schedule_kind": "monthly",
-        "suggestion_effective_date": "2026-08-31",
-        "basket_effective_date": "2026-08-31",
-        "exposure_effective_date": "2026-08-31"
+        "suggestion_effective_date": "2026-09-30",
+        "basket_effective_date": "2026-09-30",
+        "exposure_effective_date": "2026-09-30"
       },
       "equity_curve_points": [
         {
@@ -22489,8 +22829,12 @@
           "nav": 0.930869
         },
         {
-          "date": "2026-09-11",
-          "nav": 0.922902
+          "date": "2026-09-30",
+          "nav": 0.916985
+        },
+        {
+          "date": "2026-10-06",
+          "nav": 0.901425
         }
       ],
       "snapshots": [
@@ -22960,7 +23304,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.058902
             }
           ]
@@ -22991,7 +23335,7 @@
             },
             {
               "ts_code": "00669.HK",
-              "name": "创科实业",
+              "name": "创科实业(一百)",
               "weight": 0.073174
             },
             {
@@ -23045,85 +23389,166 @@
               "weight": 0.001633
             }
           ]
+        },
+        {
+          "date": "2026-09-30",
+          "event_type": "holding_snapshot",
+          "holdings": [
+            {
+              "ts_code": "03988.HK",
+              "name": "中国银行",
+              "weight": 0.07876
+            },
+            {
+              "ts_code": "02888.HK",
+              "name": "渣打集团",
+              "weight": 0.076611
+            },
+            {
+              "ts_code": "02388.HK",
+              "name": "中银香港",
+              "weight": 0.076101
+            },
+            {
+              "ts_code": "00001.HK",
+              "name": "长和",
+              "weight": 0.075555
+            },
+            {
+              "ts_code": "01288.HK",
+              "name": "农业银行",
+              "weight": 0.073359
+            },
+            {
+              "ts_code": "00939.HK",
+              "name": "建设银行",
+              "weight": 0.072221
+            },
+            {
+              "ts_code": "01398.HK",
+              "name": "工商银行",
+              "weight": 0.071399
+            },
+            {
+              "ts_code": "00005.HK",
+              "name": "汇丰控股",
+              "weight": 0.071121
+            },
+            {
+              "ts_code": "00857.HK",
+              "name": "中国石油股份",
+              "weight": 0.069892
+            },
+            {
+              "ts_code": "03328.HK",
+              "name": "交通银行",
+              "weight": 0.069244
+            },
+            {
+              "ts_code": "03968.HK",
+              "name": "招商银行",
+              "weight": 0.067362
+            },
+            {
+              "ts_code": "01088.HK",
+              "name": "中国神华",
+              "weight": 0.066687
+            },
+            {
+              "ts_code": "00019.HK",
+              "name": "太古股份公司A",
+              "weight": 0.065533
+            },
+            {
+              "ts_code": "03750.HK",
+              "name": "宁德时代",
+              "weight": 0.065084
+            },
+            {
+              "ts_code": "CASH",
+              "name": "现金",
+              "weight": 0.001073
+            }
+          ]
         }
       ],
       "split_view": {},
       "month_end_preview": {
-        "preview_as_of": "2026-09-11",
-        "formal_signal_date": "2026-08-31",
+        "preview_as_of": "2026-10-06",
+        "formal_signal_date": "2026-09-30",
         "risk_state": "risk_on",
         "target_total_exposure": 1.0,
-        "market_momentum": 3.8681,
+        "market_momentum": 3.5507,
         "holdings": [
-          {
-            "ts_code": "03988.HK",
-            "name": "中国银行",
-            "weight": 0.079837
-          },
-          {
-            "ts_code": "00939.HK",
-            "name": "建设银行",
-            "weight": 0.078848
-          },
-          {
-            "ts_code": "02888.HK",
-            "name": "渣打集团",
-            "weight": 0.077199
-          },
           {
             "ts_code": "00005.HK",
             "name": "汇丰控股",
-            "weight": 0.076045
+            "weight": 0.079457
+          },
+          {
+            "ts_code": "03988.HK",
+            "name": "中国银行",
+            "weight": 0.077448
           },
           {
             "ts_code": "01398.HK",
             "name": "工商银行",
-            "weight": 0.073242
-          },
-          {
-            "ts_code": "02388.HK",
-            "name": "中银香港",
-            "weight": 0.072088
-          },
-          {
-            "ts_code": "03328.HK",
-            "name": "交通银行",
-            "weight": 0.071346
-          },
-          {
-            "ts_code": "01088.HK",
-            "name": "中国神华",
-            "weight": 0.070522
-          },
-          {
-            "ts_code": "00001.HK",
-            "name": "长和",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00998.HK",
-            "name": "中信银行",
-            "weight": 0.068461
-          },
-          {
-            "ts_code": "00857.HK",
-            "name": "中国石油股份",
-            "weight": 0.068296
+            "weight": 0.076443
           },
           {
             "ts_code": "02359.HK",
             "name": "药明康德",
-            "weight": 0.065905
+            "weight": 0.074434
+          },
+          {
+            "ts_code": "00939.HK",
+            "name": "建设银行",
+            "weight": 0.074308
+          },
+          {
+            "ts_code": "02388.HK",
+            "name": "中银香港",
+            "weight": 0.073303
+          },
+          {
+            "ts_code": "02888.HK",
+            "name": "渣打集团",
+            "weight": 0.072801
+          },
+          {
+            "ts_code": "00001.HK",
+            "name": "长和",
+            "weight": 0.071168
+          },
+          {
+            "ts_code": "03328.HK",
+            "name": "交通银行",
+            "weight": 0.069913
+          },
+          {
+            "ts_code": "02269.HK",
+            "name": "药明生物",
+            "weight": 0.068908
           },
           {
             "ts_code": "01288.HK",
             "name": "农业银行",
-            "weight": 0.064916
+            "weight": 0.068782
           },
           {
-            "ts_code": "01038.HK",
-            "name": "长江基建集团",
-            "weight": 0.064834
+            "ts_code": "00836.HK",
+            "name": "华润电力",
+            "weight": 0.065015
+          },
+          {
+            "ts_code": "03968.HK",
+            "name": "招商银行",
+            "weight": 0.064764
+          },
+          {
+            "ts_code": "00019.HK",
+            "name": "太古股份公司A",
+            "weight": 0.063257
           }
         ]
       }
